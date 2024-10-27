@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 3.5d,
+	dependencies: [
+		"b19aea45"
+	],
+	tasks: [{
+		uid: "8a1c5678",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_vacuum_glass_manufacturing_plant_factory_controller"
+		}]
+	}]
+}

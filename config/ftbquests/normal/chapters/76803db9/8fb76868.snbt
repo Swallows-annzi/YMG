@@ -1,0 +1,31 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	dependencies: [
+		"ea93fdfd"
+	],
+	tasks: [{
+		uid: "37b0e839",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

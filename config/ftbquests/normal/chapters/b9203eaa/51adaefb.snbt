@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"a4560721"
+	],
+	tasks: [{
+		uid: "cd8532df",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_hammer_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

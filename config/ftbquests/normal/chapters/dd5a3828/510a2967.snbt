@@ -1,0 +1,50 @@
+{
+	title: "充能水晶产物",
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"05efcabb"
+	],
+	tasks: [{
+		uid: "6bd7b48c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 4"
+		}]
+	},
+	{
+		uid: "802d369a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 1"
+		}]
+	},
+	{
+		uid: "9296c0c3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 5"
+		}]
+	},
+	{
+		uid: "0f70379d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 2"
+		}]
+	},
+	{
+		uid: "a2f07770",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 3"
+		}]
+	},
+	{
+		uid: "63b9ec81",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered"
+		}]
+	}]
+}

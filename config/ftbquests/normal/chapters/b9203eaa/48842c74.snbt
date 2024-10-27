@@ -1,0 +1,16 @@
+{
+	title: "闪长岩",
+	x: 3.5d,
+	y: -4.0d,
+	dependencies: [
+		"a4eab309"
+	],
+	tasks: [{
+		uid: "1eb138a4",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 3"
+		}],
+		count: 16L
+	}]
+}

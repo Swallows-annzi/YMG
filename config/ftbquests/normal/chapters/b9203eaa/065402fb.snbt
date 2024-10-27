@@ -1,0 +1,34 @@
+{
+	title: "重型筛子",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"直接筛子压缩方块，但为什么不用筛子呢？",
+		"比筛子好的地方只有：附魔筛网只需要一个而不是25个。"
+	],
+	dependencies: [
+		"a56764ad"
+	],
+	tasks: [{
+		uid: "2cf631e5",
+		type: "item",
+		items: [{
+			item: "excompressum:heavy_sieve"
+		},
+		{
+			item: "excompressum:heavy_sieve 1 1"
+		},
+		{
+			item: "excompressum:heavy_sieve 1 2"
+		},
+		{
+			item: "excompressum:heavy_sieve 1 3"
+		},
+		{
+			item: "excompressum:heavy_sieve 1 4"
+		},
+		{
+			item: "excompressum:heavy_sieve 1 5"
+		}]
+	}]
+}

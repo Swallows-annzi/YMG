@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6009dc9",
+		"8c09bd0f"
+	],
+	tasks: [{
+		uid: "ff683b9f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_6"
+		}]
+	}]
+}

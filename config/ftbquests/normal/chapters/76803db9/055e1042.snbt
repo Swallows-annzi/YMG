@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: -5.5d,
+	dependencies: [
+		"c5c82328",
+		"d5c92305",
+		"a23d92e4"
+	],
+	tasks: [{
+		uid: "99fa1bcc",
+		type: "item",
+		items: [{
+			item: "mets:neutron_plate"
+		}]
+	}]
+}

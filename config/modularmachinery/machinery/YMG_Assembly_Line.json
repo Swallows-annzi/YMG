@@ -1,0 +1,8389 @@
+{
+    "registryname": "YMG_Assembly_Line",
+    "localizedname": "§b§lYMG§r§e§l—#0055FF§l装配塔 §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "color": "000000",
+    "parts": [
+        {
+            "x": -1,
+            "y": 19,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 23,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 6,
+            "selector-tag": "item_6",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 22,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 22,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 21,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 22,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 21,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 6,
+            "selector-tag": "item_7",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 22,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 24,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 24,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 6,
+            "selector-tag": "item_5",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 24,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 23,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 25,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 39,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 39,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 26,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 27,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 22,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 39,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 39,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 39,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 39,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 39,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 6,
+            "selector-tag": "item_4",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 24,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 24,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 25,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 30,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 29,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 25,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 38,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 27,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 29,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 31,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 26,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "EnergyInputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "EnergyInputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 6,
+            "selector-tag": "item_12",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 27,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 38,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 24,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 24,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 24,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 24,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 24,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 37,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 37,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 31,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 6,
+            "selector-tag": "item_8",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 31,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 31,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 31,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 31,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 6,
+            "selector-tag": "item_9",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 36,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 36,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 36,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 36,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 36,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "ItemOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 28,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 29,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 33,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 35,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 35,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 35,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 35,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 33,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 35,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 22,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 22,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 36,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 36,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 37,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 30,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 30,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 30,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 38,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 30,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 32,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 32,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 32,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 32,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 32,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 25,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 23,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 36,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 36,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 31,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 32,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 37,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 37,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 33,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 30,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 35,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "selector-tag": "item_2",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 32,
+            "z": 6,
+            "selector-tag": "item_10",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 6,
+            "selector-tag": "item_11",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 35,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 37,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 34,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 30,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 30,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 30,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 30,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 34,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 34,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 33,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 29,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 37,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 38,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 27,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 27,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 6,
+            "selector-tag": "item_3",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 35,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 34,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 34,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "selector-tag": "item_1",
+            "elements": [
+                "modularmachinery:blockinputbus@0",
+                "modularmachinery:blockmeiteminputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 32,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 33,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 33,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 26,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 26,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 26,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 26,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 26,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 34,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 33,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 39,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 39,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 39,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 39,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 39,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 35,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 35,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 35,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 35,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 35,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 28,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 28,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 27,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 27,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 25,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "mekanism:glowplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 26,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 28,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 26,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 28,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 26,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 26,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 26,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 24,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 25,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 24,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 24,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 24,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 24,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 39,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 39,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 25,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "EnergyInputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "EnergyInputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 23,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 31,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 31,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 31,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 31,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 31,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 31,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 36,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 36,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 36,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 36,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 36,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 29,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 38,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_panel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        }
+    ]}

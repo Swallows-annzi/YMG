@@ -1,0 +1,16 @@
+{
+	title: "尘土",
+	x: -10.0d,
+	y: -6.0d,
+	dependencies: [
+		"b941acbf"
+	],
+	tasks: [{
+		uid: "4d01413a",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_dust"
+		}],
+		count: 64L
+	}]
+}

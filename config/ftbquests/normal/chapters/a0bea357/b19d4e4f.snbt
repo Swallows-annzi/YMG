@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: -7.5d,
+	dependencies: [
+		"7b3210e7"
+	],
+	tasks: [{
+		uid: "0e447231",
+		type: "item",
+		items: [{
+			item: "packagedauto:package_component"
+		}]
+	}]
+}

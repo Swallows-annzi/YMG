@@ -1,0 +1,23 @@
+{
+	title: "铅锭",
+	icon: "thermalfoundation:material 1 131",
+	x: -1.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"48842c74"
+	],
+	tasks: [{
+		uid: "ffa2379a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 131"
+		},
+		{
+			item: "ic2:ingot 1 3"
+		},
+		{
+			item: "mekanism:ingot 1 7"
+		}]
+	}]
+}

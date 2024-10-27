@@ -1,0 +1,26 @@
+{
+	title: "超级兰波顿水晶",
+	x: 0.5d,
+	y: -9.5d,
+	dependencies: [
+		"f9e36ced",
+		"ce7076cf"
+	],
+	tasks: [{
+		uid: "dc06d028",
+		type: "item",
+		items: [{
+			id: "mets:super_lapotron_crystal",
+			tag: {},
+			Damage: 12344s
+		},
+		{
+			id: "mets:super_lapotron_crystal",
+			tag: {
+				charge: 1.0E8d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

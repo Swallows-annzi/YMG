@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -11.5d,
+	dependencies: [
+		"acdb2f7b"
+	],
+	tasks: [{
+		uid: "ced0ef8a",
+		type: "item",
+		items: [{
+			item: "mets:niobium_titanium_plate"
+		}]
+	}]
+}

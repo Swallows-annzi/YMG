@@ -1,0 +1,78 @@
+{
+	x: 7.0d,
+	y: 8.5d,
+	dependencies: [
+		"c58a133a",
+		"8a2062c4"
+	],
+	tasks: [{
+		uid: "32d90706",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.evorsio"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a680d45",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.armara"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f39dd74e",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.discidia"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87840335",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.vicio"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8044023b",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {
+					starAttunement: "astralsorcery.constellation.aevitas"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

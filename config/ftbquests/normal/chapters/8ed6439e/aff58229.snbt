@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"16aed687",
+		"25ccc41d"
+	],
+	tasks: [{
+		uid: "0e651096",
+		type: "item",
+		items: [{
+			id: "extrabotany:mastermanaring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

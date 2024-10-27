@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: 0.0d,
+	dependencies: [
+		"776175cb"
+	],
+	tasks: [{
+		uid: "b7903e6a",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_breath"
+		}]
+	}]
+}

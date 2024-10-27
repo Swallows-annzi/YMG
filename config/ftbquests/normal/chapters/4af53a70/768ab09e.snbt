@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 2.0d,
+	dependencies: [
+		"8a6570ef",
+		"8785013e",
+		"c51dbb18",
+		"44dacdd5"
+	],
+	tasks: [{
+		uid: "729dccf4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	}]
+}

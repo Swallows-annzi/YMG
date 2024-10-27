@@ -1,0 +1,11 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "2247365e",
+		type: "checkmark",
+		title: "欢迎来到云梦阁！",
+		icon: "swallowsresourcelibrary:yun"
+	}]
+}

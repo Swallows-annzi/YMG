@@ -1,0 +1,15 @@
+{
+	x: -9.5d,
+	y: -4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"404ec848"
+	],
+	tasks: [{
+		uid: "2ab6924b",
+		type: "item",
+		items: [{
+			item: "novaeng_core:efabricator_me_channel"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	dependencies: [
+		"ec0a8a4e"
+	],
+	tasks: [{
+		uid: "353d94af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					tungstencrystal: {}
+				}
+			},
+			id: "swallowsresourcelibrary:tungstencrystal"
+		}]
+	}]
+}

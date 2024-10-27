@@ -1,0 +1,7 @@
+{
+	title: "星辉魔法",
+	icon: "astralsorcery:itemjournal",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,16 @@
+{
+	x: -8.5d,
+	y: -6.5d,
+	dependencies: [
+		"2a178487",
+		"43f5ef43",
+		"0afe7a5c"
+	],
+	tasks: [{
+		uid: "4ab7ad04",
+		type: "item",
+		items: [{
+			item: "novaeng_core:efabricator_parallel_proc_l6"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"53619988",
+		"865592ea"
+	],
+	tasks: [{
+		uid: "d1953ef3",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "gold",
+    "color": "ffff00",
+    "ingot": "minecraft:gold_ingot:-1",
+    "dust": "thermalfoundation:material:1",
+    "translations": {
+      "zh_cn": "\u91d1"
+    }
+  },
+  {
+    "name": "iron",
+    "color": "bf8040",
+    "ingot": "minecraft:iron_ingot:-1",
+    "dust": "thermalfoundation:material:0",
+    "translations": {
+      "zh_cn": "\u94c1"
+    }
+  },
+  {
+    "name": "aluminium",
+    "color": "bfbfbf",
+    "ingot": "thermalfoundation:material:132",
+    "dust": "thermalfoundation:material:68",
+    "translations": {
+      "zh_cn": "\u94dd"
+    }
+  },
+  {
+    "name": "ardite",
+    "color": "ff751a",
+    "ingot": "tconstruct:ingots:1",
+    "translations": {
+      "zh_cn": "\u963f\u8fea\u7279"
+    }
+  },
+  {
+    "name": "cobalt",
+    "color": "3333ff",
+    "ingot": "tconstruct:ingots:0",
+    "translations": {
+      "zh_cn": "\u94b4"
+    }
+  },
+  {
+    "name": "copper",
+    "color": "ff9933",
+    "ingot": "thermalfoundation:material:128",
+    "dust": "thermalfoundation:material:64",
+    "translations": {
+      "zh_cn": "\u94dc"
+    }
+  },
+  {
+    "name": "lead",
+    "color": "330066",
+    "ingot": "thermalfoundation:material:131",
+    "dust": "thermalfoundation:material:67",
+    "translations": {
+      "zh_cn": "\u94c5"
+    }
+  },
+  {
+    "name": "nickel",
+    "color": "ffffcc",
+    "ingot": "thermalfoundation:material:133",
+    "dust": "thermalfoundation:material:69",
+    "translations": {
+      "zh_cn": "\u954d"
+    }
+  },
+  {
+    "name": "silver",
+    "color": "f2f2f2",
+    "ingot": "thermalfoundation:material:130",
+    "dust": "thermalfoundation:material:66",
+    "translations": {
+      "zh_cn": "\u94f6"
+    }
+  },
+  {
+    "name": "tin",
+    "color": "e6fff2",
+    "ingot": "thermalfoundation:material:129",
+    "dust": "thermalfoundation:material:65",
+    "translations": {
+      "zh_cn": "\u9521"
+    }
+  },
+  {
+    "name": "uranium",
+    "color": "4e5b43",
+    "ingot": "ic2:ingot:8",
+    "dust": "mekanism:dust:7",
+    "translations": {
+      "zh_cn": "\u94c0"
+    }
+  },
+  {
+    "name": "osmium",
+    "color": "bbddff",
+    "translations": {
+      "zh_cn": "\u9502"
+    }
+  },
+  {
+    "name": "platinum",
+    "color": "d7dfe7",
+    "ingot": "thermalfoundation:material:134",
+    "translations": {
+      "zh_cn": "\u94c2"
+    }
+  }
+]

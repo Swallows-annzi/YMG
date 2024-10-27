@@ -1,0 +1,13 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	shape: "gear",
+	size: 1.5d,
+	tasks: [{
+		uid: "d7879ca4",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -4.5d,
+	dependencies: [
+		"e7ab4546",
+		"f2a8233d",
+		"7044227a",
+		"f9e36ced"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a875de4",
+		type: "item",
+		items: [{
+			item: "threng:material 1 14"
+		}]
+	}]
+}

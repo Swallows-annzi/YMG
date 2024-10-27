@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: -5.25d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"280d4fd4"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "5a83b3cc",
+		type: "item",
+		items: [{
+			item: "environmentaltech:diode"
+		}]
+	}]
+}

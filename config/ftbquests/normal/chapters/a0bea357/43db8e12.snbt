@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"d46f1cca",
+		"b19d4e4f",
+		"a6d84b93"
+	],
+	tasks: [{
+		uid: "232ceef5",
+		type: "item",
+		items: [{
+			item: "packagedauto:me_package_component"
+		}]
+	}]
+}

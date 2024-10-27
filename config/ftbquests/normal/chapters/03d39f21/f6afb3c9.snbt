@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -10.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0b378ffb",
+		"2d00029e"
+	],
+	tasks: [{
+		uid: "f18e94bc",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 22"
+		}]
+	}],
+	rewards: [{
+		uid: "92be62d4",
+		type: "item",
+		item: "ic2:te 1 24"
+	}]
+}

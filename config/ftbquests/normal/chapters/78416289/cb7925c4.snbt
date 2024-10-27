@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	dependencies: [
+		"fab68697"
+	],
+	tasks: [{
+		uid: "bd3ea5f1",
+		type: "item",
+		items: [{
+			item: "avaritia:skullfire_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

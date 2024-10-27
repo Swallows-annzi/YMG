@@ -1,0 +1,37 @@
+{
+	title: "AE模板兑换",
+	x: -4.0d,
+	y: -2.5d,
+	dependencies: [
+		"dc7b0ed0"
+	],
+	tasks: [{
+		uid: "64fa2e73",
+		type: "item",
+		items: [{
+			item: "threng:material"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d7c3a6ed",
+		type: "item",
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		uid: "c8a0ebc3",
+		type: "item",
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		uid: "0bb961a4",
+		type: "item",
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		uid: "3ab2fa0b",
+		type: "item",
+		item: "appliedenergistics2:material 1 19"
+	}]
+}

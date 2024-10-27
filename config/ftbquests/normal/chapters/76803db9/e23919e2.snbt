@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: 2.5d,
+	dependencies: [
+		"ac4c4313"
+	],
+	tasks: [{
+		uid: "0b521deb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}]
+	}]
+}

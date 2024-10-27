@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 5.5d,
+	dependencies: [
+		"c8decc88"
+	],
+	tasks: [{
+		uid: "1f5f02a2",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "glowstone",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

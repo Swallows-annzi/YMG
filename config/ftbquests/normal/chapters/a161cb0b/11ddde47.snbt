@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 1.5d,
+	dependencies: [
+		"759f5208"
+	],
+	tasks: [{
+		uid: "a1a38e6f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

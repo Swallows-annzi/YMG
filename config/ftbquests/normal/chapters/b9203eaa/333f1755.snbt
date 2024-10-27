@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b941acbf",
+		"dbb58aaa"
+	],
+	tasks: [{
+		uid: "58ef139a",
+		type: "item",
+		items: [{
+			item: "minecraft:prismarine_shard"
+		}]
+	}]
+}

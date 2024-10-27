@@ -1,0 +1,17 @@
+{
+	x: -10.5d,
+	y: 4.5d,
+	shape: "gear",
+	dependencies: [
+		"03562083",
+		"fb18e17b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "662a682e",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	dependencies: [
+		"e0179a74"
+	],
+	tasks: [{
+		uid: "a9180a82",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_demon_fusion_altar_controller"
+		}]
+	}]
+}

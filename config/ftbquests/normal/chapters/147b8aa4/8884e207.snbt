@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 7.5d,
+	dependencies: [
+		"581a000a"
+	],
+	tasks: [{
+		uid: "96e6a6c0",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:tungstengear"
+		}]
+	}]
+}

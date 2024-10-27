@@ -1,0 +1,17 @@
+{
+	x: -2.25d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"787ff8a2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "011dd1b8",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

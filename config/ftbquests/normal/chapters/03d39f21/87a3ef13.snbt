@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"bcb5e0bb",
+		"da769cc4",
+		"692ef24d"
+	],
+	tasks: [{
+		uid: "c048aa97",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_3"
+		}]
+	}]
+}

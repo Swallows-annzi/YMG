@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"c4df4ffd"
+	],
+	tasks: [{
+		uid: "7220f9ce",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}]
+}

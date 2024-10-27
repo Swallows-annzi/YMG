@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 5.0d,
+	dependencies: [
+		"de3955cf"
+	],
+	tasks: [{
+		uid: "7b01b7a4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_elemental_refinery_controller"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: -9.5d,
+	dependencies: [
+		"fa34009e"
+	],
+	tasks: [{
+		uid: "de1a39fa",
+		type: "item",
+		items: [{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l9"
+		}]
+	}]
+}

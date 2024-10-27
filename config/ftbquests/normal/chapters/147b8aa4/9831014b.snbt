@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: 4.5d,
+	dependencies: [
+		"d4729e2c"
+	],
+	tasks: [{
+		uid: "c3888f46",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:tungstencoil"
+		}]
+	}]
+}

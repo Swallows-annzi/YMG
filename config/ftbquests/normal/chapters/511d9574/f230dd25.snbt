@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: -3.5d,
+	dependencies: [
+		"7202eddd"
+	],
+	tasks: [{
+		uid: "301052b2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

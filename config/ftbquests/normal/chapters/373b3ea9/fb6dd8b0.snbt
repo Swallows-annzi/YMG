@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 6.5d,
+	shape: "rsquare",
+	dependencies: [
+		"673dd23e"
+	],
+	tasks: [{
+		uid: "514aea42",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_lucky_lotto_factory_controller"
+		}]
+	}]
+}

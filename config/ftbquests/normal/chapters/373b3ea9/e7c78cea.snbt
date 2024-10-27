@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	dependencies: [
+		"b19aea45"
+	],
+	tasks: [{
+		uid: "f6c10604",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_quenching_shrine_controller"
+		}]
+	}]
+}

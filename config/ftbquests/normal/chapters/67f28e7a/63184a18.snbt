@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"be787bed",
+		"6215b617"
+	],
+	tasks: [{
+		uid: "72fc1b68",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_botanic_miner_cont_1"
+		}]
+	}]
+}

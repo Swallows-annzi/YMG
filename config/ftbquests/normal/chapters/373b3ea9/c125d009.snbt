@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 4.0d,
+	dependencies: [
+		"280d4fd4"
+	],
+	tasks: [{
+		uid: "2c45cd4b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_sad_potatoes_controller"
+		}]
+	}]
+}

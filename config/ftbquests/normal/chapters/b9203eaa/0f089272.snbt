@@ -1,0 +1,15 @@
+{
+	title: "空白模具",
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"5f9ec275"
+	],
+	tasks: [{
+		uid: "a0c911bd",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}]
+}

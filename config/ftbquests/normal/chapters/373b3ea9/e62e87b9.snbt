@@ -1,0 +1,22 @@
+{
+	disable_toast: true,
+	x: 15.5d,
+	y: 2.0d,
+	shape: "gear",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d3e85888",
+		"25ccc41d",
+		"355c87ae",
+		"8443aced",
+		"6125e18a"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "df5a7714",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:olihacon"
+		}]
+	}]
+}

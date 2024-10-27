@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 9.0d,
+	dependencies: [
+		"1782c752"
+	],
+	tasks: [{
+		uid: "08fcd000",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	dependencies: [
+		"a4560721"
+	],
+	tasks: [{
+		uid: "1997046d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

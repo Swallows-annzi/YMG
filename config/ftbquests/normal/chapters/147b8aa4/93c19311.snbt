@@ -1,0 +1,20 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	dependencies: [
+		"461bcf02",
+		"b5dbc5e0"
+	],
+	tasks: [{
+		uid: "2acacb87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					iridiumringcoil: {}
+				}
+			},
+			id: "swallowsresourcelibrary:iridiumringcoil"
+		}]
+	}]
+}

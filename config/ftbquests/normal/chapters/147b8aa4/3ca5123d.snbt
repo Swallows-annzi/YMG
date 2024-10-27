@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 12.0d,
+	dependencies: [
+		"ba451b26"
+	],
+	tasks: [{
+		uid: "b5b7d15a",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:mysteriousiceplate"
+		}]
+	}]
+}

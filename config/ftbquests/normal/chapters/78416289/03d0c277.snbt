@@ -1,0 +1,16 @@
+{
+	x: 10.5d,
+	y: 1.0d,
+	dependencies: [
+		"fa50dbd8"
+	],
+	tasks: [{
+		uid: "01467c1d",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	dependencies: [
+		"e7ab4546"
+	],
+	tasks: [{
+		uid: "3974d8d2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_gemini_frost_controller"
+		}]
+	}]
+}

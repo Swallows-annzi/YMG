@@ -1,0 +1,16 @@
+{
+	x: 8.5d,
+	y: 3.5d,
+	dependencies: [
+		"fa50dbd8"
+	],
+	tasks: [{
+		uid: "915625fe",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

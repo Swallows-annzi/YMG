@@ -1,0 +1,15 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	dependencies: [
+		"2baf8dc9",
+		"1cbdf9fa"
+	],
+	tasks: [{
+		uid: "5f27b7c4",
+		type: "item",
+		items: [{
+			item: "extrabotany:gildedmashedpotato"
+		}]
+	}]
+}

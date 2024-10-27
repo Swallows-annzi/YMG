@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	dependencies: [
+		"ea6a7ce3"
+	],
+	tasks: [{
+		uid: "5a816eb6",
+		type: "item",
+		items: [{
+			item: "mekeng:gas_core_1k"
+		}]
+	}]
+}

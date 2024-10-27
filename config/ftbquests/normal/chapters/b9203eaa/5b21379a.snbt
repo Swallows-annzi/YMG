@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"用来收集水，生产泥土，以及用流体浸润方块。"
+	],
+	dependencies: [
+		"5f9ec275"
+	],
+	tasks: [{
+		uid: "b19f69bc",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}]
+	}]
+}

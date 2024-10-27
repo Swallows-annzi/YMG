@@ -1,0 +1,7 @@
+{
+	title: "第一章：从此启航！",
+	icon: "minecraft:sapling",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

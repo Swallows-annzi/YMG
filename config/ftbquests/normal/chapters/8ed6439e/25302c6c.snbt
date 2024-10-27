@@ -1,0 +1,20 @@
+{
+	x: 23.5d,
+	y: -0.5d,
+	text: [
+		"我相信你的实力！挑战盖亚守护者 III 吧！"
+	],
+	dependencies: [
+		"8c88e1b4",
+		"77e287c6",
+		"cee463f0"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "266b69f3",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 6"
+		}]
+	}]
+}

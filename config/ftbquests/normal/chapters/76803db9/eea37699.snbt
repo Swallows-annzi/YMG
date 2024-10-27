@@ -1,0 +1,20 @@
+{
+	title: "热能离心机",
+	icon: "ic2:te 1 52",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"因为某些问题，现用模块化机械代替热能离心机！"
+	],
+	dependencies: [
+		"51725cea",
+		"de16683e"
+	],
+	tasks: [{
+		uid: "e7be9b1d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_advanced_centrifuge_controller"
+		}]
+	}]
+}

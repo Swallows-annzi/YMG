@@ -1,0 +1,62 @@
+{
+	title: "冶炼炉",
+	icon: "tconstruct:smeltery_controller",
+	x: 2.0d,
+	y: -8.0d,
+	text: [
+		"不会用的话...."
+	],
+	dependencies: [
+		"5cf90552"
+	],
+	tasks: [{
+		uid: "c417def4",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 16L
+	},
+	{
+		uid: "8a9c5695",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "b26c50f8",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "c4fa7621",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "038e14ff",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "03f842ce",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "38a6dc54",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	}]
+}

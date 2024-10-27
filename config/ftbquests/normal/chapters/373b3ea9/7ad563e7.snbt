@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: -2.0d,
+	dependencies: [
+		"47418484",
+		"3744e69d"
+	],
+	tasks: [{
+		uid: "4c4b5062",
+		type: "item",
+		items: [{
+			id: "gugu-utils:sparkmanahatch",
+			tag: {},
+			Damage: 1s
+		}]
+	}]
+}

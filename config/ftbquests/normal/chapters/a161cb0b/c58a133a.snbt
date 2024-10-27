@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 1.5d,
+	dependencies: [
+		"9ad0ae33"
+	],
+	tasks: [{
+		uid: "d84709ff",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemshiftingstar",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

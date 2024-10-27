@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: 13.0d,
+	dependencies: [
+		"dd3760df",
+		"0e43fa3a",
+		"2dea697b"
+	],
+	tasks: [{
+		uid: "56c78390",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:mysteriousicecoil"
+		}]
+	}]
+}

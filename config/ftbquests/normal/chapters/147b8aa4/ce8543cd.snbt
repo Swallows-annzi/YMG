@@ -1,0 +1,14 @@
+{
+	x: -8.5d,
+	y: 18.5d,
+	dependencies: [
+		"da5772a8"
+	],
+	tasks: [{
+		uid: "85e7ee5a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_cluster_diamond"
+		}]
+	}]
+}

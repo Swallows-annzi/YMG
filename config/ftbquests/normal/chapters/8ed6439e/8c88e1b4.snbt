@@ -1,0 +1,22 @@
+{
+	title: "光子暗影",
+	x: 23.5d,
+	y: 1.0d,
+	dependencies: [
+		"5aba0d8a"
+	],
+	tasks: [{
+		uid: "fb1cf068",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 5"
+		}]
+	},
+	{
+		uid: "90e47405",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 8"
+		}]
+	}]
+}

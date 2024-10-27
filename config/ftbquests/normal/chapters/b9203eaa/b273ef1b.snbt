@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"53619988",
+		"865592ea"
+	],
+	tasks: [{
+		uid: "766789ab",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"1138e055",
+		"5efa535d"
+	],
+	tasks: [{
+		uid: "275b1f83",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}]
+}

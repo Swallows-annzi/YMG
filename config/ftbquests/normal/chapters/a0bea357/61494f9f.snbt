@@ -1,0 +1,17 @@
+{
+	x: -6.5d,
+	y: -12.5d,
+	dependencies: [
+		"990d2067"
+	],
+	tasks: [{
+		uid: "e978199a",
+		type: "item",
+		items: [{
+			id: "novaeng_core:estorage_cell_item_256m",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

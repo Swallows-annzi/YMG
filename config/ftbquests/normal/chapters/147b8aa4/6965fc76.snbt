@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	dependencies: [
+		"47418484"
+	],
+	tasks: [{
+		uid: "7efcceba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					tungstenringcoil: {}
+				}
+			},
+			id: "swallowsresourcelibrary:tungstenringcoil"
+		}]
+	}]
+}

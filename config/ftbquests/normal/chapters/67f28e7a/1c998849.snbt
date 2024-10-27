@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	shape: "diamond",
+	dependencies: [
+		"e2940280",
+		"51912057"
+	],
+	tasks: [{
+		uid: "f3e34510",
+		type: "item",
+		items: [{
+			item: "environmentaltech:connector"
+		}]
+	}]
+}

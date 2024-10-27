@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ba466893",
+		"da769cc4"
+	],
+	tasks: [{
+		uid: "8d1c6de0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_3"
+		}]
+	}]
+}

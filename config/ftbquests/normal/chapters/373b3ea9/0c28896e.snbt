@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 0.5d,
+	dependencies: [
+		"e0179a74"
+	],
+	tasks: [{
+		uid: "b199d591",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_body_casting_ceremony_controller"
+		}]
+	}]
+}

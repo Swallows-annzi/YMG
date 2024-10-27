@@ -1,0 +1,11 @@
+{
+	x: -11.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "67e4d8ab",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 1"
+		}]
+	}]
+}

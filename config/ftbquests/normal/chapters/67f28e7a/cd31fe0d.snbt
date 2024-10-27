@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"55506192",
+		"b4a7b500"
+	],
+	tasks: [{
+		uid: "3ef31f20",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_speed"
+		}]
+	}]
+}

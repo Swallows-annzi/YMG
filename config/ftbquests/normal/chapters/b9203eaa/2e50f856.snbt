@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"76820ae4"
+	],
+	tasks: [{
+		uid: "d16d0f46",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

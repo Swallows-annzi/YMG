@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"865592ea",
+		"37a146fe"
+	],
+	tasks: [{
+		uid: "d0e7d530",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}]
+	}]
+}

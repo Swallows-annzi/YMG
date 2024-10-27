@@ -1,0 +1,15 @@
+{
+	x: 17.0d,
+	y: 2.0d,
+	dependencies: [
+		"b6be9a9e",
+		"e62e87b9"
+	],
+	tasks: [{
+		uid: "8d8033e6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_magnetic_permeability_dragon_aggregation_tower_controller"
+		}]
+	}]
+}

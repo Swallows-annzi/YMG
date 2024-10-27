@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	dependencies: [
+		"7adcf849"
+	],
+	tasks: [{
+		uid: "763fbd0a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_magnetic_flux_metal_fused_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "高炉套组",
+	x: -5.5d,
+	y: -11.5d,
+	dependencies: [
+		"0b378ffb"
+	],
+	tasks: [{
+		uid: "550df8e2",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 50"
+		}]
+	},
+	{
+		uid: "db02ed32",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 12"
+		},
+		{
+			item: "ic2:te 1 13"
+		},
+		{
+			item: "ic2:te 1 14"
+		},
+		{
+			item: "ic2:te 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "a6a71c28",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2air",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	}]
+}

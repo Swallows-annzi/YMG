@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -10.5d,
+	dependencies: [
+		"af51d41f"
+	],
+	tasks: [{
+		uid: "7611da8b",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -8.5d,
+	dependencies: [
+		"d46f1cca",
+		"a6d84b93"
+	],
+	tasks: [{
+		uid: "ddb7c59a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}]
+}

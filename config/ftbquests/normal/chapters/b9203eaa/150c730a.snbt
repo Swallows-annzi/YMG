@@ -1,0 +1,16 @@
+{
+	title: "线",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"37cb4b86"
+	],
+	tasks: [{
+		uid: "d4b643de",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 16L
+	}]
+}

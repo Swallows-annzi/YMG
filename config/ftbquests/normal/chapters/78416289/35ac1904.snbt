@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	dependencies: [
+		"fa50dbd8"
+	],
+	tasks: [{
+		uid: "89f6beb1",
+		type: "item",
+		items: [{
+			item: "avaritiaio:infinitecapacitor"
+		}]
+	}]
+}

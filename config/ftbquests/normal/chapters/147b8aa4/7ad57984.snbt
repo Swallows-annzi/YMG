@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"50c9eee2"
+	],
+	tasks: [{
+		uid: "4281da50",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:iridiumwire"
+		}]
+	}]
+}

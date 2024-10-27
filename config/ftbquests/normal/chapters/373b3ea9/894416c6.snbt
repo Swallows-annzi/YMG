@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: 3.5d,
+	dependencies: [
+		"de16683e",
+		"51725cea"
+	],
+	tasks: [{
+		uid: "2a9cccaf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_advanced_centrifuge_controller"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6166cc8a",
+		"da769cc4"
+	],
+	tasks: [{
+		uid: "63fa709a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_3"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "能量水晶",
+	x: -3.5d,
+	y: -9.5d,
+	dependencies: [
+		"7715e801",
+		"af51d41f"
+	],
+	tasks: [{
+		uid: "613fbd04",
+		type: "item",
+		items: [{
+			id: "ic2:energy_crystal",
+			tag: {},
+			Damage: 26s
+		},
+		{
+			id: "ic2:energy_crystal",
+			tag: {
+				charge: 1000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 19.0d,
+	dependencies: [
+		"f6c88cd8"
+	],
+	tasks: [{
+		uid: "fec029d9",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:superenergymatter"
+		}]
+	}]
+}

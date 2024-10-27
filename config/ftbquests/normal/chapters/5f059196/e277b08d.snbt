@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	dependencies: [
+		"bed098e0"
+	],
+	tasks: [{
+		uid: "61060dbc",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}]
+}

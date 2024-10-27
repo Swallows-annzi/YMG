@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"b45ffedf",
+		"276c7e02"
+	],
+	tasks: [{
+		uid: "5b396726",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 3"
+		}]
+	}]
+}

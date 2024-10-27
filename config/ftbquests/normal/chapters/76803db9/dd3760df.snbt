@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 10.5d,
+	dependencies: [
+		"eac2a9e4"
+	],
+	tasks: [{
+		uid: "7cd1098f",
+		type: "item",
+		items: [{
+			item: "redstonerepository:material 1 6"
+		}]
+	}]
+}

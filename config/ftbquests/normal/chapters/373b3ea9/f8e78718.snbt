@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: 24.0d,
+	y: 2.0d,
+	shape: "gear",
+	dependencies: [
+		"71baafba"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3f89db54",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

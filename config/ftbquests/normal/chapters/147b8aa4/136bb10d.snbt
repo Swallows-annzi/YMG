@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: 9.0d,
+	dependencies: [
+		"cbb1e5a0",
+		"af51d41f"
+	],
+	tasks: [{
+		uid: "5433dc48",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 35"
+		}]
+	}]
+}

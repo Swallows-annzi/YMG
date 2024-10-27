@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	dependencies: [
+		"c51082b9",
+		"9ad0ae33"
+	],
+	tasks: [{
+		uid: "8fd6ff2b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}]
+}

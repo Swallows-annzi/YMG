@@ -1,0 +1,16 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	dependencies: [
+		"5cd59b93"
+	],
+	tasks: [{
+		uid: "bddbfbb3",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_hammer_gold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

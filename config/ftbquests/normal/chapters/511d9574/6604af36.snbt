@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	dependencies: [
+		"e417225d"
+	],
+	tasks: [{
+		uid: "f1fa9986",
+		type: "item",
+		items: [{
+			item: "bloodmagic:lava_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"f01d39fa"
+	],
+	tasks: [{
+		uid: "b24e308c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemhandtelescope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

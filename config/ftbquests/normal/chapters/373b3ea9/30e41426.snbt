@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"de16683e"
+	],
+	tasks: [{
+		uid: "12159123",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_solar_energy_output_adapter_controller"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f90ebebe",
+		"110e02d0"
+	],
+	tasks: [{
+		uid: "51a9c5f5",
+		type: "item",
+		items: [{
+			id: "botania:manaring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

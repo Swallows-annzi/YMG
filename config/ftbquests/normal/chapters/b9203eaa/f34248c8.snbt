@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"150c730a"
+	],
+	tasks: [{
+		uid: "2fd4fe74",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}]
+	}],
+	rewards: [{
+		uid: "1416f6b4",
+		type: "choice",
+		table: 0
+	}]
+}

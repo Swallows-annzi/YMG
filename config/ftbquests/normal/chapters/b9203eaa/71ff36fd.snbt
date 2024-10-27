@@ -1,0 +1,17 @@
+{
+	x: -9.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"76820ae4"
+	],
+	tasks: [{
+		uid: "50d69d0e",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

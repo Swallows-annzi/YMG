@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"110e02d0"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "039fbfaf",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 32L
+	}]
+}

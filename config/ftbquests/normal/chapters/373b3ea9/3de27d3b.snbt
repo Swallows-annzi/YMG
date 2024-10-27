@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	dependencies: [
+		"b19aea45"
+	],
+	tasks: [{
+		uid: "2fb14f36",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_resonating_well_controller"
+		}]
+	}]
+}

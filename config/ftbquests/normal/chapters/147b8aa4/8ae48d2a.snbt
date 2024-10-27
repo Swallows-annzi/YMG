@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 6.0d,
+	dependencies: [
+		"ec0a8a4e"
+	],
+	tasks: [{
+		uid: "0f69f41a",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:tungstenrod"
+		}]
+	}]
+}

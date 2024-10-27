@@ -1,0 +1,18 @@
+{
+	x: 19.5d,
+	y: -6.0d,
+	text: [
+		"#FF0000随便乱丢会被封禁喔，别怪我没告诉你！！！"
+	],
+	dependencies: [
+		"8a2062c4",
+		"5afb625c"
+	],
+	tasks: [{
+		uid: "7a129a82",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 15"
+		}]
+	}]
+}

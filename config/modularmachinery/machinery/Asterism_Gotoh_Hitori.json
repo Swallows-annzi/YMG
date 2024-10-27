@@ -1,0 +1,4444 @@
+{
+    "registryname": "Asterism_Gotoh_Hitori",
+    "localizedname": "§5§lYMG§r§e§l—§d§l后藤独§c(待完善) §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "has-factory": true,
+    "factory-only": true,
+    "color": "FFFFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@3",
+                "modularmachinery:blocksmartinterface@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        }
+    ]}

@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: 0.5d,
+	dependencies: [
+		"cf3b6c32"
+	],
+	tasks: [{
+		uid: "bcbc4278",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_gaia_guardian_annihilation_altar_controller"
+		}]
+	}]
+}

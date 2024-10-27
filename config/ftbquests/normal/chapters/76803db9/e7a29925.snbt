@@ -1,0 +1,11 @@
+{
+	x: -13.5d,
+	y: 10.0d,
+	tasks: [{
+		uid: "c8bce035",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	shape: "diamond",
+	dependencies: [
+		"57a010ad",
+		"831a8d90"
+	],
+	tasks: [{
+		uid: "17ddd334",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	},
+	{
+		uid: "653b9620",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

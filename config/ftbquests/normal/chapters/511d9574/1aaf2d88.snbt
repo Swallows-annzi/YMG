@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	dependencies: [
+		"4ec63ca3",
+		"bad39f6c"
+	],
+	tasks: [{
+		uid: "b5575ae0",
+		type: "item",
+		items: [{
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

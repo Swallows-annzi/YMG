@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"把星尘和水晶石丢入星能液中...然后等待其生长。",
+		"如果下方是星辉矿石将会加速其生长！"
+	],
+	dependencies: [
+		"7f7210e7",
+		"b1a937a6"
+	],
+	tasks: [{
+		uid: "6f5911b0",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

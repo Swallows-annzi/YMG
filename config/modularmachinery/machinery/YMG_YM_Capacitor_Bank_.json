@@ -1,0 +1,1397 @@
+{
+    "registryname": "YMG_YM_Capacitor_Bank_",
+    "localizedname": "§b§lYMG§r§e§l—#FFFFDD§l云梦电容库§c(未完成，届时将会替换简化版电容库) §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "has-factory": true,
+    "factory-only": true,
+    "color": "FFFFFF",
+    "dynamic-patterns": [
+        {
+            "name": "Capacitor",
+            "faces": [
+                "UP"
+            ],
+            "minSize": 1,
+            "maxSize": 3,
+            "structure-size-offset-start": {
+                "x": 0,
+                "y": 4,
+                "z": 0
+            },
+            "structure-size-offset": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "parts": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                }
+                ,
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                }
+                ,
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                }
+                ,
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "environmentaltech:structure_frame_1@0",
+                        "environmentaltech:structure_frame_2@0",
+                        "environmentaltech:structure_frame_3@0",
+                        "environmentaltech:structure_frame_4@0",
+                        "environmentaltech:structure_frame_5@0",
+                        "environmentaltech:structure_frame_6@0"
+                    ]
+                }
+            ],
+            "parts-end": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 3,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "appliedenergistics2:quartz_vibrant_glass@0"
+                    ]
+                }
+            ]
+        }
+    ],
+    "parts": [
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface@0",
+                "EnergyInput",
+                "EnergyOutput"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        }
+    ]}

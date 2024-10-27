@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: -7.0d,
+	text: [
+		"你可以试着吃上两口....."
+	],
+	dependencies: [
+		"0726eacb"
+	],
+	tasks: [{
+		uid: "8286c806",
+		type: "item",
+		items: [{
+			item: "extrabotany:nightmarefuel"
+		}]
+	}]
+}

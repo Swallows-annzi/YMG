@@ -1,0 +1,19 @@
+{
+	x: 19.5d,
+	y: -4.0d,
+	text: [
+		"勇者你该挑战盖亚守护者 II 了！",
+		"手持盖亚魂锭潜行右键信标召唤盖亚守护者 II"
+	],
+	dependencies: [
+		"3f31e270",
+		"5afb625c"
+	],
+	tasks: [{
+		uid: "e4c9913f",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}]
+}

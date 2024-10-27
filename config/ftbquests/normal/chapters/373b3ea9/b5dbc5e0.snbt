@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	dependencies: [
+		"de16683e"
+	],
+	tasks: [{
+		uid: "17c0c82b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_assembling_machine_controller"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8e179b43",
+		"b4a7b500"
+	],
+	tasks: [{
+		uid: "0eaaaef9",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_erodium"
+		}]
+	}]
+}

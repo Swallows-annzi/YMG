@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"632eeba4",
+		"0889ec7e",
+		"41f19f76"
+	],
+	tasks: [{
+		uid: "538ae000",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal"
+		}]
+	}]
+}

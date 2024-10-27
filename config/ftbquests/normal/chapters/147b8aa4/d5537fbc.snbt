@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: 18.5d,
+	dependencies: [
+		"ce8543cd",
+		"50784aa9",
+		"367e2c54",
+		"df4825ba",
+		"35b0169e",
+		"25929b1d"
+	],
+	tasks: [{
+		uid: "2f8065dd",
+		type: "item",
+		items: [{
+			item: "botania:bifrostperm"
+		}]
+	}]
+}

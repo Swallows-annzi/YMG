@@ -1,0 +1,15 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5156e578"
+	],
+	tasks: [{
+		uid: "0b1b11ee",
+		type: "item",
+		items: [{
+			item: "novaeng_core:efabricator_pattern_bus"
+		}]
+	}]
+}

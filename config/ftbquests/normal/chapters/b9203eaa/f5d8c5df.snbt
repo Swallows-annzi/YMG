@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"将当放置在水源上方时，它会缓慢产生鱼和其他掉落物于渔网上方。",
+		"若在上方放置容器，生产的物品将会放入容器。"
+	],
+	dependencies: [
+		"150c730a"
+	],
+	tasks: [{
+		uid: "3dbdfd93",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_fishing_net"
+		}]
+	}]
+}

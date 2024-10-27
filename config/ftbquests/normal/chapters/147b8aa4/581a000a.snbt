@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 7.5d,
+	dependencies: [
+		"ec0a8a4e",
+		"fdd64224"
+	],
+	tasks: [{
+		uid: "3d2d0454",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:tungstenplate"
+		}]
+	}]
+}

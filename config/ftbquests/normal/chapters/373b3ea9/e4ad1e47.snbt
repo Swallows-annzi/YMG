@@ -1,0 +1,16 @@
+{
+	title: "吉祥物",
+	x: -1.5d,
+	y: 6.5d,
+	shape: "rsquare",
+	dependencies: [
+		"32dbebfe"
+	],
+	tasks: [{
+		uid: "1a3cd693",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asterism_gotoh_hitori_factory_controller"
+		}]
+	}]
+}

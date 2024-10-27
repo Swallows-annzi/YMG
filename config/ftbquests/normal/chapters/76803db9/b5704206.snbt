@@ -1,0 +1,61 @@
+{
+	title: "UU四件套",
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"51725cea",
+		"22ff1dfb"
+	],
+	tasks: [{
+		uid: "5e086d68",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	},
+	{
+		uid: "830d4d13",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "c87d8754",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 62"
+		}]
+	},
+	{
+		uid: "36eeb643",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	}],
+	rewards: [{
+		uid: "19e79c09",
+		type: "item",
+		item: {
+			id: "ic2:crystal_memory",
+			tag: {}
+		}
+	},
+	{
+		uid: "b71e2e57",
+		type: "item",
+		item: {
+			id: "ic2:crystal_memory",
+			tag: {}
+		}
+	},
+	{
+		uid: "5f9bd153",
+		type: "item",
+		item: {
+			id: "ic2:crystal_memory",
+			tag: {}
+		}
+	}]
+}

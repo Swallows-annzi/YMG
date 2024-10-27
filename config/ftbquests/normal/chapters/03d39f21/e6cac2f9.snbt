@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: -6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4f12fdfe",
+		"7adcf849"
+	],
+	tasks: [{
+		uid: "f40337d7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_core_pressure_analog_devices_controller"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"0c217de1",
+		"96b1cef0"
+	],
+	tasks: [{
+		uid: "2bbcfd27",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_ionite"
+		}]
+	}]
+}

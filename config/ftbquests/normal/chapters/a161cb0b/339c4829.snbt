@@ -1,0 +1,51 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"51bf09a3",
+		"4912eb3d"
+	],
+	tasks: [{
+		uid: "05a8780c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "4eb2d7ef",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.armara"
+				}
+			}
+		}
+	},
+	{
+		uid: "d344559d",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.vicio"
+				}
+			}
+		}
+	},
+	{
+		uid: "743b7861",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.aevitas"
+				}
+			}
+		}
+	}]
+}

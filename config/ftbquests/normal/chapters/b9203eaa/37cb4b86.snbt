@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"手持蚕右键树叶将树叶感染。",
+		"等感染率（高亮可看）到达100%挖掘即可掉落线。"
+	],
+	dependencies: [
+		"76820ae4"
+	],
+	tasks: [{
+		uid: "d7573feb",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9aa7dbba",
+		type: "item",
+		team_reward: true,
+		item: "exnihilocreatio:item_cooked_silkworm",
+		count: 5
+	}]
+}

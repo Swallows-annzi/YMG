@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"03562083"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f655cbbf",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:machine_casing"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"c5c35489"
+	],
+	tasks: [{
+		uid: "a6f19d5c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}]
+	}]
+}

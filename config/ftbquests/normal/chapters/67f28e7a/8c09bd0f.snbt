@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"38643d07"
+	],
+	tasks: [{
+		uid: "679adea0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}]
+	}]
+}

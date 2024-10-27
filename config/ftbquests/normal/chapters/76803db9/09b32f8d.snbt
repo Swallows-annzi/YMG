@@ -1,0 +1,15 @@
+{
+	x: 5.5d,
+	y: -9.5d,
+	dependencies: [
+		"4031151d",
+		"8987a5b2"
+	],
+	tasks: [{
+		uid: "21d94504",
+		type: "item",
+		items: [{
+			item: "super_solar_panels:crafting 1 13"
+		}]
+	}]
+}

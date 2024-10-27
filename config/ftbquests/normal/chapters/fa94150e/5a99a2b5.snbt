@@ -1,0 +1,16 @@
+{
+	x: 6.75d,
+	y: -4.5d,
+	shape: "gear",
+	dependencies: [
+		"0ef224b5"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1a06ab2f",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}]
+}

@@ -1,0 +1,5980 @@
+{
+    "registryname": "YMG_Atomic_Collider_MK_I",
+    "localizedname": "§b§lYMG§r§e§l—#383838§l原子对撞机#6effe2-d36eff-ff82ccMK I §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "color": "383838",
+    "parts": [
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 13,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 14,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 14,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 13,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 13,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 14,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 19,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:ymg_atomic_collider_mk_i_controller@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 19,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 19,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 14,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 13,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 19,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 19,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 14,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 13,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 15,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 18,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 19,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 16,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 16,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 15,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 20,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 12,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 17,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 16,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 17,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 18,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4",
+                "EnergyInputStrengthen",
+                "ItemInputStrengthen",
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:structure_frame_1@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        }
+    ]}

@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e0e3a16f",
+		"bcb5e0bb",
+		"b311cf4e"
+	],
+	tasks: [{
+		uid: "93141c6d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_4"
+		}]
+	}]
+}

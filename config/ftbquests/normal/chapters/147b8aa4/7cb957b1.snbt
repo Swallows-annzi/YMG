@@ -1,0 +1,30 @@
+{
+	title: "黑铁锭",
+	x: -3.0d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"ee737b7b",
+		"74bd720b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1bc43dd3",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}],
+	rewards: [{
+		uid: "52ed66c2",
+		type: "item",
+		item: {
+			id: "extendedcrafting:guide",
+			tag: {
+				TopicsPage: 0,
+				EntryId: 4,
+				EntryPage: 0
+			}
+		}
+	}]
+}

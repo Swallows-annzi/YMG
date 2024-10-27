@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: 4.5d,
+	dependencies: [
+		"9f1878e9"
+	],
+	tasks: [{
+		uid: "e947aaf9",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

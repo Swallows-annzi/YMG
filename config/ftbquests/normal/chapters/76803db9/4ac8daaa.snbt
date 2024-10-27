@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "0de179e0",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}]
+}

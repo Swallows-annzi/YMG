@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"53619988",
+		"865592ea"
+	],
+	tasks: [{
+		uid: "04f9a76d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 136"
+		}]
+	}]
+}

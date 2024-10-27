@@ -1,0 +1,32 @@
+{
+	title: "气血碎片",
+	icon: "bloodmagic:blood_shard",
+	x: -8.25d,
+	y: 2.25d,
+	can_repeat: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "5eb0c553",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 8"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d260b610",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 1"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6bd9ab82",
+		type: "item",
+		team_reward: true,
+		item: "bloodmagic:blood_shard",
+		count: 8
+	}]
+}

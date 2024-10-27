@@ -1,0 +1,7 @@
+{
+	title: "杀戮时刻",
+	icon: "deepmoblearning:simulation_chamber",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

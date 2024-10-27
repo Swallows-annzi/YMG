@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"76820ae4"
+	],
+	tasks: [{
+		uid: "3621da63",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

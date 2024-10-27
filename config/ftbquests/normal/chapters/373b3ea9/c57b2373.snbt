@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	dependencies: [
+		"b19aea45"
+	],
+	tasks: [{
+		uid: "6d324ba8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_grinder_factory_controller"
+		}]
+	}]
+}

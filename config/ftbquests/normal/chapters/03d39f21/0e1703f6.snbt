@@ -1,0 +1,16 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4f12fdfe",
+		"b19aea45"
+	],
+	tasks: [{
+		uid: "1e60db7a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_aggregate_solar_energy_controller"
+		}]
+	}]
+}

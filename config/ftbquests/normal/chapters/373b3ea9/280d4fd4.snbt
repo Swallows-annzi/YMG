@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	dependencies: [
+		"7adcf849"
+	],
+	tasks: [{
+		uid: "688c6740",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ymg_core_pressure_analog_devices_controller"
+		}]
+	}]
+}

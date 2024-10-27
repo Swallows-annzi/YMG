@@ -1,0 +1,16 @@
+{
+	title: "沙砾",
+	x: -6.0d,
+	y: -6.0d,
+	dependencies: [
+		"c0e5569e"
+	],
+	tasks: [{
+		uid: "652e1a33",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 64L
+	}]
+}

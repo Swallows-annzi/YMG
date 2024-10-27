@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"除了速度快，一无是处。"
+	],
+	dependencies: [
+		"8a70e56a"
+	],
+	tasks: [{
+		uid: "630e9f29",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_gold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

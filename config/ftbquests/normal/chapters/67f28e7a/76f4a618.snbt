@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"da769cc4",
+		"9b140f8a"
+	],
+	tasks: [{
+		uid: "b464a900",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_kyronite"
+		}]
+	}]
+}

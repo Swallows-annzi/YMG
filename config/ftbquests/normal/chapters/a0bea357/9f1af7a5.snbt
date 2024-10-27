@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"ee737b7b"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "fe51d253",
+		type: "item",
+		items: [{
+			item: "threng:material 1 4"
+		}]
+	}]
+}

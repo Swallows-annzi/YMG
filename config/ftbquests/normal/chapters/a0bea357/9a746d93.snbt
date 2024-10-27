@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -5.5d,
+	dependencies: [
+		"e0ff6d7d"
+	],
+	tasks: [{
+		uid: "50e162f4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}]
+}

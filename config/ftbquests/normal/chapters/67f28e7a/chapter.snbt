@@ -1,0 +1,7 @@
+{
+	title: "环境科技",
+	icon: "environmentaltech:void_ore_miner_cont_6",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

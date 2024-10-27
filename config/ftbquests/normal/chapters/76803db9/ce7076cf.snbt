@@ -1,0 +1,26 @@
+{
+	title: "兰波顿水晶",
+	x: -1.5d,
+	y: -9.5d,
+	dependencies: [
+		"5a2586f0",
+		"cd9d90d6"
+	],
+	tasks: [{
+		uid: "5c9de987",
+		type: "item",
+		items: [{
+			id: "ic2:lapotron_crystal",
+			tag: {},
+			Damage: 26s
+		},
+		{
+			id: "ic2:lapotron_crystal",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "血魔法",
+	icon: "bloodmagic:altar",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	dependencies: [
+		"759f5208"
+	],
+	tasks: [{
+		uid: "4d76cd12",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

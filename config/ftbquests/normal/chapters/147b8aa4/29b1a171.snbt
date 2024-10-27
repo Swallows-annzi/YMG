@@ -1,0 +1,15 @@
+{
+	x: -9.5d,
+	y: 17.5d,
+	dependencies: [
+		"a69cec94",
+		"d5537fbc"
+	],
+	tasks: [{
+		uid: "95025a2a",
+		type: "item",
+		items: [{
+			item: "swallowsresourcelibrary:colorfulice"
+		}]
+	}]
+}
