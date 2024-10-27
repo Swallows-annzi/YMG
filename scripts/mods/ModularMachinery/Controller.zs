@@ -322,7 +322,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_vacuum_glass_manufacturing_p
 .build();
 
 //数字化血之祭坛
-mods.bloodmagic.BloodAltar.addRecipe(<modularmachinery:ymg_digital_altar_factory_controller>, <contenttweaker:tungstencasing>, 4, 80000, 1000, 1000);
+mods.bloodmagic.BloodAltar.addRecipe(<modularmachinery:ymg_digital_altar_controller>, <contenttweaker:tungstencasing>, 4, 80000, 1000, 1000);
 
 //双子塔-焱
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_gemini_blazing_controller", "YMG_Thermal_Electronic_Component_Assembly_Machine", 1200)
@@ -1010,7 +1010,7 @@ recipes.addShaped(<modularmachinery:ymg_vengeance_candle_controller>,[
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_spirit_stripped_altar_factory_controller", "YMG_Demon_Fusion_Altar", 2400)
 .addLifeEssenceInput(1200, true)
 .addItemInputs([
-    <modularmachinery:ymg_digital_altar_factory_controller>,
+    <modularmachinery:ymg_digital_altar_controller>,
     <enderio:item_material:53> * 16,
     <futuremc:soul_fire_lantern> * 64,
     <thermalfoundation:material:1028> * 4

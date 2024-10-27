@@ -3,8 +3,6 @@
     "localizedname": "§b§lYMG§r§e§l—#770000§l数字化血之祭坛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
-    "has-factory": true,
-    "factory-only": true,
     "color": "707070",
     "parts": [
         {
