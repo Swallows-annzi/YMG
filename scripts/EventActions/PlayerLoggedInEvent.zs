@@ -15,55 +15,55 @@ import mods.additionalapi.WorldData;
 
 val SolarSystemData as IData = {
     SolarSystem     :   {
-        Sun             :   {isFound    :   false, Sputnik    :   {key:1}},
-        Mercury         :   {isFound    :   false, Sputnik    :   {key:2}},
-        Venus           :   {isFound    :   false, Sputnik    :   {key:3}},
+        Sun             :   {isFound    :   false},
+        Mercury         :   {isFound    :   false},
+        Venus           :   {isFound    :   false},
         EarthSystem     :   {
-            Earth           :   {isFound    :    true, Sputnik    :   {key:4}},
-            Moon            :   {isFound    :   false, Sputnik    :   {key:5}}
+            Earth           :   {isFound    :    true},
+            Moon            :   {isFound    :   false}
         },
         MarsSystem      :   {
-            Mars            :   {isFound    :   false, Sputnik    :   {key:6}},
-            Phobos          :   {isFound    :   false, Sputnik    :   {key:7}},
-            Deimos          :   {isFound    :   false, Sputnik    :   {key:8}}
+            Mars            :   {isFound    :   false},
+            Phobos          :   {isFound    :   false},
+            Deimos          :   {isFound    :   false}
         },
         JupiterSystem   :   {
-            Jupiter         :   {isFound    :   false, Sputnik    :   {key:9}},
-            Io              :   {isFound    :   false, Sputnik    :   {key:10}},
-            Europa          :   {isFound    :   false, Sputnik    :   {key:11}},
-            Ganymede        :   {isFound    :   false, Sputnik    :   {key:12}},
-            Callisto        :   {isFound    :   false, Sputnik    :   {key:13}},
-            Amalthea        :   {isFound    :   false, Sputnik    :   {key:14}},
-            Himalia         :   {isFound    :   false, Sputnik    :   {key:15}}
+            Jupiter         :   {isFound    :   false},
+            Io              :   {isFound    :   false},
+            Europa          :   {isFound    :   false},
+            Ganymede        :   {isFound    :   false},
+            Callisto        :   {isFound    :   false},
+            Amalthea        :   {isFound    :   false},
+            Himalia         :   {isFound    :   false}
         },
         SaturnSystem    :   {
-            Saturn          :   {isFound    :   false, Sputnik    :   {key:16}},
-            Mimas           :   {isFound    :   false, Sputnik    :   {key:17}},
-            Enceladus       :   {isFound    :   false, Sputnik    :   {key:18}},
-            Tethys          :   {isFound    :   false, Sputnik    :   {key:19}},
-            Dione           :   {isFound    :   false, Sputnik    :   {key:20}},
-            Rhea            :   {isFound    :   false, Sputnik    :   {key:21}},
-            Titan           :   {isFound    :   false, Sputnik    :   {key:22}},
-            Hyperion        :   {isFound    :   false, Sputnik    :   {key:23}},
-            Iapetus         :   {isFound    :   false, Sputnik    :   {key:24}},
-            Phoebe          :   {isFound    :   false, Sputnik    :   {key:25}},
-            Janus           :   {isFound    :   false, Sputnik    :   {key:26}}
+            Saturn          :   {isFound    :   false},
+            Mimas           :   {isFound    :   false},
+            Enceladus       :   {isFound    :   false},
+            Tethys          :   {isFound    :   false},
+            Dione           :   {isFound    :   false},
+            Rhea            :   {isFound    :   false},
+            Titan           :   {isFound    :   false},
+            Hyperion        :   {isFound    :   false},
+            Iapetus         :   {isFound    :   false},
+            Phoebe          :   {isFound    :   false},
+            Janus           :   {isFound    :   false}
         },
         UranusSystem    :   {
-            Uranus          :   {isFound    :   false, Sputnik    :   {key:27}},
-            Ariel           :   {isFound    :   false, Sputnik    :   {key:28}},
-            Umbriel         :   {isFound    :   false, Sputnik    :   {key:29}},
-            Tatania         :   {isFound    :   false, Sputnik    :   {key:30}},
-            Oberon          :   {isFound    :   false, Sputnik    :   {key:31}},
-            Miranda         :   {isFound    :   false, Sputnik    :   {key:32}}
+            Uranus          :   {isFound    :   false},
+            Ariel           :   {isFound    :   false},
+            Umbriel         :   {isFound    :   false},
+            Tatania         :   {isFound    :   false},
+            Oberon          :   {isFound    :   false},
+            Miranda         :   {isFound    :   false}
         },
         NeptuneSystem   :   {
-            Neptune         :   {isFound    :   false, Sputnik    :   {key:33}},
-            Triton          :   {isFound    :   false, Sputnik    :   {key:34}},
-            Nereid          :   {isFound    :   false, Sputnik    :   {key:35}},
-            Naiad           :   {isFound    :   false, Sputnik    :   {key:36}},
-            Thalassa        :   {isFound    :   false, Sputnik    :   {key:37}},
-            Despina         :   {isFound    :   false, Sputnik    :   {key:38}}
+            Neptune         :   {isFound    :   false},
+            Triton          :   {isFound    :   false},
+            Nereid          :   {isFound    :   false},
+            Naiad           :   {isFound    :   false},
+            Thalassa        :   {isFound    :   false},
+            Despina         :   {isFound    :   false}
         }
     }
 };

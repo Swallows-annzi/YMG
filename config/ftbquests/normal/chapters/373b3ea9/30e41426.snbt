@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: 7.5d,
 	shape: "rsquare",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"de16683e"
 	],

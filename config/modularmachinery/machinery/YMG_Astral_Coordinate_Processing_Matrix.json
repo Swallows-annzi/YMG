@@ -193,7 +193,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -406,7 +406,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -463,7 +463,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -657,7 +657,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -733,7 +733,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -823,7 +823,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -1242,7 +1242,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -1448,7 +1448,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -1612,7 +1612,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -1727,7 +1727,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -2345,7 +2345,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -2590,7 +2590,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -2837,7 +2837,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -2877,7 +2877,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -2954,7 +2954,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3090,7 +3090,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3115,7 +3115,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3123,7 +3123,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3387,7 +3387,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3535,7 +3535,7 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3633,7 +3633,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -3700,7 +3700,7 @@
             "z": 3,
 
             "elements": [
-                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
                 "ItemOutputStrengthen"
             ]
@@ -3711,7 +3711,7 @@
             "z": 4,
 
             "elements": [
-                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
                 "ItemOutputStrengthen"
             ]
@@ -3730,7 +3730,7 @@
             "z": 1,
 
             "elements": [
-                "appliedenergistics2:controller@1"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -3739,7 +3739,7 @@
             "z": 2,
 
             "elements": [
-                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
                 "ItemOutputStrengthen"
             ]
@@ -3893,7 +3893,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4026,7 +4026,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4157,7 +4157,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4478,7 +4478,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4633,7 +4633,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4769,7 +4769,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4786,7 +4786,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4899,7 +4899,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {
@@ -4981,7 +4981,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "contenttweaker:mysteriousicecasing@0"
             ]
         },
         {

@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "mets:super_lapotron_crystal",
-			tag: {},
-			Damage: 12344s
+			Damage: 12344s,
+			tag: {}
 		},
 		{
 			id: "mets:super_lapotron_crystal",
@@ -20,7 +20,7 @@
 				charge: 1.0E8d
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "7188f9c7",
 		type: "item",
-		disable_toast: true,
+		disable_toast: 1b,
 		items: [{
 			item: "deepmoblearningbm:blood_infused_glitch_ingot"
 		}]

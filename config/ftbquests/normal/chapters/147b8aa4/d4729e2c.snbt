@@ -8,7 +8,9 @@
 		uid: "10012b92",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungstenwire"
+			item: {
+				item: "swallowsresourcelibrary:tungstenwire"
+			}
 		}]
 	}]
 }

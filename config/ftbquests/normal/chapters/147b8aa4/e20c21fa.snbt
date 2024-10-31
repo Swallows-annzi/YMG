@@ -8,7 +8,9 @@
 		uid: "dc4567fb",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:dsqmaterial70"
+			item: {
+				item: "swallowsresourcelibrary:dsqmaterial70"
+			}
 		}]
 	}]
 }

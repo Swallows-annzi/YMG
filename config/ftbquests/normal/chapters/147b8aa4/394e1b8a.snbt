@@ -8,7 +8,9 @@
 		uid: "fec029d9",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:superenergymatter"
+			item: {
+				item: "swallowsresourcelibrary:superenergymatter"
+			}
 		}]
 	}]
 }

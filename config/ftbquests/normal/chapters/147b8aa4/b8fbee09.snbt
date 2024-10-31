@@ -8,7 +8,9 @@
 		uid: "8214333f",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:anomalousice"
+			item: {
+				item: "swallowsresourcelibrary:anomalousice"
+			}
 		}]
 	}]
 }

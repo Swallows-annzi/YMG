@@ -8,7 +8,7 @@
 	dependencies: [
 		"32dbebfe"
 	],
-	hide: true,
+	hide: 1b,
 	size: 1.5d,
 	tasks: [{
 		uid: "6381a2df",
@@ -19,20 +19,6 @@
 		uid: "ada757d4",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"plustic:": {
-					Size: 1,
-					Items: []
-				},
-				"plustic:fruitsalad_cap": {
-					Size: 5,
-					Items: []
-				},
-				"plustic:musicofthespheres_cap": {
-					Size: 1,
-					Items: []
-				}
-			},
 			id: "tconstruct:pickaxe",
 			tag: {
 				StatsOriginal: {
@@ -99,13 +85,7 @@
 					"cobble_breaker",
 					"reinforced"
 				]
-			}
-		}
-	},
-	{
-		uid: "7214088f",
-		type: "item",
-		item: {
+			},
 			ForgeCaps: {
 				"plustic:": {
 					Size: 1,
@@ -119,7 +99,13 @@
 					Size: 1,
 					Items: []
 				}
-			},
+			}
+		}
+	},
+	{
+		uid: "7214088f",
+		type: "item",
+		item: {
 			id: "tconstruct:lumberaxe",
 			tag: {
 				StatsOriginal: {
@@ -187,13 +173,7 @@
 					"log_breaker",
 					"reinforced"
 				]
-			}
-		}
-	},
-	{
-		uid: "609b39b2",
-		type: "item",
-		item: {
+			},
 			ForgeCaps: {
 				"plustic:": {
 					Size: 1,
@@ -207,7 +187,13 @@
 					Size: 1,
 					Items: []
 				}
-			},
+			}
+		}
+	},
+	{
+		uid: "609b39b2",
+		type: "item",
+		item: {
 			id: "tconstruct:scythe",
 			tag: {
 				ench: [{
@@ -290,13 +276,7 @@
 					"leaf_breaker",
 					"reinforced"
 				]
-			}
-		}
-	},
-	{
-		uid: "7442f503",
-		type: "item",
-		item: {
+			},
 			ForgeCaps: {
 				"plustic:": {
 					Size: 1,
@@ -310,7 +290,13 @@
 					Size: 1,
 					Items: []
 				}
-			},
+			}
+		}
+	},
+	{
+		uid: "7442f503",
+		type: "item",
+		item: {
 			id: "tconstruct:frypan",
 			tag: {
 				ench: [{
@@ -388,6 +374,20 @@
 					"knockback",
 					"reinforced"
 				]
+			},
+			ForgeCaps: {
+				"plustic:": {
+					Size: 1,
+					Items: []
+				},
+				"plustic:fruitsalad_cap": {
+					Size: 5,
+					Items: []
+				},
+				"plustic:musicofthespheres_cap": {
+					Size: 1,
+					Items: []
+				}
 			}
 		}
 	}]

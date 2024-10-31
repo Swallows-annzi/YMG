@@ -8,12 +8,15 @@
 		uid: "7efcceba",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"modularmachinery:upgrade_cap": {
-					tungstenringcoil: {}
-				}
-			},
-			id: "swallowsresourcelibrary:tungstenringcoil"
+			item: {
+				ForgeCaps: {
+					"modularmachinery:upgrade_cap": {
+						tungstenringcoil: {}
+					}
+				},
+				id: "swallowsresourcelibrary:tungstenringcoil",
+				Count: 1b
+			}
 		}]
 	}]
 }

@@ -9,7 +9,9 @@
 		uid: "d523868c",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungstenmotor"
+			item: {
+				item: "swallowsresourcelibrary:tungstenmotor"
+			}
 		}]
 	}]
 }

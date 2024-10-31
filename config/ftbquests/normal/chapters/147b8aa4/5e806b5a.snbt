@@ -8,7 +8,9 @@
 		uid: "b020064e",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:mysteriousicegear"
+			item: {
+				item: "swallowsresourcelibrary:mysteriousicegear"
+			}
 		}]
 	}]
 }

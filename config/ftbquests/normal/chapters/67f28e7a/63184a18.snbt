@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -0.5d,
 	shape: "diamond",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"be787bed",
 		"6215b617"

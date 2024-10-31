@@ -12,7 +12,7 @@
 			item: "threng:material"
 		}],
 		count: 64L,
-		consume_items: true
+		consume_items: 1b
 	}],
 	rewards: [{
 		uid: "d7c3a6ed",

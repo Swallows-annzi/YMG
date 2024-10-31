@@ -8,12 +8,15 @@
 		uid: "353d94af",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"modularmachinery:upgrade_cap": {
-					tungstencrystal: {}
-				}
-			},
-			id: "swallowsresourcelibrary:tungstencrystal"
+			item: {
+				ForgeCaps: {
+					"modularmachinery:upgrade_cap": {
+						tungstencrystal: {}
+					}
+				},
+				id: "swallowsresourcelibrary:tungstencrystal",
+				Count: 1b
+			}
 		}]
 	}]
 }

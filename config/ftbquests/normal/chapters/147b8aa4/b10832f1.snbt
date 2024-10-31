@@ -1,5 +1,5 @@
 {
-	disable_toast: true,
+	disable_toast: 1b,
 	x: -3.0d,
 	y: 24.75d,
 	shape: "gear",

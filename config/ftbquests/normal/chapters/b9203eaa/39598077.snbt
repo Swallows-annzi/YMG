@@ -5,7 +5,7 @@
 		"使用木棍击打坤坤，将其击杀即可获得。",
 		"但只能锤圆石、沙砾以及沙子。"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"a4560721"
 	],
@@ -15,7 +15,7 @@
 		items: [{
 			item: "excompressum:chicken_stick"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

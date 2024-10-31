@@ -8,7 +8,9 @@
 		uid: "09fc5219",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:ymcomputecore"
+			item: {
+				item: "swallowsresourcelibrary:ymcomputecore"
+			}
 		}]
 	}]
 }

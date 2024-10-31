@@ -10,7 +10,9 @@
 		uid: "eadf8962",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:iridiummotor"
+			item: {
+				item: "swallowsresourcelibrary:iridiummotor"
+			}
 		}]
 	}]
 }

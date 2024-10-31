@@ -8,7 +8,9 @@
 		uid: "96e6a6c0",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungstengear"
+			item: {
+				item: "swallowsresourcelibrary:tungstengear"
+			}
 		}]
 	}]
 }

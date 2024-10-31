@@ -8,7 +8,9 @@
 		uid: "f1a68824",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:radiantcrystalpowder"
+			item: {
+				item: "swallowsresourcelibrary:radiantcrystalpowder"
+			}
 		}]
 	}]
 }

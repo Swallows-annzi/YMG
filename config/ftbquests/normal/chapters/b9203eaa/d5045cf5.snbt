@@ -4,7 +4,7 @@
 	text: [
 		"除了快，一无是处。"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"76820ae4"
 	],
@@ -14,7 +14,7 @@
 		items: [{
 			item: "exnihilocreatio:crook_gold"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

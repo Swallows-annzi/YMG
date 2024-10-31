@@ -9,7 +9,10 @@
 		type: "item",
 		items: [{
 			item: {
-				item: "jaopca:item_stickiridium"
+				item: {
+					item: "jaopca:item_stickiridium"
+				},
+				Count: 1b
 			}
 		}]
 	}]

@@ -2,7 +2,7 @@
 	x: 2.5d,
 	y: -2.5d,
 	shape: "diamond",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"be787bed"
 	],
@@ -12,7 +12,7 @@
 		items: [{
 			item: "environmentaltech:tool_multiblock_assembler"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

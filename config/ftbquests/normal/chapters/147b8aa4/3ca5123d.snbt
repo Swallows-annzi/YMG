@@ -8,7 +8,9 @@
 		uid: "b5b7d15a",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:mysteriousiceplate"
+			item: {
+				item: "swallowsresourcelibrary:mysteriousiceplate"
+			}
 		}]
 	}]
 }

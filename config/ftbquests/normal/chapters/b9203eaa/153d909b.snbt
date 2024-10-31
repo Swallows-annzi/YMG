@@ -3,7 +3,7 @@
 	icon: "thermalfoundation:material 1 131",
 	x: -1.0d,
 	y: 4.0d,
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"48842c74"
 	],

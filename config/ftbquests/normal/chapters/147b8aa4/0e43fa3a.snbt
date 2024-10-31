@@ -8,7 +8,9 @@
 		uid: "ae7093e6",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:mysteriousicewire"
+			item: {
+				item: "swallowsresourcelibrary:mysteriousicewire"
+			}
 		}]
 	}]
 }

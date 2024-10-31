@@ -5,7 +5,7 @@
 		"放入带有结构的活石祭坛进行充能。",
 		"将它带在身上会一定程度得到增益。"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"9b335e1a",
 		"ea9444d5"
@@ -17,7 +17,7 @@
 			id: "extrabotany:natureorb",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

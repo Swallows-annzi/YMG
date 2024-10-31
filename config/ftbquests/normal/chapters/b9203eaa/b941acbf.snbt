@@ -12,6 +12,6 @@
 			item: "minecraft:sand"
 		}],
 		count: 64L,
-		consume_items: false
+		consume_items: 0b
 	}]
 }

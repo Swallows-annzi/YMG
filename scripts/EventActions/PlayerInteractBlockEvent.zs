@@ -135,47 +135,47 @@ events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
             "§e----§d海卫五§e----§d：" + isFound(Despina["isFound"].asBool())
             , false
         );
-        event.player.sendStatusMessage(
-            "§e----§d太阳§e----§b人造卫星：§f" + Sun["Sputnik"].asString() + " " +
-            "§e----§d水星§e----§b人造卫星：§f" + Mercury["Sputnik"].asString() + " " +
-            "§e----§d金星§e----§b人造卫星：§f" + Venus["Sputnik"].asString() + " " +
-            "§e----§d地球§e----§b人造卫星：§f" + Earth["Sputnik"].asString() + " " +
-            "§e----§d月球§e----§b人造卫星：§f" + Moon["Sputnik"].asString() + " " +
-            "§e----§d火星§e----§b人造卫星：§f" + Mars["Sputnik"].asString() + " " +
-            "§e----§d火卫一§e----§b人造卫星：§f" + Phobos["Sputnik"].asString() + " " +
-            "§e----§d火卫二§e----§b人造卫星：§f" + Deimos["Sputnik"].asString() + " " +
-            "§e----§d木星§e----§b人造卫星：§f" + Jupiter["Sputnik"].asString() + " " +
-            "§e----§d木卫一§e----§b人造卫星：§f" + Io["Sputnik"].asString() + " " +
-            "§e----§d木卫二§e----§b人造卫星：§f" + Europa["Sputnik"].asString() + " " +
-            "§e----§d木卫三§e----§b人造卫星：§f" + Ganymede["Sputnik"].asString() + " " +
-            "§e----§d木卫四§e----§b人造卫星：§f" + Callisto["Sputnik"].asString() + " " +
-            "§e----§d木卫五§e----§b人造卫星：§f" + Amalthea["Sputnik"].asString() + " " +
-            "§e----§d木卫六§e----§b人造卫星：§f" + Himalia["Sputnik"].asString() + " " +
-            "§e----§d土星§e----§b人造卫星：§f" + Saturn["Sputnik"].asString() + " " +
-            "§e----§d土卫一§e----§b人造卫星：§f" + Mimas["Sputnik"].asString() + " " +
-            "§e----§d土卫二§e----§b人造卫星：§f" + Enceladus["Sputnik"].asString() + " " +
-            "§e----§d土卫三§e----§b人造卫星：§f" + Tethys["Sputnik"].asString() + " " +
-            "§e----§d土卫四§e----§b人造卫星：§f" + Dione["Sputnik"].asString() + " " +
-            "§e----§d土卫五§e----§b人造卫星：§f" + Rhea["Sputnik"].asString() + " " +
-            "§e----§d土卫六§e----§b人造卫星：§f" + Titan["Sputnik"].asString() + " " +
-            "§e----§d土卫七§e----§b人造卫星：§f" + Hyperion["Sputnik"].asString() + " " +
-            "§e----§d土卫八§e----§b人造卫星：§f" + Iapetus["Sputnik"].asString() + " " +
-            "§e----§d土卫九§e----§b人造卫星：§f" + Phoebe["Sputnik"].asString() + " " +
-            "§e----§d土卫十§e----§b人造卫星：§f" + Janus["Sputnik"].asString() + " " +
-            "§e----§d天王星§e----§b人造卫星：§f" + Uranus["Sputnik"].asString() + " " +
-            "§e----§d天卫一§e----§b人造卫星：§f" + Ariel["Sputnik"].asString() + " " +
-            "§e----§d天卫二§e----§b人造卫星：§f" + Umbriel["Sputnik"].asString() + " " +
-            "§e----§d天卫三§e----§b人造卫星：§f" + Tatania["Sputnik"].asString() + " " +
-            "§e----§d天卫四§e----§b人造卫星：§f" + Oberon["Sputnik"].asString() + " " +
-            "§e----§d天卫五§e----§b人造卫星：§f" + Miranda["Sputnik"].asString() + " " +
-            "§e----§d海王星§e----§b人造卫星：§f" + Neptune["Sputnik"].asString() + " " +
-            "§e----§d海卫一§e----§b人造卫星：§f" + Triton["Sputnik"].asString() + " " +
-            "§e----§d海卫二§e----§b人造卫星：§f" + Nereid["Sputnik"].asString() + " " +
-            "§e----§d海卫三§e----§b人造卫星：§f" + Naiad["Sputnik"].asString() + " " +
-            "§e----§d海卫四§e----§b人造卫星：§f" + Thalassa["Sputnik"].asString() + " " +
-            "§e----§d海卫五§e----§b人造卫星：§f" + Despina["Sputnik"].asString()
-            , false
-        );
+        // event.player.sendStatusMessage(
+        //     "§e----§d太阳§e----§b人造卫星：§f" + Sun["Sputnik"].asString() + " " +
+        //     "§e----§d水星§e----§b人造卫星：§f" + Mercury["Sputnik"].asString() + " " +
+        //     "§e----§d金星§e----§b人造卫星：§f" + Venus["Sputnik"].asString() + " " +
+        //     "§e----§d地球§e----§b人造卫星：§f" + Earth["Sputnik"].asString() + " " +
+        //     "§e----§d月球§e----§b人造卫星：§f" + Moon["Sputnik"].asString() + " " +
+        //     "§e----§d火星§e----§b人造卫星：§f" + Mars["Sputnik"].asString() + " " +
+        //     "§e----§d火卫一§e----§b人造卫星：§f" + Phobos["Sputnik"].asString() + " " +
+        //     "§e----§d火卫二§e----§b人造卫星：§f" + Deimos["Sputnik"].asString() + " " +
+        //     "§e----§d木星§e----§b人造卫星：§f" + Jupiter["Sputnik"].asString() + " " +
+        //     "§e----§d木卫一§e----§b人造卫星：§f" + Io["Sputnik"].asString() + " " +
+        //     "§e----§d木卫二§e----§b人造卫星：§f" + Europa["Sputnik"].asString() + " " +
+        //     "§e----§d木卫三§e----§b人造卫星：§f" + Ganymede["Sputnik"].asString() + " " +
+        //     "§e----§d木卫四§e----§b人造卫星：§f" + Callisto["Sputnik"].asString() + " " +
+        //     "§e----§d木卫五§e----§b人造卫星：§f" + Amalthea["Sputnik"].asString() + " " +
+        //     "§e----§d木卫六§e----§b人造卫星：§f" + Himalia["Sputnik"].asString() + " " +
+        //     "§e----§d土星§e----§b人造卫星：§f" + Saturn["Sputnik"].asString() + " " +
+        //     "§e----§d土卫一§e----§b人造卫星：§f" + Mimas["Sputnik"].asString() + " " +
+        //     "§e----§d土卫二§e----§b人造卫星：§f" + Enceladus["Sputnik"].asString() + " " +
+        //     "§e----§d土卫三§e----§b人造卫星：§f" + Tethys["Sputnik"].asString() + " " +
+        //     "§e----§d土卫四§e----§b人造卫星：§f" + Dione["Sputnik"].asString() + " " +
+        //     "§e----§d土卫五§e----§b人造卫星：§f" + Rhea["Sputnik"].asString() + " " +
+        //     "§e----§d土卫六§e----§b人造卫星：§f" + Titan["Sputnik"].asString() + " " +
+        //     "§e----§d土卫七§e----§b人造卫星：§f" + Hyperion["Sputnik"].asString() + " " +
+        //     "§e----§d土卫八§e----§b人造卫星：§f" + Iapetus["Sputnik"].asString() + " " +
+        //     "§e----§d土卫九§e----§b人造卫星：§f" + Phoebe["Sputnik"].asString() + " " +
+        //     "§e----§d土卫十§e----§b人造卫星：§f" + Janus["Sputnik"].asString() + " " +
+        //     "§e----§d天王星§e----§b人造卫星：§f" + Uranus["Sputnik"].asString() + " " +
+        //     "§e----§d天卫一§e----§b人造卫星：§f" + Ariel["Sputnik"].asString() + " " +
+        //     "§e----§d天卫二§e----§b人造卫星：§f" + Umbriel["Sputnik"].asString() + " " +
+        //     "§e----§d天卫三§e----§b人造卫星：§f" + Tatania["Sputnik"].asString() + " " +
+        //     "§e----§d天卫四§e----§b人造卫星：§f" + Oberon["Sputnik"].asString() + " " +
+        //     "§e----§d天卫五§e----§b人造卫星：§f" + Miranda["Sputnik"].asString() + " " +
+        //     "§e----§d海王星§e----§b人造卫星：§f" + Neptune["Sputnik"].asString() + " " +
+        //     "§e----§d海卫一§e----§b人造卫星：§f" + Triton["Sputnik"].asString() + " " +
+        //     "§e----§d海卫二§e----§b人造卫星：§f" + Nereid["Sputnik"].asString() + " " +
+        //     "§e----§d海卫三§e----§b人造卫星：§f" + Naiad["Sputnik"].asString() + " " +
+        //     "§e----§d海卫四§e----§b人造卫星：§f" + Thalassa["Sputnik"].asString() + " " +
+        //     "§e----§d海卫五§e----§b人造卫星：§f" + Despina["Sputnik"].asString()
+        //     , false
+        // );
         event.cancel();
     }
 });

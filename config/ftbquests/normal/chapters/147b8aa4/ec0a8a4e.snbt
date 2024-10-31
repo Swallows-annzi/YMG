@@ -11,7 +11,9 @@
 		uid: "7a8a07c3",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungsteningot"
+			item: {
+				item: "swallowsresourcelibrary:tungsteningot"
+			}
 		}]
 	}]
 }

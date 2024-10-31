@@ -9,7 +9,9 @@
 		uid: "4cf3e006",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:flameprism"
+			item: {
+				item: "swallowsresourcelibrary:flameprism"
+			}
 		}]
 	}]
 }

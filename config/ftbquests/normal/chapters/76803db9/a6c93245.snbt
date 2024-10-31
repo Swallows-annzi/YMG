@@ -6,10 +6,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:basicblock2",
+			Damage: 4s,
 			tag: {
 				tier: 3
-			},
-			Damage: 4s
+			}
 		}]
 	}]
 }

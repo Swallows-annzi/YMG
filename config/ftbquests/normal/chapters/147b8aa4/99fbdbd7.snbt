@@ -9,7 +9,9 @@
 		uid: "972fabc1",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:dsqmaterial112"
+			item: {
+				item: "swallowsresourcelibrary:dsqmaterial112"
+			}
 		}]
 	}]
 }

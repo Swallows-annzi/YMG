@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "bloodmagic:soul_gem",
-			tag: {},
-			Damage: 3s
+			Damage: 3s,
+			tag: {}
 		}],
 		ignore_nbt: 1b
 	}]

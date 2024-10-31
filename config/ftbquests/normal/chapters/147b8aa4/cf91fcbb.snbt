@@ -10,7 +10,9 @@
 		uid: "56c78390",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:mysteriousicecoil"
+			item: {
+				item: "swallowsresourcelibrary:mysteriousicecoil"
+			}
 		}]
 	}]
 }

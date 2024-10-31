@@ -8,7 +8,9 @@
 		uid: "4281da50",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:iridiumwire"
+			item: {
+				item: "swallowsresourcelibrary:iridiumwire"
+			}
 		}]
 	}]
 }

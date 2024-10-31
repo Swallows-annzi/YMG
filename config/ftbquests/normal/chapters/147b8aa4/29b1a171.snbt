@@ -9,7 +9,9 @@
 		uid: "95025a2a",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:colorfulice"
+			item: {
+				item: "swallowsresourcelibrary:colorfulice"
+			}
 		}]
 	}]
 }

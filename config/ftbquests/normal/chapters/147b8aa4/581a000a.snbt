@@ -9,7 +9,9 @@
 		uid: "3d2d0454",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungstenplate"
+			item: {
+				item: "swallowsresourcelibrary:tungstenplate"
+			}
 		}]
 	}]
 }

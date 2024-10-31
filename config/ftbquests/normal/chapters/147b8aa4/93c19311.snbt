@@ -9,12 +9,15 @@
 		uid: "2acacb87",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"modularmachinery:upgrade_cap": {
-					iridiumringcoil: {}
-				}
-			},
-			id: "swallowsresourcelibrary:iridiumringcoil"
+			item: {
+				ForgeCaps: {
+					"modularmachinery:upgrade_cap": {
+						iridiumringcoil: {}
+					}
+				},
+				id: "swallowsresourcelibrary:iridiumringcoil",
+				Count: 1b
+			}
 		}]
 	}]
 }

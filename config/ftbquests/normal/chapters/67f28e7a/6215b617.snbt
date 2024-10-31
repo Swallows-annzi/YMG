@@ -2,11 +2,11 @@
 	x: 1.5d,
 	y: -5.25d,
 	shape: "diamond",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"280d4fd4"
 	],
-	hide: true,
+	hide: 1b,
 	size: 1.5d,
 	tasks: [{
 		uid: "5a83b3cc",

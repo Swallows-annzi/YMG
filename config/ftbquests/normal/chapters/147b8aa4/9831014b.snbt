@@ -8,7 +8,9 @@
 		uid: "c3888f46",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungstencoil"
+			item: {
+				item: "swallowsresourcelibrary:tungstencoil"
+			}
 		}]
 	}]
 }

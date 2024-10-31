@@ -8,7 +8,9 @@
 		uid: "3888c381",
 		type: "item",
 		items: [{
-			item: "modularmachinery:ymg_digital_altar_factory_controller"
+			item: {
+				item: "modularmachinery:ymg_digital_altar_factory_controller"
+			}
 		}]
 	}]
 }

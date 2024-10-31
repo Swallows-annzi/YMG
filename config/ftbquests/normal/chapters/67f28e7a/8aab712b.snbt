@@ -2,7 +2,7 @@
 	x: 6.5d,
 	y: -1.0d,
 	shape: "diamond",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"a9ab51e6",
 		"da769cc4"

@@ -1,5 +1,5 @@
 {
-	disable_toast: true,
+	disable_toast: 1b,
 	x: 2.0d,
 	y: 2.0d,
 	shape: "gear",
@@ -11,7 +11,9 @@
 		uid: "652cfdc6",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungsteningot"
+			item: {
+				item: "swallowsresourcelibrary:tungsteningot"
+			}
 		}]
 	}]
 }

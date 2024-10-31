@@ -11,7 +11,9 @@
 		uid: "91fd20b6",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:mysteriousiceingot"
+			item: {
+				item: "swallowsresourcelibrary:mysteriousiceingot"
+			}
 		}]
 	}]
 }

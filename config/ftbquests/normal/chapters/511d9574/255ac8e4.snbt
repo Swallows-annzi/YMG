@@ -9,7 +9,9 @@
 		uid: "54446883",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:bloodyprism"
+			item: {
+				item: "swallowsresourcelibrary:bloodyprism"
+			}
 		}]
 	}]
 }

@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "ic2:lapotron_crystal",
-			tag: {},
-			Damage: 26s
+			Damage: 26s,
+			tag: {}
 		},
 		{
 			id: "ic2:lapotron_crystal",
@@ -20,7 +20,7 @@
 				charge: 1.0E7d
 			}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

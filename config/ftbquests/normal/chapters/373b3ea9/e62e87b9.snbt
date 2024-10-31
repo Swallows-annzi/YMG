@@ -1,9 +1,9 @@
 {
-	disable_toast: true,
+	disable_toast: 1b,
 	x: 15.5d,
 	y: 2.0d,
 	shape: "gear",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"d3e85888",
 		"25ccc41d",
@@ -16,7 +16,9 @@
 		uid: "df5a7714",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:olihacon"
+			item: {
+				item: "swallowsresourcelibrary:olihacon"
+			}
 		}]
 	}]
 }

@@ -10,8 +10,8 @@
 		type: "item",
 		items: [{
 			id: "gugu-utils:sparkmanahatch",
-			tag: {},
-			Damage: 1s
+			Damage: 1s,
+			tag: {}
 		}]
 	}]
 }

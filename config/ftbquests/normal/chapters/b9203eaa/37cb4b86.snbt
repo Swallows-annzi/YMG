@@ -18,7 +18,7 @@
 	rewards: [{
 		uid: "9aa7dbba",
 		type: "item",
-		team_reward: true,
+		team_reward: 1b,
 		item: "exnihilocreatio:item_cooked_silkworm",
 		count: 5
 	}]

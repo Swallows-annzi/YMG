@@ -8,7 +8,9 @@
 		uid: "dfab07aa",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:tungstendust"
+			item: {
+				item: "swallowsresourcelibrary:tungstendust"
+			}
 		}]
 	}]
 }

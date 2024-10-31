@@ -8,7 +8,9 @@
 		uid: "f075923a",
 		type: "item",
 		items: [{
-			item: "swallowsresourcelibrary:iridiumcoil"
+			item: {
+				item: "swallowsresourcelibrary:iridiumcoil"
+			}
 		}]
 	}]
 }
