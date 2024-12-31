@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Astral_Coordinate_Processing_Matrix",
-    "localizedname": "§b§lYMG§r§e§l—#A382FF§l星体位标处理矩阵 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l星体位标处理矩阵 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

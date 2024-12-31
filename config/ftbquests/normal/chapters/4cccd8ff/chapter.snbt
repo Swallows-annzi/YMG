@@ -1,7 +1,0 @@
-{
-	title: "云梦阁",
-	icon: "swallowsresourcelibrary:yun",
-	always_invisible: 0b,
-	group: 0,
-	default_quest_shape: ""
-}

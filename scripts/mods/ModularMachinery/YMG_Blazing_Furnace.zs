@@ -452,7 +452,7 @@ MMEvents.onControllerGUIRender("YMG_Blazing_Furnace", function(event as Controll
     map["crystal"] = isNull(map["crystal"]) ? 0 as int : map["crystal"].asInt();
     map["coil"] = isNull(map["coil"]) ? 0 as int : map["coil"].asInt();
     map["state"] = isNull(map["state"]) ? 0 as int : map["state"].asInt();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     if(map["crystal"].asInt() == 0)
     info += "§9结晶簇核：§c当前无结晶簇核";
     if(map["crystal"].asInt() == 1)
@@ -480,7 +480,7 @@ MMEvents.onControllerGUIRender("YMG_Blazing_Furnace", function(event as Controll
     //测试项
     // info += "§4测试数据输出";
     // info += "§9状态码：§e" + map["state"].asInt();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     ctrl.customData = data;
     event.extraInfo = info;
 });

@@ -16,7 +16,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 MachineModifier.setMaxThreads("YMG_Cosmic_Imaging_Lens_Group", 0);
 
 //运行核心
-val Imaging_String = "#230062§l成像系统";
+val Imaging_String = "§l成像系统";
 MachineModifier.addCoreThread("YMG_Cosmic_Imaging_Lens_Group", FactoryRecipeThread.createCoreThread(Imaging_String));
 
 //激光核心

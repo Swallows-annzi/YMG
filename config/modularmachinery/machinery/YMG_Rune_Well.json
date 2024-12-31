@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Rune_Well",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l符文灵井 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l符文灵井 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

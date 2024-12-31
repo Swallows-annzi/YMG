@@ -21,7 +21,7 @@ MachineModifier.setMaxParallelism("YMG_Rune_Well", 16);
 MachineModifier.setInternalParallelism("YMG_Rune_Well", 16);
 
 //白雏菊
-val Puredaisy_String = "#FFFFFF§l白雏菊";
+val Puredaisy_String = "§f§l白雏菊";
 MachineModifier.addCoreThread("YMG_Rune_Well", FactoryRecipeThread.createCoreThread(Puredaisy_String));
 
 //符文祭坛

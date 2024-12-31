@@ -21,6 +21,7 @@ import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.RecipeModifierBuilder;
 
+
 //线程设置
 MachineModifier.setMaxThreads("YMG_Bedrock_Laser_Drills", 0);
 
@@ -417,7 +418,7 @@ MMEvents.onControllerGUIRender("YMG_Bedrock_Laser_Drills", function(event as Con
     var info as string[] = [];
     map["thermal"] = isNull(map["thermal"]) ? 300.15 as double : map["thermal"].asDouble();
     map["level"] = isNull(map["level"]) ? 0 as int : map["level"].asInt();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     info += "§9核心等级：" + Level(map["level"].asInt());
     info += "§9激光功率：§e" + map["power"].asInt() + " §6W";
     info += "§9核心热量：§e" + Percentage(map["thermal"].asDouble()) + " §6K";
@@ -429,7 +430,7 @@ MMEvents.onControllerGUIRender("YMG_Bedrock_Laser_Drills", function(event as Con
     // info += "§9热量影响值：§e1.0 §6x";
     // if(map["thermal"].asDouble() > 50000)
     // info += "§9热量影响值：§e" + Percentage(((map["thermal"].asDouble() - 50000.0) * (map["thermal"].asDouble() - 50000.0) / 400000000.0) + 1.0) + " §6x";
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     ctrl.customData = data;
     event.extraInfo = info;
 });

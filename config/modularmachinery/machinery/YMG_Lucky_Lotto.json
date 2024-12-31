@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Lucky_Lotto",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l幸运大乐透 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l幸运大乐透 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Resonating_Well",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l共振聚星缸 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l共振聚星缸 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "FFFFFF",

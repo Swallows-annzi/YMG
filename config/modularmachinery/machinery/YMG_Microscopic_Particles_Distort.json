@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Microscopic_Particles_Distort",
-    "localizedname": "§b§lYMG§r§e§l—#E8E3AA§l微观粒子扭曲仪 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l微观粒子扭曲仪 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "E8E3AA",

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Thermal_Power_Plant",
-    "localizedname": "§b§lYMG§r§e§l—#464646§l火力发电厂 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l火力发电厂 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "464646",

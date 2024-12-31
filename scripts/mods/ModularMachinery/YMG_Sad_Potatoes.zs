@@ -275,9 +275,9 @@ MMEvents.onControllerGUIRender("YMG_Sad_Potatoes", function(event as ControllerG
     val map = data.asMap();
     var info as string[] = [];
     map["Level"] = isNull(map["Level"]) ? 0 as long : map["Level"].asInt();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     info += "§9马铃薯等级：§e" + map["Level"].asInt();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     // info += data;
     event.extraInfo = info;
 });

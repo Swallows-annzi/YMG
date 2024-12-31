@@ -1,9 +1,0 @@
-{
-	x: -0.5d,
-	y: 0.0d,
-	tasks: [{
-		uid: "bfa05eb0",
-		type: "checkmark",
-		title: "环境科技"
-	}]
-}

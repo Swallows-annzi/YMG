@@ -89,8 +89,10 @@ mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_assembly_line_advanced"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_microscopic_particles_distort"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_agricultural_glass_greenhouses"}));
-
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_ym_capacitor_bank_"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_mana_extraction_stage"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_astronomical_observatories"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_precision_rocket_assembly_chamber"}));
 
 mods.jei.JEI.hide(<botania_tweaks:dire_crafty_crate>);
 mods.jei.JEI.hide(<botania_tweaks:basic_extended_crafty_crate>);

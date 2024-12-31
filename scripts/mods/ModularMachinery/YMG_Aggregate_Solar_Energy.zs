@@ -35,10 +35,10 @@ MMEvents.onControllerGUIRender("YMG_Aggregate_Solar_Energy", function(event as C
     val map = data.asMap();
     var info as string[] = [];
     map["generation"] = isNull(map["generation"]) ? 20000 as long : map["generation"].asLong();
-    info += "§a//////////////////////////////////////////////";
+    info += "§a>>";
     info += "§d时间：" + TimeString(ctrl.world.provider.worldTime % 24000) + Weather(ctrl.world.isRaining());
     info += "§9基础发电功率：§e" + FormatNumber(map["generation"].asLong()) + " §6RF/T";
-    info += "§a//////////////////////////////////////////////";
+    info += "§a>>";
     //测试项
     // info += "X: " + ctrl.pos.x + " Y: " + ctrl.pos.y + " Z: " + ctrl.pos.z;
     // info += ctrl.world.getBlock( ctrl.pos.x, ctrl.pos.y, ctrl.pos.z).data;

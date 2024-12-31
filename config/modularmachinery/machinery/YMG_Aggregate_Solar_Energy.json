@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Aggregate_Solar_Energy",
-    "localizedname": "§b§lYMG§r§e§l—#EBFCFF§l聚合太阳能 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l聚合太阳能 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "EBFCFF",

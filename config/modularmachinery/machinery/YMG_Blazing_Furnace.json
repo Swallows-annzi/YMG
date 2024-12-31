@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Blazing_Furnace",
-    "localizedname": "§b§lYMG§r§e§l—§6§l炽焰熔炼炉 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l炽焰熔炼炉 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

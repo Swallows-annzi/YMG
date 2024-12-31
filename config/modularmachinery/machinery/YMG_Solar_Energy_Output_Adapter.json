@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Solar_Energy_Output_Adapter",
-    "localizedname": "§b§lYMG§r§e§l—#9DEEFF§l太阳能能源输出转接器 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l太阳能能源输出转接器 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "9DEEFF",

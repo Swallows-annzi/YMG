@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Fluid_Infiltration_Device",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l流体渗入器 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l流体渗入器 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

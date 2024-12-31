@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Jumping_Rift",
-    "localizedname": "§b§lYMG§r§e§l—#942DCE§l折跃裂隙 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l折跃裂隙 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "BF68F0",

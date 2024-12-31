@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Spray_On_Coating_laminator",
-    "localizedname": "§b§lYMG§r§e§l—#F5D8FF§l喷涂式镀层覆膜机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l喷涂式镀层覆膜机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "DDDDDD",

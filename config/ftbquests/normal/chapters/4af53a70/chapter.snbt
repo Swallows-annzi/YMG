@@ -1,7 +1,0 @@
-{
-	title: "龙之研究",
-	icon: "draconicevolution:fusion_crafting_core",
-	always_invisible: 0b,
-	group: 0,
-	default_quest_shape: ""
-}

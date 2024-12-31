@@ -1,9 +1,0 @@
-{
-	x: 6.5d,
-	y: -3.0d,
-	tasks: [{
-		uid: "d162ec26",
-		type: "checkmark",
-		title: "模块化"
-	}]
-}

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Kitchen_Generator",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l厨余发电机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l厨余发电机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "FFFFFF",

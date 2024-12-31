@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Assembling_machine",
-    "localizedname": "§b§lYMG§r§e§l—#CACA43§l组装机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l组装机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "CACA43",

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Crystal_Spawned_Bin",
-    "localizedname": "§b§lYMG§r§e§l—#95CEFF§l晶体催生仓 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l晶体催生仓 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "95CEFF",

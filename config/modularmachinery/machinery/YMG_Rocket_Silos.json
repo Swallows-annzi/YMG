@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Rocket_Silos",
-    "localizedname": "§b§lYMG§r§e§l—#FFB64C§l火箭发射井 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l火箭发射井 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

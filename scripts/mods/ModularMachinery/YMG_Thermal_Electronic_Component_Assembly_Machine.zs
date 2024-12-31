@@ -58,7 +58,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Thermal_Electronic_Component_Ass
     map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
     if(map["Thermal"].asLong() == MaxThermal)
     ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_1", RecipeModifierBuilder.create("modularmachinery:energy", "input", setStandby, 1, false).build());
-
 })
 .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
     val ctrl = event.controller;
@@ -462,9 +461,9 @@ MMEvents.onControllerGUIRender("YMG_Thermal_Electronic_Component_Assembly_Machin
     val map = data.asMap();
     var info as string[] = [];
     map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     info += "§9工作状态：" + State(map["Thermal"].asLong(), MaxThermal) + " " + percentage(map["Thermal"].asLong(), MaxThermal, 2) + "%";
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     //测试项
     // info += "§4测试数据输出";
     // info += "§d运行中配方";

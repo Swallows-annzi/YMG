@@ -11,6 +11,8 @@ import crafttweaker.event.PlayerInteractEntityEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.data.IData;
 
+import mods.zenutils.UUID;
+
 import mods.additionalapi.WorldData;
 
 
@@ -170,7 +172,13 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
             val player as IPlayer = event.target;
             val data as IData = WorldData.getArchiveData("EnergyData", event.target.uuid);
             val map = data.asMap();
-            event.player.sendStatusMessage("§9" + player.name + "§5 的 §6无线网能量§b：§d§l" + map["Energy"].asString(), false);
+                event.player.sendStatusMessage("§9" + player.name + "§5 的 §6无线网能量§b：§d§l" + map["Energy"].asString(), false);
+                event.player.sendStatusMessage("§9" + player.name + "§5 的 §6未扣除能量§b：§d§l" + map["Deduct"].asString(), false);
+                event.player.sendStatusMessage("§6是否私人网络§b：§d§l" + map["isPrivate"].asString(), false);
+                event.player.sendStatusMessage("§6主网络玩家UUID§b：§d§l" + map["TargetUUID"].asString(), false);
+                // val TargetData as IData = WorldData.getArchiveData("EnergyData", map["TargetUUID"].asString());
+                // val TargetMap = TargetData.asMap();
+                // event.player.sendStatusMessage("§9" + event.world.getPlayerByUUID(UUID.fromString(map["TargetUUID"].asString())).name + "§5 的 §6无线网能量§b：§d§l" + TargetMap["Energy"].asString(), false);
         }
     }
     event.cancel();

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_EndSteel_Furnace",
-    "localizedname": "§b§lYMG§r§e§l—#E8E3AA§l末影钢熔炉 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l末影钢熔炉 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "E8E3AA",

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Nether_Abyss",
-    "localizedname": "§b§lYMG§r§e§l—#C31717§l地狱深渊 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l地狱深渊 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "C31717",

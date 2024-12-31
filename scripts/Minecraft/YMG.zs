@@ -149,9 +149,16 @@ recipes.addShapeless(<contenttweaker:stellajewel> * 9,[<contenttweaker:stellajew
 //坐标卡数据清除
 recipes.addShapeless(<contenttweaker:commondatamodelpos>.withTag({display: {Lore: ["§9x坐标：§enull", "§9y坐标：§enull", "§9z坐标：§enull"]}, state: "false"}),[<contenttweaker:commondatamodelpos>]);
 
+//星球卡数据清除
+recipes.addShapeless(<contenttweaker:commondatamodel>,[<contenttweaker:galaxycoordinatecard>]);
+
 //坐标卡
 recipes.addShapeless(<contenttweaker:commondatamodelpos>.withTag({display: {Lore: ["§9x坐标：§enull", "§9y坐标：§enull", "§9z坐标：§enull"]}, state: "false"}),[<contenttweaker:commondatamodel>, <extrabotany:binder>]);
 recipes.addShapeless(<contenttweaker:commondatamodelpos>.withTag({display: {Lore: ["§9x坐标：§enull", "§9y坐标：§enull", "§9z坐标：§enull"]}, state: "false"}),[<contenttweaker:commondatamodel>, <enderio:item_coord_selector>]);
+
+//星系进度同步卡
+recipes.addShapeless(<contenttweaker:galaxy_sync_card_1>.withTag({state: "false"}),[<contenttweaker:galaxy_sync_card_1>]);
+recipes.addShapeless(<contenttweaker:galaxy_sync_card_2>.withTag({state: "false"}),[<contenttweaker:galaxy_sync_card_2>]);
 
 //琉璃玄冰
 // recipes.addShapeless(<contenttweaker:colorfulice> * 64,[<contenttweaker:colorfulice>,<custommc:item782>]);

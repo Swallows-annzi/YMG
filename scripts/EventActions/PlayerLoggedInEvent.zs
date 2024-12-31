@@ -15,7 +15,7 @@ import mods.additionalapi.WorldData;
 
 val SolarSystemData as IData = {
     SolarSystem     :   {
-        Sun             :   {isFound    :   false},
+        Sun             :   {isFound    :   true},
         Mercury         :   {isFound    :   false},
         Venus           :   {isFound    :   false},
         EarthSystem     :   {
@@ -69,15 +69,25 @@ val SolarSystemData as IData = {
 };
 
 val EnergyData as IData = {
-    Energy          :   "0"
+    Energy          :   "0",
+    Deduct          :   "0",
+    isPrivate       :   "true",
+    TargetUUID      :   ""
 };
 
+//进度初始化或继承
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
-    val player = event.player;
-    if(!WorldData.isArchiveData("PlanetsProgressData", event.player.uuid)){
-        WorldData.setArchiveData("PlanetsProgressData", event.player.uuid, SolarSystemData);
+    val Player = event.player;
+    if(!isNull(Player.data.SolarSystem)){
+        val PlayerSolarSystemData as IData = {
+            SolarSystem : Player.data.SolarSystem
+        };
+        WorldData.setArchiveData("PlanetsProgressData", Player.uuid, PlayerSolarSystemData);
     }
-    if(!WorldData.isArchiveData("EnergyData", event.player.uuid)){
-        WorldData.setArchiveData("EnergyData", event.player.uuid, EnergyData);
+    if(!WorldData.isArchiveData("PlanetsProgressData", Player.uuid) && isNull(Player.data.SolarSystem)){
+        WorldData.setArchiveData("PlanetsProgressData", Player.uuid, SolarSystemData);
+    }
+    if(!WorldData.isArchiveData("EnergyData", Player.uuid)){
+        WorldData.setArchiveData("EnergyData", Player.uuid, EnergyData);
     }
 });

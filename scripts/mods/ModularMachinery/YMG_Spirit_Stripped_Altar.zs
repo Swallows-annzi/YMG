@@ -29,11 +29,11 @@ val Pos_String = "§e§l坐标读取";
 MachineModifier.addCoreThread("YMG_Spirit_Stripped_Altar", FactoryRecipeThread.createCoreThread(Pos_String));
 
 //复仇之烛
-val Vengeance_Candle_String = "#634848§l复仇之烛";
+val Vengeance_Candle_String = "§c§l复仇之烛";
 MachineModifier.addCoreThread("YMG_Spirit_Stripped_Altar", FactoryRecipeThread.createCoreThread(Vengeance_Candle_String));
 
 //配方运行
-val Spirit_Stripped_String = "#770000§l灵魂剥离";
+val Spirit_Stripped_String = "§c§l灵魂剥离";
 MachineModifier.addCoreThread("YMG_Spirit_Stripped_Altar", FactoryRecipeThread.createCoreThread(Spirit_Stripped_String));
 
 //绑定复仇之烛
@@ -189,7 +189,7 @@ MMEvents.onControllerGUIRender("YMG_Spirit_Stripped_Altar", function(event as Co
     val map = data.asMap();
     var info as string[] = [];
     map["VengeanceCandleA"] = isNull(map["VengeanceCandleA"]) ? false as bool : map["VengeanceCandleA"].asBool();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     if(map["VengeanceCandleA"].asBool()){
         info += "§a已找到复仇之烛控制器！";
         info += "§9(X: §b" + map["posxA"].asInt() + " §9Y: §b" + map["posyA"].asInt() + " §9Z: §b" + map["poszA"].asInt() + "§9)";
@@ -197,7 +197,7 @@ MMEvents.onControllerGUIRender("YMG_Spirit_Stripped_Altar", function(event as Co
     if(!map["VengeanceCandleA"].asBool()){
         info += "§c未找到复仇之烛控制器！";
     }
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     // info += data;
     ctrl.customData = data;
     event.extraInfo = info;

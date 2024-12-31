@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_YM_Capacitor_Bank_",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFDD§l云梦电容库§c(未完成，届时将会替换简化版电容库) §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l云梦电容库§c(未完成，届时将会替换简化版电容库) §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

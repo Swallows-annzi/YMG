@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Mana_Aggregation_Altar",
-    "localizedname": "§b§lYMG§r§e§l—#FDFFE8§l魔力聚合祭坛 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l魔力聚合祭坛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "FDFFE8",

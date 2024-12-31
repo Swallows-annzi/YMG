@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Atmospheric_Free_Neutron_Extraction_Device",
-    "localizedname": "§b§lYMG§r§e§l—#AAFFFF§l大气游离中子汲取装置 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l大气游离中子汲取装置 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "222222",

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Magnetic_Flux_Metal_Fused",
-    "localizedname": "§b§lYMG§r§e§l—#707070§l磁通量金属融合器 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l磁通量金属融合器 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

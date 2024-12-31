@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Bedrock_Laser_Drills",
-    "localizedname": "§b§lYMG§r§e§l—§8§l基岩激光钻机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l基岩激光钻机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

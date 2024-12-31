@@ -1,9 +1,0 @@
-{
-	x: 13.5d,
-	y: -3.0d,
-	tasks: [{
-		uid: "d1bb0bf8",
-		type: "checkmark",
-		title: "MEK"
-	}]
-}

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Advanced_Centrifuge",
-    "localizedname": "§b§lYMG§r§e§l—#FF2AAA§l进阶热能离心机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l进阶热能离心机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "FFFFFF",

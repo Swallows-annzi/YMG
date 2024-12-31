@@ -172,11 +172,11 @@ MMEvents.onControllerGUIRender("YMG_YM_Capacitor_Bank_", function(event as Contr
     map["Energy"] = isNull(map["Energy"]) ? 0 as long : map["Energy"].asLong();
     map["EnergyMax"] = isNull(map["EnergyMax"]) ? 0 as long : map["EnergyMax"].asLong();
     var info as string[] = [];
-    info += "§b//////////////////////////////////////////////";
+    info += "§b>>";
     info += "§9RF存量：§b(§e" + FormatNumber(map["Energy"].asLong()) + " §6RF / §e" + FormatNumber(map["EnergyMax"].asLong()) + "§6 RF§b) §e" + percentage(map["Energy"].asLong(), map["EnergyMax"].asLong(), 3) + "%";
     info += "§9传输倍率：§e" + Percentage_(map["speed"].asFloat()) + "§6x  §b(§9默认倍率：§e1.0§6x§b)";
     info += "§9传输速度：§e" + FormatNumber((map["speed"].asFloat() * Base_rate) as long) + " §6RF/t";
-    info += "§b//////////////////////////////////////////////";
+    info += "§b>>";
     info += data;
     event.extraInfo = info;
 });

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Builder_Altar_3",
-    "localizedname": "§b§lYMG§r§e§l—#230062§l构建器§e§l-#FFFFFF§l五彩祭坛 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l五彩祭坛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "FFFFFF",

@@ -12,6 +12,8 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Part;
 
 //Item(物品ID,最大堆叠数,是否有附魔光芒);
 //稀有度：“COMMON”, “UNCOMMON”, “RARE”, “EPIC”
@@ -119,6 +121,8 @@ RegItem("luckdatamodel1", 64, false);
 RegItem("luckdatamodel2", 64, false);
 RegItem("luckdatamodel3", 64, false);
 RegItem("commondatamodelpos", 64, false);
+RegItem("galaxycoordinatecard", 1, false);
+RegItem("sputnikcoordinatecard", 1, false);
 RegItem("itemmodellitheritecrystal", 64, false);
 RegItem("itemmodelerodiumcrystal", 64, false);
 RegItem("itemmodelkyronitecrystal", 64, false);
@@ -173,13 +177,54 @@ RegItem("nutrient", 64, false);
 RegItem("royaljelly", 64, false);
 RegItem("solarcrystals", 64, false);
 RegItem("teslashellplate", 64, false);
-RegItem("strengthaerospacealloyplate", 64, false);
+// RegItem("strengthaerospacealloyplate", 64, false);
 RegItem("dilithiumlens", 64, false);
 RegItem("shapedcrystals", 64, false);
 RegItem("sparklingstar", 64, false);
 RegItem("bloodyprism", 64, false);
 RegItem("flameprism", 64, false);
 RegItem("frenulum", 64, false);
+RegItem("graphene", 64, false);
+RegItem("carbonfiber", 64, false);
+RegItem("nanometre", 64, false);
+RegItem("fabric", 64, false);
+RegItem("sputnik", 1, false);
+RegItem("galaxy_sync_card_1", 1, false);
+RegItem("galaxy_sync_card_2", 1, false);
+RegItem("assembling_tool_1", 1, false);
+RegItem("assembling_tool_2", 1, false);
+RegItem("assembling_tool_3", 1, false);
+
+// RegItem("aerospace_plate_0", 64, false);
+// RegItem("aerospace_plate_1", 64, false);
+// RegItem("aerospace_plate_2", 64, false);
+// RegItem("aerospace_plate_3", 64, false);
+// RegItem("aerospace_plate_4", 64, false);
+// RegItem("aerospace_plate_5", 64, false);
+// RegItem("aerospace_plate_6", 64, false);
+// RegItem("aerospace_plate_7", 64, false);
+// RegItem("aerospace_plate_8", 64, false);
+// RegItem("aerospace_plate_9", 64, false);
+// RegItem("aerospace_plate_10", 64, false);
+// RegItem("aerospace_plate_11", 64, false);
+// RegItem("aerospace_plate_12", 64, false);
+// RegItem("aerospace_plate_13", 64, false);
+// RegItem("aerospace_plate_14", 64, false);
+
+RegAerospace("saaplate1", 0x232323);
+RegAerospace("saaplate2", 0xFFFFFF);
+RegAerospace("saaplate3", 0x0045FF);
+RegAerospace("saaplate4", 0xFF7600);
+RegAerospace("saaplate5", 0xFFA75B);
+RegAerospace("saaplate6", 0xBEBEBE);
+RegAerospace("saaplate7", 0x7C2916);
+RegAerospace("saaplate8", 0x9EAEBA);
+RegAerospace("saaplate9", 0xC1B98E);
+RegAerospace("saaplate10", 0x6C6250);
+RegAerospace("saaplate11", 0x1E2A31);
+RegAerospace("saaplate12", 0xA1A19E);
+RegAerospace("saaplate13", 0xCECECE);
+RegAerospace("saaplate14", 0xC08BAA);
 
 RegDSQItem("dsqlogo", 64, false);
 RegDSQItem("dsqconstruction1", 64, false);
@@ -372,3 +417,47 @@ function RegDSQItem(name as string,maxn as int,glow as bool){
     items.register();
 }
 
+function RegAerospace(name as string , Color as string) {
+    //航空板
+    val Plate as Part[] = [
+        MaterialSystem.getPartBuilder()
+        .setName("aerospace_plate")
+        .setPartType(MaterialSystem.getPartType("item"))
+        .setHasOverlay(false)
+        .setOreDictName("AerospacePlate")
+        .build()
+    ];
+    MaterialSystem.getMaterialBuilder()
+    .setName(name)
+    .setColor(Color)
+    .build()
+    .registerParts(Plate);
+    //扇叶
+    val Blade as Part[] = [
+        MaterialSystem.getPartBuilder()
+        .setName("aerospace_blade")
+        .setPartType(MaterialSystem.getPartType("item"))
+        .setHasOverlay(false)
+        .setOreDictName("AerospaceBlade")
+        .build()
+    ];
+    MaterialSystem.getMaterialBuilder()
+    .setName(name)
+    .setColor(Color)
+    .build()
+    .registerParts(Blade);
+    //块
+    val Block as Part[] = [
+        MaterialSystem.getPartBuilder()
+        .setName("aerospace_block")
+        .setPartType(MaterialSystem.getPartType("block"))
+        .setHasOverlay(false)
+        .setOreDictName("AerospaceBlock")
+        .build()
+    ];
+    // MaterialSystem.getMaterialBuilder()
+    // .setName(name)
+    // .setColor(Color)
+    // .build()
+    // .registerParts(Block);
+}

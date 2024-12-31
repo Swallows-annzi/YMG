@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Demon_Fusion_Altar",
-    "localizedname": "§b§lYMG§r§e§l—#770000§l恶魔融合祭坛 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l恶魔融合祭坛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "464646",

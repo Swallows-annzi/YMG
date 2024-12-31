@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Elemental_Refinery",
-    "localizedname": "§b§lYMG§r§e§l—§d§l元素精炼机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l元素精炼机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "707070",

@@ -55,163 +55,163 @@
 // MachineUpgradeHelper.registerSupportedItem(<super_solar_panels:machines:24>);
 
 
-// MachineUpgradeBuilder.newBuilder("solar_1_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_1_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_1_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_1_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_1_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_1_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_1_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_1_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_2_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_2_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_2_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_2_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_2_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_2_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_2_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_2_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_3_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_3_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_3_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_3_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_3_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_3_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_3_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_3_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_4_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_4_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_4_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_4_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_4_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_4_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_4_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_4_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_5_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_5_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_5_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_5_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_5_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_5_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_5_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_5_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_6_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_6_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_6_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_6_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_6_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_6_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_6_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_6_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_7_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_7_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_7_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_7_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_7_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_7_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_7_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_7_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_8_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_8_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_8_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_8_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_8_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_8_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_8_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_8_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_9_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_9_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_9_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_9_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_9_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_9_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_9_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_9_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_10_1", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_10_1", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_10_2", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_10_2", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_10_3", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_10_3", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 
-// MachineUpgradeBuilder.newBuilder("solar_10_4", "§f可放入 §bYMG§e—#EBFCFF聚合太阳能", 1, 1)
+// MachineUpgradeBuilder.newBuilder("solar_10_4", "§f可放入 §bYMG§e—聚合太阳能", 1, 1)
 // .addCompatibleMachines("YMG_Aggregate_Solar_Energy")
 // .buildAndRegister();
 

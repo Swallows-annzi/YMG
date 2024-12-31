@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Grinder",
-    "localizedname": "§b§lYMG§r§e§l—#464646§l粉碎机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l粉碎机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

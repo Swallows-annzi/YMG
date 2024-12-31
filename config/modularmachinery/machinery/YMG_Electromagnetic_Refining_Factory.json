@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Electromagnetic_Refining_Factory",
-    "localizedname": "§b§lYMG§r§e§l—#707070§l电磁炼化合金工厂 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l电磁炼化合金工厂 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

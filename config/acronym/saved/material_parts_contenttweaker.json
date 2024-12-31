@@ -1,3 +1,32 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "saaplate11_aerospace_blade": 2011,
+    "saaplate1_aerospace_plate": 1001,
+    "saaplate14_aerospace_blade": 2014,
+    "saaplate14_aerospace_plate": 1014,
+    "saaplate9_aerospace_blade": 2009,
+    "saaplate6_aerospace_blade": 2006,
+    "saaplate11_aerospace_plate": 1011,
+    "saaplate4_aerospace_plate": 1004,
+    "saaplate1_aerospace_blade": 2001,
+    "saaplate9_aerospace_plate": 1009,
+    "saaplate6_aerospace_plate": 1006,
+    "saaplate3_aerospace_plate": 1003,
+    "saaplate13_aerospace_blade": 2013,
+    "saaplate4_aerospace_blade": 2004,
+    "saaplate7_aerospace_plate": 1007,
+    "saaplate3_aerospace_blade": 2003,
+    "saaplate10_aerospace_blade": 2010,
+    "saaplate13_aerospace_plate": 1013,
+    "saaplate2_aerospace_blade": 2002,
+    "saaplate10_aerospace_plate": 1010,
+    "saaplate7_aerospace_blade": 2007,
+    "saaplate12_aerospace_blade": 2012,
+    "saaplate12_aerospace_plate": 1012,
+    "saaplate5_aerospace_blade": 2005,
+    "saaplate8_aerospace_plate": 1008,
+    "saaplate8_aerospace_blade": 2008,
+    "saaplate5_aerospace_plate": 1005,
+    "saaplate2_aerospace_plate": 1002
+  }
 }

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Magnetic_Permeability_Dragon_Aggregation_Tower",
-    "localizedname": "§b§lYMG§r§e§l—#FF7600§l磁导龙聚塔 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l磁导龙聚塔 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "FF7600",

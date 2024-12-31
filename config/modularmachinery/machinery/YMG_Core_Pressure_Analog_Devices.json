@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Core_Pressure_Analog_Devices",
-    "localizedname": "§b§lYMG§r§e§l—#FF0000§l地核压力模拟装置 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l地核压力模拟装置 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "000000",

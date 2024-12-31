@@ -181,10 +181,10 @@ MMEvents.onControllerGUIRender("YMG_Mana_Relief_Crystals", function(event as Con
     var info as string[] = [];
     map["Mana"] = isNull(map["Mana"]) ? 0 as long : map["Mana"].asLong();
     map["Energy"] = isNull(map["Energy"]) ? 0 as long : map["Energy"].asLong();
-    info += "§a//////////////////////////////////////////////";
+    info += "§a>>";
     info += "§9RF存量：§b(§e" + FormatNumber(map["Energy"].asLong()) + " §6RF / §e" + FormatNumber(MaxEnergy) + "§6 RF§b) §e" + percentage(map["Energy"].asLong(), MaxEnergy, 3) + "%";
     info += "§9Mana存量：§b(§e" + FormatNumber(map["Mana"].asLong()) + " §6 / §e" + FormatNumber(MaxMana) + "§6§b) §e" + percentage(map["Mana"].asLong(), MaxMana, 3) + "%";
-    info += "§a//////////////////////////////////////////////";
+    info += "§a>>";
     ctrl.customData = data;
     event.extraInfo = info;
 });

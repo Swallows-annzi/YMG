@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Biomass_Fermentation_Tank",
-    "localizedname": "§b§lYMG§r§e§l—#0000BB§l生物质发酵池 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l生物质发酵池 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "464646",

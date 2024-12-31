@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Melting_Furnace",
-    "localizedname": "§b§lYMG§r§e§l—#707070§l熔化炉 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l熔化炉 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "707070",

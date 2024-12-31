@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Assembly_Line",
-    "localizedname": "§b§lYMG§r§e§l—#0055FF§l装配塔 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l装配塔 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "000000",

@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Thermal_Electronic_Component_Assembly_Machine",
-    "localizedname": "§b§lYMG§r§e§l—§d§l热电子元件装配机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l热电子元件装配机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

@@ -98,9 +98,9 @@ MMEvents.onControllerGUIRender("YMG_Tesla", function(event as ControllerGUIRende
     val map = data.asMap();
     var info as string[] = [];
     map["Energy"] = isNull(map["Energy"]) ? 0 as long : map["Energy"].asLong();
-    info += "§a//////////////////////////////////////////////";
+    info += "§a>>";
     info += "§9RF存量：§b(§e" + FormatNumber(map["Energy"].asLong()) + " §6RF / §e" + FormatNumber(MaxEnergy) + "§6 RF§b) §e" + percentage(map["Energy"].asLong(), MaxEnergy, 3) + "%";
-    info += "§a//////////////////////////////////////////////";
+    info += "§a>>";
     // info += ctrl.world.isRaining();
     // info += ctrl.world.getWorldInfo().isThundering();
     ctrl.customData = data;

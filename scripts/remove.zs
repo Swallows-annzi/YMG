@@ -183,6 +183,17 @@ var recipeItems_gzt as IItemStack[] = [
     <tconstruct:tooltables>,
     <tconstruct:throwball:1>,
     <tconevo:material>,
+    <conarm:travel_belt>,
+    <conarm:travel_potion>,
+    <conarm:travel_sack>,
+    <conarm:travel_goggles>,
+    <conarm:travel_night>,
+    <conarm:travel_sneak>,
+    <conarm:travel_slowfall>,
+    <conarm:travel_soul>,
+    <conarm:travel_belt_base>,
+    <conarm:travel_goggles_base>,
+    <conarm:travel_cloak>,
     //懒人ae
     <threng:machine>,
     <threng:machine:2>,
@@ -530,6 +541,19 @@ var recipeItems_gzt as IItemStack[] = [
     <ironchest:iron_shulker_box_black:4>,
     <ironchest:iron_shulker_box_black:5>,
     <ironchest:iron_shulker_box_black:6>,
+    //懒人厨房
+    <cookingforblockheads:fruit_basket>,
+    <cookingforblockheads:counter>,
+    <cookingforblockheads:cabinet>,
+    <cookingforblockheads:cooking_table>,
+    <cookingforblockheads:heating_unit>,
+    <cookingforblockheads:ice_unit>,
+    <cookingforblockheads:preservation_chamber>,
+    <cookingforblockheads:toaster>,
+    <cookingforblockheads:oven>,
+    <cookingforblockheads:tool_rack>,
+    <cookingforblockheads:spice_rack>,
+    <cookingforblockheads:fridge>,
 ];
 
 for recipeItem in recipeItems_gzt {

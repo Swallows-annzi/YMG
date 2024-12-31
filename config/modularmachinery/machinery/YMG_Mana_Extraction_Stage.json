@@ -1,0 +1,3924 @@
+{
+    "registryname": "YMG_Mana_Extraction_Stage",
+    "localizedname": "§b§lYMG§r§e§l—§f§l魔力萃取台 §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "has-factory": true,
+    "factory-only": true,
+    "color": "FFFFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": -1,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairsmana@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:end_rod@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": -2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairsmana@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "botania:quartzstairsmana@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 0,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 11,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "botania:quartzstairsmana@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairsmana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairsmana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:quartzstairsmana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairsmana@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairsmana@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": -2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botania:quartzstairsmana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": -2,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:quartzstairsmana@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:end_rod@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 0,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairsmana@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairsmana@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairsmana@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 8,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:quartzstairsmana@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:end_rod@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "botania:quartzstairsmana@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:quartzstairsmana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "botania:quartzstairsmana@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:quartzstairsmana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 4,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:quartzstairsmana@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:quartzstairsmana@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 17,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 8,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:quartzstairsmana@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:end_rod@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 18,
+            "z": 3,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 17,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 4,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 20,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:quartzstairsmana@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 9,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 19,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "botania:quartzstairsmana@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 9,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 12,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": -2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 20,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:quartzstairsmana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairsmana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "botania:quartztypemana@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "ItemInput",
+                "ItemOutput",
+                "FluidInput"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsmana@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "botania:quartzslabmanahalf@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:quartzstairsmana@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        }
+    ]}

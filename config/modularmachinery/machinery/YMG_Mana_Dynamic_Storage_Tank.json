@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Mana_Dynamic_Storage_Tank",
-    "localizedname": "§b§lYMG§r§e§l—#E1E3D0§l魔力动态储罐 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l魔力动态储罐 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

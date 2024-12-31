@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Bee_Gardenx",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l盈蜂翠庭 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l盈蜂翠庭 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

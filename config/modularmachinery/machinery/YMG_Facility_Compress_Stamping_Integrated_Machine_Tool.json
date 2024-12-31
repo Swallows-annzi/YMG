@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Facility_Compress_Stamping_Integrated_Machine_Tool",
-    "localizedname": "§b§lYMG§r§e§l—#FFFFFF§l简易压缩/冲压一体式机床 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l简易压缩/冲压一体式机床 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

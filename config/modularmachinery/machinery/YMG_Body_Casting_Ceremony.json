@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Body_Casting_Ceremony",
-    "localizedname": "§b§lYMG§r§e§l—#6BCEC6§l铸体仪式 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l铸体仪式 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "6BCEC6",

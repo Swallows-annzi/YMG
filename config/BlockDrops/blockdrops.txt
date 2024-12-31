@@ -1570,21 +1570,6 @@
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 6\n}"
   },
   {
-    "name": "astralsorcery:blockcustomsandore",
-    "meta": 0,
-    "length": 1,
-    "name0": "astralsorcery:itemcraftingcomponent",
-    "meta0": 0,
-    "0chance0": 266.975,
-    "1chance0": 362.2,
-    "2chance0": 456.09998,
-    "3chance0": 562.1,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 5\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 7\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 11\n}"
-  },
-  {
     "name": "taiga:dilithium_ore",
     "meta": 0,
     "length": 1,
@@ -2275,21 +2260,6 @@
     "3pair0": "{\n  \"left\": 0,\n  \"right\": 1\n}"
   },
   {
-    "name": "mekanism:saltblock",
-    "meta": 0,
-    "length": 1,
-    "name0": "mekanism:salt",
-    "meta0": 0,
-    "0chance0": 400.0,
-    "1chance0": 400.0,
-    "2chance0": 400.0,
-    "3chance0": 400.0,
-    "0pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
-    "1pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
-    "3pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}"
-  },
-  {
     "name": "appliedenergistics2:quartz_ore",
     "meta": 0,
     "length": 1,
@@ -2333,5 +2303,35 @@
     "1pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}",
     "2pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}",
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 2\n}"
+  },
+  {
+    "name": "mekanism:saltblock",
+    "meta": 0,
+    "length": 1,
+    "name0": "mekanism:salt",
+    "meta0": 0,
+    "0chance0": 400.0,
+    "1chance0": 400.0,
+    "2chance0": 400.0,
+    "3chance0": 400.0,
+    "0pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
+    "1pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
+    "3pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}"
+  },
+  {
+    "name": "astralsorcery:blockcustomsandore",
+    "meta": 0,
+    "length": 1,
+    "name0": "astralsorcery:itemcraftingcomponent",
+    "meta0": 0,
+    "0chance0": 263.625,
+    "1chance0": 367.975,
+    "2chance0": 461.925,
+    "3chance0": 565.45,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 5\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 7\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 9\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 11\n}"
   }
 ]

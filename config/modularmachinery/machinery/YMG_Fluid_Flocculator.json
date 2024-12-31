@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Fluid_Flocculator",
-    "localizedname": "§b§lYMG§r§e§l—#C3FFC4§l流体絮凝器 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l流体絮凝器 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "464646",

@@ -49,7 +49,7 @@ MMEvents.onControllerGUIRender("YMG_Vengeance_Candle", function(event as Control
     val map = data.asMap();
     var info as string[] = [];
     map["isbundled"] = isNull(map["isbundled"]) ? false as bool : map["isbundled"].asBool();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     if(map["isbundled"].asBool()){
         info += "§a已与灵魂剥离祭坛绑定！";
         info += "§9(X: §b" + map["posx"].asInt() + " §9Y: §b" + map["posy"].asInt() + " §9Z: §b" + map["posz"].asInt() + "§9)";
@@ -57,7 +57,7 @@ MMEvents.onControllerGUIRender("YMG_Vengeance_Candle", function(event as Control
     if(!map["isbundled"].asBool()){
         info += "§c未绑定！";
     }
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     // info += data;
     ctrl.customData = data;
     event.extraInfo = info;

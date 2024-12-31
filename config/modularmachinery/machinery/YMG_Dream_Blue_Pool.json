@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Dream_Blue_Pool",
-    "localizedname": "§b§lYMG§r§e§l—#79FFFB§l梦蓝魔力池 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l梦蓝魔力池 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

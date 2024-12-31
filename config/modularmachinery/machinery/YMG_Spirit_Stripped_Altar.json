@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Spirit_Stripped_Altar",
-    "localizedname": "§b§lYMG§r§e§l—#2B2B44§l灵魂剥离祭坛 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l灵魂剥离祭坛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

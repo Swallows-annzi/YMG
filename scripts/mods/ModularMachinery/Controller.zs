@@ -145,7 +145,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_crystal_spawned_bin_controll
 .build();
 
 //共振聚星缸
-mods.astralsorcery.Altar.addConstellationAltarRecipe("mypackname:shaped/internal/altar/ymg_resonating_well_controller", <modularmachinery:ymg_resonating_well_controller>, 3800, 100, [
+mods.astralsorcery.Altar.addConstellationAltarRecipe("mypackname:shaped/internal/altar/ymg_resonating_well_controller", <modularmachinery:ymg_resonating_well_controller>, 3500, 100, [
 	<botania:managlass>,<astralsorcery:itemtunedcelestialcrystal>,<botania:managlass>,
 	<astralsorcery:blockmarble:4>,<astralsorcery:blockwell>,<astralsorcery:blockmarble:4>,
 	<astralsorcery:blockmarble:2>,<ore:ingotTerrasteel>,<astralsorcery:blockmarble:2>,
@@ -1036,4 +1036,18 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_assembly_
 	[<moreplates:awakened_draconium_gear>, <moreplates:awakened_draconium_gear>, <modularmachinery:ymg_assembly_line_controller>, <moreplates:awakened_draconium_gear>, <moreplates:awakened_draconium_gear>], 
 	[<avaritiaitem:triphasic_alloy>, <avaritiaitem:triphasic_alloy>, <contenttweaker:ymcomputecore>, <avaritiaitem:triphasic_alloy>, <avaritiaitem:triphasic_alloy>], 
 	[<environmentaltech:structure_frame_2>, <environmentaltech:structure_frame_2>, <environmentaltech:structure_frame_2>, <environmentaltech:structure_frame_2>, <environmentaltech:structure_frame_2>]
+]);
+
+//园艺种植机
+recipes.addShaped(<modularmachinery:ymg_agricultural_glass_greenhouses_factory_controller>,[
+    [<ic2:fence>,<ic2:te:36>,<ic2:fence>],
+    [<ic2:fence>,<thermalexpansion:machine:4>,<ic2:fence>],
+    [<mets:advanced_heat_vent>,<contenttweaker:tungstencoil>,<mets:advanced_heat_vent>]
+]);
+
+//魔力萃取台
+recipes.addShaped(<modularmachinery:ymg_mana_extraction_stage_factory_controller>,[
+    [<minecraft:dragon_breath>,<botania:brewery>,<minecraft:dragon_breath>],
+    [<botania:quartztypemana:2>,<botania:pylon:1>,<botania:quartztypemana:2>],
+    [<botania:quartztypemana:1>,<ic2:te:45>,<botania:quartztypemana:1>]
 ]);

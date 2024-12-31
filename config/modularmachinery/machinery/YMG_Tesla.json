@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Tesla",
-    "localizedname": "§b§lYMG§r§e§l—#FFFEE8§l特斯拉 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l特斯拉 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

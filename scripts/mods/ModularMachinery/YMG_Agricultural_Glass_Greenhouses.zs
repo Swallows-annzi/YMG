@@ -26,3 +26,15 @@ RecipeAdapterBuilder.create("YMG_Agricultural_Glass_Greenhouses", "thermalexpans
 .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input",  0.5F, 1, false).build())
 .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input",  4980, 0, false).build())
 .build();
+
+//芝麻
+mods.modularmachinery.RecipeBuilder.newBuilder("seedSesameseed", "YMG_Agricultural_Glass_Greenhouses", 120)
+.addEnergyPerTickInput(5000)
+.addFluidInput(<liquid:water> * 1200)
+.addItemInput(<ore:seedSesameseed>)
+.addItemOutputs([
+    <harvestcraft:sesameseedsitem>,
+    <harvestcraft:sesameseedsseeditem>
+])
+.addItemOutput(<harvestcraft:sesameseedsseeditem>).setChance(0.1F)
+.build();

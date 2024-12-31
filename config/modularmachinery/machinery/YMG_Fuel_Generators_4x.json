@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Fuel_Generators_4x",
-    "localizedname": "§b§lYMG§r§e§l—#FFEE99§l4x燃料发电机 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l4x燃料发电机 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

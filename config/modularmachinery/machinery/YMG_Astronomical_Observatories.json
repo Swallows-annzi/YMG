@@ -1,0 +1,53 @@
+{
+    "registryname": "YMG_Astronomical_Observatories",
+    "localizedname": "§b§lYMG§r§e§l—§f§l天文观测台 §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "color": "FFFFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockfactorycontroller@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockoutputbus@3"
+            ]
+        }
+    ]}

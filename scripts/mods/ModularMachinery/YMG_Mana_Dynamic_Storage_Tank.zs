@@ -148,9 +148,9 @@ MMEvents.onControllerGUIRender("YMG_Mana_Dynamic_Storage_Tank", function(event a
     val map = data.asMap();
     var info as string[] = [];
     map["Mana"] = isNull(map["Mana"]) ? 0 as long : map["Mana"].asLong();
-    info += "§b//////////////////////////////////////////////";
+    info += "§b>>";
     info += "§9Mana存量：§b(§e" + FormatNumber(map["Mana"].asLong()) + " §6 / §e" + FormatNumber(MaxMana) + "§6§b) §e" + percentage(map["Mana"].asLong(), MaxMana, 3) + "%";
-    info += "§b//////////////////////////////////////////////";
+    info += "§b>>";
     ctrl.customData = data;
     event.extraInfo = info;
 });

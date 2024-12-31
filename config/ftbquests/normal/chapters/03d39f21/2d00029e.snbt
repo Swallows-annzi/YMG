@@ -1,9 +1,0 @@
-{
-	x: -0.5d,
-	y: -3.0d,
-	tasks: [{
-		uid: "8526b806",
-		type: "checkmark",
-		title: "ic2"
-	}]
-}

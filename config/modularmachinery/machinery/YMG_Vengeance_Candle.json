@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Vengeance_Candle",
-    "localizedname": "§b§lYMG§r§e§l—#634848§l复仇之烛 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l复仇之烛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "634848",

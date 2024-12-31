@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Assembly_Line_Advanced",
-    "localizedname": "§b§lYMG§r§e§l—§c§l自动#0055FF§l装配塔 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§c§l自动§f§l装配塔 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

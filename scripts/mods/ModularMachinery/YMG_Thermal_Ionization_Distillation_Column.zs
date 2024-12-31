@@ -103,9 +103,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Thermal_Ionization_Distillation_
 //     val map = data.asMap();
 //     map["speed"] = isNull(map["speed"]) ? 0 as float : map["speed"].asFloat();
 //     var info as string[] = [];
-//     info += "§c//////////////////////////////////////////////";
+//     info += "§c>>";
 //     info += "§9效率倍率：§e" + Percentage_(map["speed"].asFloat()) + "§6x  §b(§9默认倍率：§e1.0§6x§b)";
-//     info += "§c//////////////////////////////////////////////";
+//     info += "§c>>";
 //     // info += data;
 //     event.extraInfo = info;
 // });

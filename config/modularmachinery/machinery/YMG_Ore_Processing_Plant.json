@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Ore_Processing_Plant",
-    "localizedname": "§b§lYMG§r§e§l—#FF9933§l矿石火锻厂 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l矿石火锻厂 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

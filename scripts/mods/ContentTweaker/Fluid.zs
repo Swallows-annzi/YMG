@@ -40,6 +40,10 @@ lan_qin_2.colorize = false;
 lan_qin_2.viscosity = 3000;
 lan_qin_2.register();
 
+//熔融钨
+RegFluid("tungstenfluid", 0x282828, 3422);
+//熔融玄冰合金
+RegFluid("mysteriousicefluid", 0x50DDDD, 2800);
 //非牛顿流体
 RegFluid("non_newtonian", 0xE9E9E9, 27);
 //龙血
@@ -52,6 +56,10 @@ RegFluid("advanced_coolant", 0x36FFFF, 27);
 RegFluid("hydrazine", 0x202020, 27);
 //混沌流质
 RegFluid("chaos", 0x101010, 0);
+//硫酸
+// RegFluid("sulfate", 0xFFE088, 27);
+//航天胶水
+RegFluid("aerospaceglue", 0xFFEEBB, 27);
 
 function RegFluid(regName as string, color as int, temperature as int) {
     var fluid as Fluid = VanillaFactory.createFluid(regName, color);

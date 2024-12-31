@@ -129,9 +129,9 @@ MMEvents.onControllerGUIRender("YMG_Mana_Aggregation_Altar", function(event as C
     val map = data.asMap();
     var info as string[] = [];
     map["Mods"] = isNull(map["Mods"]) ? 0 as long : map["Mods"].asInt();
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     info += "§9模式：§e" + Mods(map["Mods"].asInt());
-    info += "§c//////////////////////////////////////////////";
+    info += "§c>>";
     // info += data;
     event.extraInfo = info;
 });

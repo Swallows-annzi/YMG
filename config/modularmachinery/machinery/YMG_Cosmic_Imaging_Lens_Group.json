@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Cosmic_Imaging_Lens_Group",
-    "localizedname": "§b§lYMG§r§e§l—#230062§l宇宙成像透镜组 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l宇宙成像透镜组 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "has-factory": true,

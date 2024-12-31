@@ -1,6 +1,6 @@
 {
     "registryname": "YMG_Digital_Altar",
-    "localizedname": "§b§lYMG§r§e§l—#770000§l数字化血之祭坛 §r§e",
+    "localizedname": "§b§lYMG§r§e§l—§f§l数字化血之祭坛 §r§e",
     "failure-action": "still",
     "requires-blueprint": false,
     "color": "707070",

@@ -8,6 +8,8 @@
 #priority 50
 #loader crafttweaker reloadable
 
+import crafttweaker.data.IData;
+
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.ControllerGUIRenderEvent;
@@ -18,6 +20,9 @@ import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.MachineTickEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.Sync;
+
+import mods.additionalapi.WorldData;
 
 
 //能量上限位数(10进制
@@ -63,7 +68,10 @@ val Energy_input_string = "§l§b电容库§r§6 输入姬";
 MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_input_string));
 //输出姬
 val Energy_output_string = "§l§b电容库§r§6 输出姬";
-MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_output_string));
+MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_output_string)); 
+//同步姬
+val Energy_sync_string = "§l§b电容库§r§6 同步姬";
+MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_sync_string)); 
 
 //能量输入
 mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_input", "YMG_YM_Capacitor_Bank", 1)
@@ -100,7 +108,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_input", "YMG_Y
 })
 .build();
 
-//能量输入
+//能量输出
 mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_output", "YMG_YM_Capacitor_Bank", 1)
 .setThreadName(Energy_output_string)
 .addEnergyPerTickOutput(pow(10, Base_RateNumberOfDigit))
@@ -127,8 +135,26 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_output", "YMG_
     val map = data.asMap();
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
     map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
-    map["EnergyString"] = String_Sub(map["EnergyString"].asString(),String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString)), IntString, StringInt);
+    map["EnergyString"] = String_Sub(map["EnergyString"].asString(), String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString)), IntString, StringInt);
     ctrl.customData = data;
+})
+.build();
+
+//能源同步
+mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_sync", "YMG_YM_Capacitor_Bank", 1200)
+.setThreadName(Energy_sync_string)
+.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+    Sync.addSyncTask(function(){
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val EnergyData as IData = WorldData.getArchiveData("EnergyData", ctrl.ownerUUID);
+        val EnergyMap = EnergyData.asMap();
+        val Deduct as string = EnergyMap["Deduct"].asString();
+        map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
+        map["EnergyString"] = String_Sub(map["EnergyString"].asString(), Deduct, IntString, StringInt);
+        WorldData.upArchiveData("EnergyData", ctrl.ownerUUID, {Energy:map["EnergyString"].asString()});
+    });
 })
 .build();
 
@@ -163,7 +189,7 @@ MMEvents.onControllerGUIRender("YMG_YM_Capacitor_Bank", function(event as Contro
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
     map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
     var info as string[] = [];
-    info += "§b//////////////////////////////////////////////";
+    info += "§b>>";
     if(setEnergyMax){
         info += "§9RF存量：§b(§e" + FormatNumber(map["EnergyString"].asString()) + " §6RF / §b10^" + setEnergyMaxNumberOfDigit +" - 1 §6 RF§b)";
         if(map["EnergyString"].asString().length() <= 21)
@@ -177,7 +203,7 @@ MMEvents.onControllerGUIRender("YMG_YM_Capacitor_Bank", function(event as Contro
     }
     info += "§9传输倍率：§e" + FormatNumber(LongToString(map["speed"].asLong(), IntString)) + "§6.x  §b(§9默认倍率：§e1.0§6x§b)";
     info += "§9传输速度：§e" + FormatNumber(String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString))) + " §6RF/t";
-    info += "§b//////////////////////////////////////////////";
+    info += "§b>>";
     // info += data;
     event.extraInfo = info;
 });
