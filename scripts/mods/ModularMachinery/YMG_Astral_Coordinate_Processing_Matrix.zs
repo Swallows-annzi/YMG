@@ -123,6 +123,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder("processing_core", "YMG_Astral_Co
         WorldData.setArchiveData("PlanetsProgressData", ctrl.ownerUUID, PlayerData + {SolarSystem:{NeptuneSystem:{Thalassa:{isFound:true}}}} as IData);
     if(map["Key"].asString() == "Despina")
         WorldData.setArchiveData("PlanetsProgressData", ctrl.ownerUUID, PlayerData + {SolarSystem:{NeptuneSystem:{Despina:{isFound:true}}}} as IData);
+    if(map["Key"].asString() == "AsteroidBelt")
+        WorldData.setArchiveData("PlanetsProgressData", ctrl.ownerUUID, PlayerData + {SolarSystem:{AsteroidBelt:{isFound:true}}} as IData);
+    if(map["Key"].asString() == "KuiperBelt")
+        WorldData.setArchiveData("PlanetsProgressData", ctrl.ownerUUID, PlayerData + {SolarSystem:{KuiperBelt:{isFound:true}}} as IData);
     map["Key"] = "null";
     ctrl.customData = data;
 })

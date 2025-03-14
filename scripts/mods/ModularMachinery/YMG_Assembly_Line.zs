@@ -250,16 +250,137 @@ mods.modularmachinery.RecipeBuilder.newBuilder("estorage_cell_fluid_64m_1", "YMG
 .addItemOutput(<novaeng_core:estorage_cell_fluid_64m>)
 .build();
 
-//元素精炼机
-mods.modularmachinery.RecipeBuilder.newBuilder("ymg_elemental_refinery_controller_1", "YMG_Assembly_Line", 2400)
-.addEnergyPerTickInput(50000000)
+//人造卫星-采矿
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_sputnik_ore", "YMG_Assembly_Line", 2400)
+.addEnergyPerTickInput(100000000)
 .addFluidInputs([
-    <liquid:liquidsuperheatedsodium> * 100
+    <liquid:aerospaceglue> * 64000
 ])
-.addItemInput(<modularmachinery:ymg_thermal_ionization_distillation_column_controller>).setTag("item_1")
-.addItemInput(<contenttweaker:olihacon> * 4).setTag("item_2")
-.addItemInput(<mets:field_generator> * 4).setTag("item_3")
-.addItemInput(<contenttweaker:ymcomputecore> * 2).setTag("item_4")
-.addItemInput(<ore:plateCrystallinePinkSlime> * 16).setTag("item_5")
-.addItemOutput(<modularmachinery:ymg_elemental_refinery_controller>)
+.addItemInput(<contenttweaker:material_part:1008> * 64).setTag("item_1")
+.addItemInput(<contenttweaker:material_part:1001> * 64).setTag("item_2")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1013> * 16).setTag("item_4")
+.addItemInput(<contenttweaker:material_part:1010> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:material_part:1003> * 16).setTag("item_6")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_7")
+.addItemInput(<actuallyadditions:block_furnace_solar> * 64).setTag("item_8")
+.addItemInput(<ic2:te:57> * 64).setTag("item_9")
+.addItemOutput(<contenttweaker:sputnik>.withTag({display: {Lore: ["§9卫星类型：§e采矿卫星§r"]}, Mode: "ORE"}))
+.build();
+
+//人造卫星-光伏
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_sputnik_pv", "YMG_Assembly_Line", 2400)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:aerospaceglue> * 64000
+])
+.addItemInput(<contenttweaker:material_part:1008> * 64).setTag("item_1")
+.addItemInput(<contenttweaker:material_part:1001> * 64).setTag("item_2")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1013> * 16).setTag("item_4")
+.addItemInput(<contenttweaker:material_part:1010> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:material_part:1003> * 16).setTag("item_6")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_7")
+.addItemInput(<actuallyadditions:block_furnace_solar> * 64).setTag("item_8")
+.addItemInput(<enderio:block_solar_panel:6> * 64).setTag("item_9")
+.addItemOutput(<contenttweaker:sputnik>.withTag({display: {Lore: ["§9卫星类型：§e光伏卫星§r"]}, Mode: "PV"}))
+.build();
+
+//人造卫星-气体收集
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_sputnik_gas", "YMG_Assembly_Line", 2400)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:aerospaceglue> * 64000
+])
+.addItemInput(<contenttweaker:material_part:1008> * 64).setTag("item_1")
+.addItemInput(<contenttweaker:material_part:1001> * 64).setTag("item_2")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1013> * 16).setTag("item_4")
+.addItemInput(<contenttweaker:material_part:1010> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:material_part:1003> * 16).setTag("item_6")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_7")
+.addItemInput(<actuallyadditions:block_furnace_solar> * 64).setTag("item_8")
+.addItemInput(<mekanism:machineblock3:2> * 64).setTag("item_9")
+.addItemOutput(<contenttweaker:sputnik>.withTag({display: {Lore: ["§9卫星类型：§e微尘收集卫星§r"]}, Mode: "GAS"}))
+.build();
+
+//人造卫星-装配
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_sputnik_assembly", "YMG_Assembly_Line", 2400)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:aerospaceglue> * 64000
+])
+.addItemInput(<contenttweaker:material_part:1008> * 64).setTag("item_1")
+.addItemInput(<contenttweaker:material_part:1001> * 64).setTag("item_2")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1013> * 16).setTag("item_4")
+.addItemInput(<contenttweaker:material_part:1010> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:material_part:1003> * 16).setTag("item_6")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_7")
+.addItemInput(<actuallyadditions:block_furnace_solar> * 64).setTag("item_8")
+.addItemInput(<mekanismmultiblockmachine:multiblockmachine:3> * 64).setTag("item_9")
+.addItemOutput(<contenttweaker:sputnik>.withTag({display: {Lore: ["§9卫星类型：§e装配卫星§r"]}, Mode: "ASSEMBLY"}))
+.build();
+
+//量子外壳
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_quantumcasing", "YMG_Assembly_Line", 600)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:carbonfiberfluid> * 2000
+])
+.addItemInput(<contenttweaker:mysteriousicecasing>).setTag("item_1")
+.addItemInput(<mets:super_iridium_compress_plate> * 4).setTag("item_2")
+.addItemInput(<ore:plateCrystalMatrix> * 2).setTag("item_3")
+.addItemInput(<ore:plateDiamatineEmpowered> * 2).setTag("item_4")
+.addItemInput(<ore:plateUUMatter> * 2).setTag("item_5")
+.addItemInput(<contenttweaker:graphene> * 4).setTag("item_6")
+.addItemOutput(<contenttweaker:quantumcasing>)
+.build();
+
+//量子玻璃
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_quantumglass", "YMG_Assembly_Line", 600)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:carbonfiberfluid> * 2000
+])
+.addItemInput(<mekanismgenerators:reactorglass>).setTag("item_1")
+.addItemInput(<mets:super_iridium_compress_plate> * 4).setTag("item_2")
+.addItemInput(<ore:plateCrystalMatrix> * 2).setTag("item_3")
+.addItemInput(<ore:plateDiamatineEmpowered> * 2).setTag("item_4")
+.addItemInput(<ore:plateUUMatter> * 2).setTag("item_5")
+.addItemInput(<contenttweaker:graphene> * 4).setTag("item_6")
+.addItemOutput(<contenttweaker:quantumglass>)
+.build();
+
+//星空信号增幅卡Lv1
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_star_signal_amplification_card_1", "YMG_Assembly_Line", 1200)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:aerospaceglue> * 2000,
+    <liquid:jump_crystalline> * 1000
+])
+.addItemInput(<contenttweaker:commondatamodel>).setTag("item_1")
+.addItemInput(<enderio:block_wireless_charger_extension> * 64).setTag("item_2")
+.addItemInput(<contenttweaker:material_part:1001> * 64).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_4")
+.addItemInput(<appliedenergistics2:material:42> * 64).setTag("item_5")
+.addItemInput(<appliedenergistics2:material:41> * 64).setTag("item_6")
+.addItemInput(<appliedenergistics2:material:59>).setTag("item_7")
+.addItemInput(<appliedenergistics2:material:48> * 2).setTag("item_8")
+.addItemOutput(<contenttweaker:star_signal_amplification_card_1> * 2)
+.build();
+
+//折跃力场发生器
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_jump_stand", "YMG_Assembly_Line_Advanced", 1200)
+.addEnergyPerTickInput(120000000)
+.addFluidInputs([
+    <liquid:isaac_newton> * 2000,
+    <liquid:dragon_blood> * 1000
+])
+.addItemInput(<minecraft:beacon> * 16).setTag("item_1")
+.addItemInput(<mets:field_generator> * 4).setTag("item_2")
+.addItemInput(<contenttweaker:crusaded_crystals> * 16).setTag("item_3")
+.addItemInput(<contenttweaker:olihacon> * 16).setTag("item_4")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_5")
+.addItemOutput(<contenttweaker:jump_stand>)
 .build();

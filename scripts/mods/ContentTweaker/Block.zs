@@ -23,15 +23,31 @@ RegBlock("iridiumcasing");
 RegBlock("teslacoil");
 RegBlock("teslashell");
 RegBlock("playerblock1");
+RegBlock("pressure_casing");
+RegGlassBlock("quantumglass");
 
 
 function RegBlock(regName as string) {
-    val block as Block = VanillaFactory.createBlock(regName, <blockmaterial:iron>);
-    block.blockHardness = 3.0 ;
-    block.blockResistance = 5.0 ;
+    var block as Block = VanillaFactory.createBlock(regName, <blockmaterial:iron>);
+    block.blockHardness = 3.0;
+    block.blockResistance = 5.0;
     block.blockSoundType = <soundtype:metal>;
     block.creativeTab = <creativetab:blockcustomize>;
-    block.toolClass = "pickaxe" ;
-    block.toolLevel = 2 ;
+    block.toolClass = "pickaxe";
+    block.toolLevel = 2;
+    block.register();
+}
+
+function RegGlassBlock(regName as string) {
+    var block as Block = VanillaFactory.createBlock(regName, <blockmaterial:glass>);
+    block.blockLayer = "CUTOUT";
+    block.lightOpacity = 0;
+    block.fullBlock = false;
+    block.blockHardness = 3.0;
+    block.blockResistance = 5.0;
+    block.blockSoundType = <soundtype:glass>;
+    block.creativeTab = <creativetab:blockcustomize>;
+    block.toolClass = "pickaxe";
+    block.toolLevel = 2;
     block.register();
 }

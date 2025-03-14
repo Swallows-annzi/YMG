@@ -78,6 +78,17 @@ RegItem("crystal_lens", 64, false);
 RegItem("lens", 64, false);
 //包装好的月饼
 RegItem("Mooncakes_box", 64, false);
+//真空容器
+RegItem("vacuum_vessels", 64, false);
+//压缩静电罐
+RegItem("compressed_electrostatics", 16, true);
+//宿质燃料罐
+RegItem("hostile_fuel_1_vessels", 16, false);
+RegItem("hostile_fuel_2_vessels", 16, false);
+RegItem("hostile_fuel_3_vessels", 16, false);
+RegItem("hostile_fuel_4_vessels", 16, true);
+RegItem("hostile_fuel_5_vessels", 16, true);
+
 
 //模具
 RegItem("mold_0", 16, false);
@@ -143,13 +154,13 @@ RegItem("anomalousice", 64, false);
 RegItem("olihacon", 64, false);
 RegItem("netherultimate", 64, false);
 RegItem("colorfulice", 64, false);
-RegItem("reinforcedbead1", 64, false);
+// RegItem("reinforcedbead1", 64, false);
 // RegItem("reinforcedbeadglowing1", 64, false);
-RegItem("reinforcedbead2", 64, false);
+// RegItem("reinforcedbead2", 64, false);
 // RegItem("reinforcedbeadglowing2", 64, false);
-RegItem("reinforcedbead3", 64, false);
+// RegItem("reinforcedbead3", 64, false);
 // RegItem("reinforcedbeadglowing3", 64, false);
-RegItem("reinforcedbead4", 64, false);
+// RegItem("reinforcedbead4", 64, false);
 // RegItem("reinforcedbeadglowing4", 64, false);
 RegItem("ymcomputecore", 64, false);
 // RegItem("informationcard", 64, false);
@@ -191,9 +202,19 @@ RegItem("fabric", 64, false);
 RegItem("sputnik", 1, false);
 RegItem("galaxy_sync_card_1", 1, false);
 RegItem("galaxy_sync_card_2", 1, false);
-RegItem("assembling_tool_1", 1, false);
-RegItem("assembling_tool_2", 1, false);
-RegItem("assembling_tool_3", 1, false);
+RegItem("Star_Signal_Amplification_Card_1", 64, true);
+RegItem("Star_Signal_Amplification_Card_2", 64, true);
+RegItem("Star_Signal_Amplification_Card_3", 64, true);
+RegItem("Star_Signal_Amplification_Card_4", 64, true);
+RegItem("Star_Signal_Amplification_Card_5", 64, true);
+RegItem("nano_rose_red_metal", 64, false);
+RegItem("Rare_Earth", 64, false);
+RegItem("Draconic_Dust", 64, false);
+RegItem("Crusaded_Crystals", 64, false);
+RegItem("Jump_Stand", 64, false);
+// RegItem("assembling_tool_1", 1, false);
+// RegItem("assembling_tool_2", 1, false);
+// RegItem("assembling_tool_3", 1, false);
 
 // RegItem("aerospace_plate_0", 64, false);
 // RegItem("aerospace_plate_1", 64, false);

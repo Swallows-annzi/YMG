@@ -16,6 +16,18 @@ import mods.modularmachinery.MachineModifier;
 MachineModifier.setMaxParallelism("YMG_Quenching_shrine", 5);
 MachineModifier.setInternalParallelism("YMG_Quenching_shrine", 5);
 
+//星体透镜
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Quenching_shrine_crystal_lens", "YMG_Quenching_shrine", 600)
+.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 16000)
+.addStarlightInput(2000,"astralsorcery.constellation.fornax")
+.addItemInputs([
+    <astralsorcery:itemrockcrystalsimple>,
+    <astralsorcery:iteminfusedglass>,
+    <mekanismgenerators:reactorglass> * 8
+])
+.addItemOutput(<contenttweaker:crystal_lens>)
+.build();
+
 //玻璃透镜
 mods.modularmachinery.RecipeBuilder.newBuilder("itemcraftingcomponent_3", "YMG_Quenching_shrine", 100)
 .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 500)

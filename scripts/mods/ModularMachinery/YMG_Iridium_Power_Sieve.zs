@@ -19,6 +19,7 @@ MachineModifier.setMaxThreads("YMG_Iridium_Power_Sieve", 12);
 
 //线筛网-粉碎陨石
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_1_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:1>).setChance(0)
 .addItemInput(<exnihilocreatio:block_skystone_crushed>)
@@ -27,6 +28,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_1_1", "YMG_Iridium_Power_
 
 //燧石筛网-粉碎陨石
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_1_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<exnihilocreatio:block_skystone_crushed>)
@@ -35,6 +37,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_1_1", "YMG_Iridium_Power_
 
 //铁筛网-粉碎陨石
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_1_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<exnihilocreatio:block_skystone_crushed>)
@@ -44,6 +47,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_1_1", "YMG_Iridium_Power_
 
 //钻石筛网-粉碎陨石
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_1_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<exnihilocreatio:block_skystone_crushed>)
@@ -53,6 +57,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_1_1", "YMG_Iridium_Power_
 
 //线筛网-灵魂沙
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_2_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:1>).setChance(0)
 .addItemInput(<ore:soulSand>)
@@ -69,6 +74,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_2_2", "YMG_Iridium_Power_
 
 //燧石筛网-灵魂沙
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_2_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<ore:soulSand>)
@@ -87,6 +93,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_2_2", "YMG_Iridium_Power_
 
 //钻石筛网-灵魂沙
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_2_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<ore:soulSand>)
@@ -107,6 +114,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_2_2", "YMG_Iridium_Power_
 
 //线筛网-沙砾
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_3_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:1>).setChance(0)
 .addItemInput(<ore:gravel>)
@@ -123,6 +131,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_3_2", "YMG_Iridium_Power_
 
 //燧石筛网-沙砾
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_3_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<ore:gravel>)
@@ -161,6 +170,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_3_2", "YMG_Iridium_Power_
 
 //铁筛网-沙砾
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_3_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<ore:gravel>)
@@ -207,6 +217,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_3_2", "YMG_Iridium_Power_
 
 //钻石筛网-沙砾
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_3_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<ore:gravel>)
@@ -251,6 +262,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_3_2", "YMG_Iridium_Power_
 
 //线筛网-尘土
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_4_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:1>).setChance(0)
 .addItemInput(<ore:dust>)
@@ -269,6 +281,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_A_4_2", "YMG_Iridium_Power_
 
 //燧石筛网-尘土
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_4_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<ore:dust>)
@@ -285,6 +298,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_4_2", "YMG_Iridium_Power_
 
 //铁筛网-尘土
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_4_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<ore:dust>)
@@ -307,6 +321,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_4_2", "YMG_Iridium_Power_
 
 //钻石筛网-尘土
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_4_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<ore:dust>)
@@ -327,6 +342,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_4_2", "YMG_Iridium_Power_
 
 //铁筛网-粉碎末地石
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_5_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<exnihilocreatio:block_endstone_crushed>)
@@ -347,6 +363,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_5_2", "YMG_Iridium_Power_
 
 //钻石筛网-粉碎末地石
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_5_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<exnihilocreatio:block_endstone_crushed>)
@@ -367,6 +384,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_5_2", "YMG_Iridium_Power_
 
 //燧石筛网-粉碎地狱岩
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_6_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<exnihilocreatio:block_netherrack_crushed>)
@@ -387,6 +405,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_6_2", "YMG_Iridium_Power_
 
 //铁筛网-粉碎地狱岩
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_6_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<exnihilocreatio:block_netherrack_crushed>)
@@ -411,6 +430,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_6_2", "YMG_Iridium_Power_
 
 //钻石筛网-粉碎地狱岩
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_6_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<exnihilocreatio:block_netherrack_crushed>)
@@ -433,6 +453,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_6_2", "YMG_Iridium_Power_
 
 //燧石筛网-粉碎闪长岩
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_7_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<ore:crushedDiorite>)
@@ -441,6 +462,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_7_1", "YMG_Iridium_Power_
 
 //铁筛网-粉碎闪长岩
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_7_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<ore:crushedDiorite>)
@@ -449,6 +471,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_7_1", "YMG_Iridium_Power_
 
 //钻石筛网-粉碎闪长岩
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_7_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<ore:crushedDiorite>)
@@ -457,6 +480,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_7_1", "YMG_Iridium_Power_
 
 //燧石筛网-沙子
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_8_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:2>).setChance(0)
 .addItemInput(<ore:sand>)
@@ -475,6 +499,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_B_8_2", "YMG_Iridium_Power_
 
 //铁筛网-沙子
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_8_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:iron_mesh>).setChance(0)
 .addItemInput(<ore:sand>)
@@ -495,6 +520,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("mesh_C_8_2", "YMG_Iridium_Power_
 
 //钻石筛网-沙子
 mods.modularmachinery.RecipeBuilder.newBuilder("mesh_D_8_1", "YMG_Iridium_Power_Sieve", 50)
+//.setIgnoreOutputCheck(true)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<exnihilocreatio:item_mesh:4>).setChance(0)
 .addItemInput(<ore:sand>)

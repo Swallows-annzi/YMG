@@ -69,6 +69,8 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
             val Naiad = NeptuneSystem["Naiad"].asMap();
             val Thalassa = NeptuneSystem["Thalassa"].asMap();
             val Despina = NeptuneSystem["Despina"].asMap();
+            val AsteroidBelt = SolarSystem["AsteroidBelt"].asMap();
+            val KuiperBelt = SolarSystem["KuiperBelt"].asMap();
             event.player.sendStatusMessage("§9" + player.name + "§5 的 §6星系进度§b：", false);
             event.player.sendStatusMessage(
                 "§6太阳系：" +
@@ -115,7 +117,9 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
                 "§e----§d海卫二§e----§d：" + isFound(Nereid["isFound"].asBool()) +
                 "\n§e----§d海卫三§e----§d：" + isFound(Naiad["isFound"].asBool()) +
                 "§e----§d海卫四§e----§d：" + isFound(Thalassa["isFound"].asBool()) +
-                "§e----§d海卫五§e----§d：" + isFound(Despina["isFound"].asBool())
+                "§e----§d海卫五§e----§d：" + isFound(Despina["isFound"].asBool()) +
+                "\n§e----§d小行星带§e----§d：" + isFound(AsteroidBelt["isFound"].asBool()) +
+                "\n§e----§d柯伊伯带§e----§d：" + isFound(KuiperBelt["isFound"].asBool())
                 , false
             );
             // event.player.sendStatusMessage(

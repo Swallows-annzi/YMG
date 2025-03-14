@@ -42,6 +42,15 @@ Pollen.add(<botania:dye:13>);
 Pollen.add(<botania:dye:14>);
 Pollen.add(<botania:dye:15>);
 
+//避雷针
+val lightning_cont = <ore:lightning_cont>;
+lightning_cont.add(<environmentaltech:lightning_cont_1>);
+lightning_cont.add(<environmentaltech:lightning_cont_2>);
+lightning_cont.add(<environmentaltech:lightning_cont_3>);
+lightning_cont.add(<environmentaltech:lightning_cont_4>);
+lightning_cont.add(<environmentaltech:lightning_cont_5>);
+lightning_cont.add(<environmentaltech:lightning_cont_6>);
+
 //水晶簇
 val cluster = <ore:cluster>;
 cluster.add(<actuallyadditions:block_crystal_cluster_redstone>);

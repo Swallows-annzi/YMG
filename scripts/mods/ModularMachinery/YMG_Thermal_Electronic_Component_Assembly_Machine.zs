@@ -388,7 +388,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Thermal_Electronic_Component_Ass
 mods.modularmachinery.RecipeBuilder.newBuilder("Thermal_Electronic_Component_Assembly_Machine_living_circuit", "YMG_Thermal_Electronic_Component_Assembly_Machine", 600)
 .setThreadName(Work_Barnroom_String)
 .addItemInputs([
-    <mets:nano_living_metal> * 4,
+    <contenttweaker:nano_rose_red_metal> * 4,
     <mets:neutron_plate>,
     <contenttweaker:insulationprintedcircuitboard>,
     <threng:material:14>

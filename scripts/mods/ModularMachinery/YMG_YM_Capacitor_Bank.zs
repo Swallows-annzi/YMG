@@ -23,6 +23,7 @@ import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.Sync;
 
 import mods.additionalapi.WorldData;
+import mods.additionalapi.BigInteger;
 
 
 //能量上限位数(10进制
@@ -32,33 +33,10 @@ val setEnergyMaxNumberOfDigit = 20;
 val SpeedMin = 1 as long;
 //最大传输速度
 val SpeedMax = 200000000 as long;
-//基础速率(请大于等于LongNumberOfDigit,最小为2 5 == pow(10, 5)
-val Base_RateNumberOfDigit = 5;
+//基础速率
+val Base_RateNumber = 100000;
 
-val IntString as string[int] = {
-    1   : "1",
-    2   : "2",
-    3   : "3",
-    4   : "4",
-    5   : "5",
-    6   : "6",
-    7   : "7",
-    8   : "8",
-    9   : "9",
-    0   : "0"
-};
-val StringInt as int[string] = {
-    "1" :   1,
-    "2" :   2,
-    "3" :   3,
-    "4" :   4,
-    "5" :   5,
-    "6" :   6,
-    "7" :   7,  
-    "8" :   8,
-    "9" :   9,
-    "0" :   0
-};
+
 
 //线程设置
 MachineModifier.setMaxThreads("YMG_YM_Capacitor_Bank", 0);
@@ -69,23 +47,23 @@ MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.creat
 //输出姬
 val Energy_output_string = "§l§b电容库§r§6 输出姬";
 MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_output_string)); 
-//同步姬
-val Energy_sync_string = "§l§b电容库§r§6 同步姬";
-MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_sync_string)); 
+// //同步姬
+// val Energy_sync_string = "§l§b电容库§r§6 同步姬";
+// MachineModifier.addCoreThread("YMG_YM_Capacitor_Bank", FactoryRecipeThread.createCoreThread(Energy_sync_string)); 
 
 //能量输入
 mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_input", "YMG_YM_Capacitor_Bank", 1)
 .setThreadName(Energy_input_string)
-.addEnergyPerTickInput(pow(10, Base_RateNumberOfDigit))
+.addEnergyPerTickInput(Base_RateNumber)
 .addPostCheckHandler(function(event as RecipeCheckEvent) {
     val ctrl = event.controller;
     val data = ctrl.customData;
     val map = data.asMap();
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
-    map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
+    map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
     if(setEnergyMax){
-        val A = String_Add(map["EnergyString"].asString(),String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString)), IntString, StringInt);
-        if (A.length() >= setEnergyMaxNumberOfDigit + 1) {
+        val A = BigInteger.Add(map["EnergyString"].asString(), BigInteger.Multiply(BigInteger.toString(map["speed"].asLong()), Base_RateNumber));
+        if (BigInteger.CompareTo(A, BigInteger.Pow("10", setEnergyMaxNumberOfDigit)) == 1) {
             event.setFailed("容量不足！");
         }
     }
@@ -102,23 +80,24 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_input", "YMG_Y
     val data = ctrl.customData;
     val map = data.asMap();
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
-    map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
-    map["EnergyString"] = String_Add(map["EnergyString"].asString(),String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString)), IntString, StringInt);
+    map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
+    map["EnergyString"] = BigInteger.Add(map["EnergyString"].asString(), BigInteger.Multiply(BigInteger.toString(map["speed"].asLong()), Base_RateNumber));
     ctrl.customData = data;
 })
 .build();
 
-//能量输出
+// 能量输出
 mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_output", "YMG_YM_Capacitor_Bank", 1)
 .setThreadName(Energy_output_string)
-.addEnergyPerTickOutput(pow(10, Base_RateNumberOfDigit))
+.addEnergyPerTickOutput(Base_RateNumber)
 .addPostCheckHandler(function(event as RecipeCheckEvent) {
     val ctrl = event.controller;
     val data = ctrl.customData;
     val map = data.asMap();
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
-    map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
-    if (!AllowedString_Sub(map["EnergyString"].asString(), String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString)))) {
+    map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
+    val A = BigInteger.Subtract(map["EnergyString"].asString(), BigInteger.Multiply(BigInteger.toString(map["speed"].asLong()), Base_RateNumber));
+    if (BigInteger.CompareTo(A, "0") == -1) {
         event.setFailed("电量不足！");
     }
 })
@@ -127,36 +106,39 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_output", "YMG_
     val data = ctrl.customData;
     val map = data.asMap();
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
-    ctrl.addModifier("YMG_YM_Capacitor_Bank_Energyinput_up", RecipeModifierBuilder.create("modularmachinery:energy", "output", map["speed"].asLong(), 1, false).build());
+    ctrl.addModifier("YMG_YM_Capacitor_Bank_Energyoutput_up", RecipeModifierBuilder.create("modularmachinery:energy", "output", map["speed"].asLong(), 1, false).build());
 })
 .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
     val ctrl = event.controller;
     val data = ctrl.customData;
     val map = data.asMap();
     map["speed"] = isNull(map["speed"]) ? 1 as long : map["speed"].asLong();
-    map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
-    map["EnergyString"] = String_Sub(map["EnergyString"].asString(), String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString)), IntString, StringInt);
+    map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
+    map["EnergyString"] = BigInteger.Subtract(map["EnergyString"].asString(), BigInteger.Multiply(BigInteger.toString(map["speed"].asLong()), Base_RateNumber));
     ctrl.customData = data;
 })
 .build();
 
 //能源同步
-mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_sync", "YMG_YM_Capacitor_Bank", 1200)
-.setThreadName(Energy_sync_string)
-.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-    Sync.addSyncTask(function(){
-        val ctrl = event.controller;
-        val data = ctrl.customData;
-        val map = data.asMap();
-        val EnergyData as IData = WorldData.getArchiveData("EnergyData", ctrl.ownerUUID);
-        val EnergyMap = EnergyData.asMap();
-        val Deduct as string = EnergyMap["Deduct"].asString();
-        map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
-        map["EnergyString"] = String_Sub(map["EnergyString"].asString(), Deduct, IntString, StringInt);
-        WorldData.upArchiveData("EnergyData", ctrl.ownerUUID, {Energy:map["EnergyString"].asString()});
-    });
-})
-.build();
+// mods.modularmachinery.RecipeBuilder.newBuilder("YM_Capacitor_Bank_sync", "YMG_YM_Capacitor_Bank", 1200)
+// .setThreadName(Energy_sync_string)
+// .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+    // Sync.addSyncTask(function(){
+    //     val ctrl = event.controller;
+    //     val data = ctrl.customData;
+    //     val map = data.asMap();
+    //     val EnergyData as IData = WorldData.getArchiveData("EnergyData", ctrl.ownerUUID);
+    //     val EnergyMap = EnergyData.asMap();
+    //     val Deduct as string = EnergyMap["Deduct"].asString();
+    //     map["EnergyString"] = isNull(map["EnergyString"]) ? "0" as string : map["EnergyString"].asString();
+    //     if(BigInteger.CompareTo(map["EnergyString"].asString(), Deduct) != -1){
+    //         map["EnergyString"] = BigInteger.Subtract(map["EnergyString"].asString(), Deduct);
+    //         ctrl.customData = data;
+    //     }
+    //     WorldData.upArchiveData("EnergyData", ctrl.ownerUUID, {Energy:map["EnergyString"].asString()});
+    // });
+// })
+// .build();
 
 //数据端口
 MachineModifier.addSmartInterfaceType("YMG_YM_Capacitor_Bank",
@@ -190,19 +172,17 @@ MMEvents.onControllerGUIRender("YMG_YM_Capacitor_Bank", function(event as Contro
     map["EnergyString"] = isNull(map["EnergyString"]) ? "0000" as string : map["EnergyString"].asString();
     var info as string[] = [];
     info += "§b>>";
-    if(setEnergyMax){
-        info += "§9RF存量：§b(§e" + FormatNumber(map["EnergyString"].asString()) + " §6RF / §b10^" + setEnergyMaxNumberOfDigit +" - 1 §6 RF§b)";
-        if(map["EnergyString"].asString().length() <= 21)
-        info += "§9RF存量：§b(§e" + map["EnergyString"].asString()[0] + "." + map["EnergyString"].asString()[1] + map["EnergyString"].asString()[2] + map["EnergyString"].asString()[3] + " §6 * §b10^" + (map["EnergyString"].asString().length() - 1) + " §6RF / §b10^" + setEnergyMaxNumberOfDigit +" - 1 §6 RF§b)";
-    }
+    // info += "§9RF存量：§e" + map["EnergyString"].asString();
+    if(setEnergyMax)
+        info += "§9RF存量：§b(§e" + FormatNumber(map["EnergyString"].asString()) + " §6RF / §b" + FormatNumber(BigInteger.Pow("10" , setEnergyMaxNumberOfDigit)) + " §6 RF§b)";
+        // info += "§9RF存量：§b(§e" + map["EnergyString"].asString()[0] + "." + map["EnergyString"].asString()[1] + map["EnergyString"].asString()[2] + map["EnergyString"].asString()[3] + " §6 * §b10^" + (map["EnergyString"].asString().length() - 1) + " §6RF / §b10^" + setEnergyMaxNumberOfDigit + " - 1 §6 RF§b)";
     
-    if(!setEnergyMax){
+    if(!setEnergyMax)
         info += "§9RF存量：§b(§e" + FormatNumber(map["EnergyString"].asString()) + " §6RF / §c无限 §6 RF§b)";
-        if(map["EnergyString"].asString().length() <= 21)
-        info += "§9RF存量：§b(§e" + map["EnergyString"].asString()[0] + "." + map["EnergyString"].asString()[1] + map["EnergyString"].asString()[2] + map["EnergyString"].asString()[3] + " §6 * §b10^" + (map["EnergyString"].asString().length() - 1) + " §6RF / §c无限 §6 RF§b)";
-    }
-    info += "§9传输倍率：§e" + FormatNumber(LongToString(map["speed"].asLong(), IntString)) + "§6.x  §b(§9默认倍率：§e1.0§6x§b)";
-    info += "§9传输速度：§e" + FormatNumber(String_Multiply(Base_RateNumberOfDigit, LongToString(map["speed"].asLong(), IntString))) + " §6RF/t";
+    info += "§9传输倍率：§e" + map["speed"].asLong() + ".0§cx";
+    val Speed = BigInteger.Multiply(BigInteger.toString(map["speed"].asLong()), Base_RateNumber);
+    // info += "§9传输速度：§e" + Speed[0] + "." + Speed[1] + Speed[2] + Speed[3] + " §6 * §b10^" + (Speed.length() - 1);
+    info += "§9传输速度：§e" + FormatNumber(Speed);
     info += "§b>>";
     // info += data;
     event.extraInfo = info;
@@ -256,143 +236,3 @@ function FormatNumber(String as string) as string {
     }
     return OutputString;
 }
-
-//B次方
-function pow(A as int, B as int) as long {
-    var sum = 1 as long;
-    for i in 0 to B {
-        sum = sum * A;
-    }
-    return sum;
-}
-
-//大数和
-function String_Add(StringA as string, StringB as string, IntString as string[int], StringInt as int[string]) as string {
-    val LenA = StringA.length;
-    val LenB = StringB.length;
-    var ReverseStringA = ReverseString(StringA);
-    var ReverseStringB = ReverseString(StringB);
-    var Carry = 0;
-    var OutputString = "";
-    if(LenA != LenB){
-        if(LenA < LenB){
-            for i in 0 to (max(LenA,LenB) - min(LenA,LenB)){
-                ReverseStringA = ReverseStringA + "0";
-            }
-        }
-        if(LenA > LenB){
-            for i in 0 to (max(LenA,LenB) - min(LenA,LenB)){
-                ReverseStringB = ReverseStringB + "0";
-            }
-        }
-    }
-    for i in 0 to max(LenA, LenB) {
-        var sum = StringInt[ReverseStringA[i]] + StringInt[ReverseStringB[i]] + Carry;
-        Carry = sum / 10;
-        OutputString = OutputString + IntString[sum % 10];
-    }
-    if (Carry > 0) {
-        OutputString = OutputString + IntString[Carry];
-    }
-    var  ReverseStringOutputString = ReverseString(OutputString);
-    while (ReverseStringOutputString.length > 1 && ReverseStringOutputString[0] == "0") {
-        ReverseStringOutputString = ReverseStringOutputString.substring(1);
-    }
-    return ReverseStringOutputString;
-}
-
-//大数减
-function String_Sub(StringA as string, StringB as string, IntString as string[int], StringInt as int[string]) as string {
-    val LenA = StringA.length;
-    val LenB = StringB.length;
-    var ReverseStringA = ReverseString(StringA);
-    var ReverseStringB = ReverseString(StringB);
-    var Borrow = 0;
-    var OutputString = "";
-    if(LenA != LenB){
-        if(LenA < LenB){
-            for i in 0 to (max(LenA,LenB) - min(LenA,LenB)){
-                ReverseStringA = ReverseStringA + "0";
-            }
-        }
-        if(LenA > LenB){
-            for i in 0 to (max(LenA,LenB) - min(LenA,LenB)){
-                ReverseStringB = ReverseStringB + "0";
-            }
-        }
-    }
-    for i in 0 to max(LenA,LenB) {
-        var difference = StringInt[ReverseStringA[i]] - StringInt[ReverseStringB[i]] - Borrow;
-        if (difference < 0) {
-            difference += 10;
-            Borrow = 1;
-        } 
-        else {
-            Borrow = 0;
-        }
-        OutputString = OutputString + IntString[difference];
-    }
-    var  ReverseStringOutputString = ReverseString(OutputString);
-    while (ReverseStringOutputString.length > 1 && ReverseStringOutputString[0] == "0") {
-        ReverseStringOutputString = ReverseStringOutputString.substring(1);
-    }
-    return ReverseStringOutputString;
-}
-
-//加"0"器
-function String_Multiply(Base_RateNumberOfDigit as int, Speed as string) as string {
-    var OutputString = Speed;
-    for i in 0 to Base_RateNumberOfDigit{
-        OutputString = OutputString + "0";
-    }
-    return OutputString;
-}
-
-//Long转字符串
-function LongToString(value as long, IntString as string[int]) as string {
-    var IntValue = value;
-    var String = "";
-    while (IntValue != 0) {
-        String = String + IntString[IntValue % 10];
-        IntValue = IntValue / 10;
-    }
-    return ReverseString(String);
-}
-
-//是否能减并且输出不为负数
-function AllowedString_Sub(StringA as string, StringB as string) as bool {
-    val LenA = StringA.length;
-    val LenB = StringB.length;
-    if (LenA < LenB){
-        return false;
-    }
-    if (LenA > LenB){
-        return true;
-    }
-    if (LenA == LenB){
-        var ReverseStringA = ReverseString(StringA);
-        var ReverseStringB = ReverseString(StringB);
-        val ReverseReverseStringA = ReverseString(ReverseStringA);
-        val ReverseReverseStringB = ReverseString(ReverseStringB);
-        for i in 0 to max(LenA,LenB){
-            if(ReverseReverseStringA[i] == ReverseReverseStringB[i])
-            continue;
-            if(ReverseReverseStringA[i] > ReverseReverseStringB[i])
-            return true;
-            if(ReverseReverseStringA[i] < ReverseReverseStringB[i])
-            return false;
-        }
-        return true;
-    }
-}
-
-//翻转字符串
-function ReverseString(InputString as string) as string{
-    val Len = InputString.length;
-    var OutputString = "";
-    for i in 0 to Len {
-        OutputString = OutputString + InputString[Len - i - 1];
-    }
-    return OutputString;
-}
-

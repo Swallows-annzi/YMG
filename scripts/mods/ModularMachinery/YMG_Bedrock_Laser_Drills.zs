@@ -410,6 +410,34 @@ mods.modularmachinery.RecipeBuilder.newBuilder("fluid_cooling_core_7", "YMG_Bedr
 )
 .build();
 
+//流体冷却核心-高级冷却液
+mods.modularmachinery.RecipeBuilder.newBuilder("fluid_cooling_core_8", "YMG_Bedrock_Laser_Drills", 1)
+.setThreadName(Fluid_Cooling_String)
+.addFluidInput(<liquid:advanced_coolant>)
+.addFluidOutput(<liquid:ic2hot_coolant>)
+.addPreCheckHandler(function(event as RecipeCheckEvent) {
+    val ctrl = event.controller;
+    val data = ctrl.customData;
+    val map = data.asMap();
+    map["thermal"] = isNull(map["thermal"]) ? 300.15 as double : map["thermal"].asDouble();
+    if (map["thermal"].asDouble() <= 183.15){
+        event.setFailed("§3冷却完毕");
+    }
+})
+.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+    val ctrl = event.controller;
+    val data = ctrl.customData;
+    val map = data.asMap();
+    map["thermal"] = isNull(map["thermal"]) ? 300.15 as double : map["thermal"].asDouble();
+    map["thermal"] = map["thermal"].asDouble() - 125.0;
+    ctrl.customData = data;
+})
+.addRecipeTooltip(
+    "当核心温度高于183.15k时为核心降温",
+    "每Tick为核心降温125.0k"
+)
+.build();
+
 //GUI
 MMEvents.onControllerGUIRender("YMG_Bedrock_Laser_Drills", function(event as ControllerGUIRenderEvent) {
     val ctrl = event.controller;

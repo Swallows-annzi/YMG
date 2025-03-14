@@ -23,6 +23,11 @@ RecipeAdapterBuilder.create("YMG_Elemental_Refinery", "modularmachinery:YMG_Ther
 .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input",  0.05F,  1, false).build())
 .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input", 15.0F, 1, false).build())
 .build();
+//继承流体絮凝器配方
+RecipeAdapterBuilder.create("YMG_Elemental_Refinery", "modularmachinery:YMG_Fluid_Flocculator")
+.addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input",  0.2F,  1, false).build())
+.addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input", 1.5F, 1, false).build())
+.build();
 
 //元始魔力
 mods.modularmachinery.RecipeBuilder.newBuilder("Elemental_Refinery_mana", "YMG_Elemental_Refinery", 5)
@@ -45,3 +50,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Elemental_Refinery_dragon_blood"
 .addFluidOutput(<liquid:dragon_blood> * 10)
 .build();
 
+//折跃晶体
+mods.modularmachinery.RecipeBuilder.newBuilder("crusaded_crystals", "YMG_Elemental_Refinery", 200)
+.addEnergyPerTickInput(120000000)
+.addFluidInputs([
+    <liquid:jump_crystalline> * 500
+])
+.addItemInputs([
+    <environmentaltech:lonsdaleite_crystal>,
+    <extendedcrafting:material:40>
+])
+.addItemOutput(<contenttweaker:crusaded_crystals>)
+.build();

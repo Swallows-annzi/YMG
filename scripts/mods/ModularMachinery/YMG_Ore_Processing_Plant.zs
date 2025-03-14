@@ -33,6 +33,22 @@ MachineModifier.setMaxThreads("YMG_Ore_Processing_Plant", 4);
 MachineModifier.setMaxParallelism("YMG_Ore_Processing_Plant", 1024);
 MachineModifier.setInternalParallelism("YMG_Ore_Processing_Plant", 1024);
 
+//稀土处理
+mods.modularmachinery.RecipeBuilder.newBuilder("Ore_Processing_Plant_rare_earth", "YMG_Ore_Processing_Plant", 300)
+.addEnergyPerTickInput(500000000)
+.addFluidInput(<liquid:liquidhydrofluricacid> * 1000)
+.addItemInput(<contenttweaker:rare_earth>)
+.addCatalystInput(CatalystItem, CatalystString, CatalysRecipeModifierBuilder)
+.addItemOutput(<contenttweaker:draconic_dust> * 4).setChance(0.2F)
+.addItemOutput(<appliedenergistics2:material:45> * 256).setChance(0.8F)
+.addItemOutput(<appliedenergistics2:material:3> * 192).setChance(0.99F)
+.addItemOutput(<avaritia:resource:2> * 16).setChance(0.75F)
+.addItemOutput(<mets:thorium_dust> * 128).setChance(0.2F)
+.addItemOutput(<taiga:meteorite_dust> * 64).setChance(0.95F)
+.addItemOutput(<jaopca:item_dustdirtyancientdebris> * 2).setChance(0.08F)
+.addItemOutput(<jaopca:item_dustdirtymithril> * 2).setChance(0.08F)
+.addItemOutput(<contenttweaker:radiantcrystalpowder>).setChance(0.02F)
+.build();
 
 //矿石处理
 mods.modularmachinery.RecipeBuilder.newBuilder("Ore_Processing_Plant_1", "YMG_Ore_Processing_Plant", 10)

@@ -44,7 +44,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("nano_living_metal", "YMG_Gemini_
     <botania:manaresource:5> * 3,
     <super_solar_panels:crafting:24> * 16
 ])
-.addItemOutput(<mets:nano_living_metal>)
+.addItemOutput(<contenttweaker:nano_rose_red_metal>)
 .build();
 
 //一级结构方块

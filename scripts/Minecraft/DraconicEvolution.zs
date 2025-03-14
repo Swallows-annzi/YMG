@@ -19,6 +19,20 @@ recipes.addShaped(<draconicevolution:draconic_core> * 3,[
     [<environmentaltech:litherite>,<jaopca:item_platedensedraconium>,<environmentaltech:litherite>]
 ]);
 
+//觉醒龙块
+recipes.addShaped(<draconicevolution:draconic_block>,[
+    [<ore:ingotDraconiumAwakened>,<ore:ingotDraconiumAwakened>,<ore:ingotDraconiumAwakened>],
+    [<ore:ingotDraconiumAwakened>,<ore:ingotDraconiumAwakened>,<ore:ingotDraconiumAwakened>],
+    [<ore:ingotDraconiumAwakened>,<ore:ingotDraconiumAwakened>,<ore:ingotDraconiumAwakened>]
+]);
+
+//注入龙力的黑曜石
+recipes.addShaped(<draconicevolution:infused_obsidian>,[
+    [<thermalfoundation:material:1024>,<enderio:block_reinforced_obsidian>,<thermalfoundation:material:1024>],
+    [<enderio:block_reinforced_obsidian>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>],
+    [<thermalfoundation:material:1024>,<enderio:block_reinforced_obsidian>,<thermalfoundation:material:1024>]
+]);
+
 //觉醒龙锭
 recipes.addShapeless(<draconicevolution:draconic_ingot> * 9,[<draconicevolution:draconic_block>]);
 

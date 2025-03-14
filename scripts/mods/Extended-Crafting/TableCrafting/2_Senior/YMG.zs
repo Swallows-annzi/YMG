@@ -16,3 +16,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:tungstenringcoi
 	[<contenttweaker:tungstencoil>, <contenttweaker:tungsteningot>, <contenttweaker:tungsteningot>, <contenttweaker:tungsteningot>, <contenttweaker:tungstencoil>], 
 	[<contenttweaker:tungstencoil>, <contenttweaker:tungstencoil>, <contenttweaker:tungstenplate>, <contenttweaker:tungstencoil>, <contenttweaker:tungstencoil>]
 ]);
+
+//真空管
+mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:vacuum_vessels> * 4, [
+	[<contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <thermaldynamics:duct_16:7>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>], 
+	[<contenttweaker:mysteriousiceplate>, <mekanismgenerators:reactorglass>, <jaopca:block_glasshardenedancientdebris>, <mekanismgenerators:reactorglass>, <contenttweaker:mysteriousiceplate>], 
+	[<thermaldynamics:duct_16:7>, <mekanismgenerators:reactorglass>, <jaopca:block_glasshardenedancientdebris>, <mekanismgenerators:reactorglass>, <thermaldynamics:duct_16:7>], 
+	[<contenttweaker:mysteriousiceplate>, <mekanismgenerators:reactorglass>, <jaopca:block_glasshardenedancientdebris>, <mekanismgenerators:reactorglass>, <contenttweaker:mysteriousiceplate>], 
+	[<contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <thermaldynamics:duct_16:7>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>]
+]);

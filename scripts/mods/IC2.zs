@@ -29,6 +29,14 @@ mods.ic2.MetalFormer.addCuttingRecipe(<contenttweaker:mysteriousicewire> * 2, <c
 //玻璃透镜  
 mods.ic2.BlockCutter.addRecipe(<mets:lens>, <ic2:glass>);
 
+//晶圆切割
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:litherite_wafers>,<contenttweaker:litherite_boule>,9);
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:erodium_wafers>,<contenttweaker:erodium_boule>,9);
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:kyronite_wafers>,<contenttweaker:kyronite_boule>,9);
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:pladium_wafers>,<contenttweaker:pladium_boule>,9);
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:ionite_wafers>,<contenttweaker:ionite_boule>,9);
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:aethium_wafers>,<contenttweaker:aethium_boule>,9);
+
 //压缩机
 //mods.ic2.Compressor.addRecipe(IItemStack output, IIngredient input);
 

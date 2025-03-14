@@ -10,21 +10,21 @@
 
 
 //龙之心
-mods.modularmachinery.RecipeBuilder.newBuilder("Star_Resplendent_dragon_heart", "YMG_Star_Resplendent", 1800)
-.addEnergyPerTickInput(400000000)
-.addFluidInputs([
-    <liquid:mana> * 32000,
-    <liquid:dragon_blood> * 1000
-])
-.addItemInputs([
-    <extendedcrafting:singularity_custom:1016> * 3,
-    <extendedcrafting:singularity_custom:1017>,
-    <extendedcrafting:singularity_custom:1012>,
-    <avaritia:resource:4> * 24,
-    <draconicevolution:mob_soul>
-])
-.addItemOutput(<draconicevolution:dragon_heart>)
-.build();
+// mods.modularmachinery.RecipeBuilder.newBuilder("Star_Resplendent_dragon_heart", "YMG_Star_Resplendent", 1800)
+// .addEnergyPerTickInput(400000000)
+// .addFluidInputs([
+//     <liquid:mana> * 32000,
+//     <liquid:dragon_blood> * 1000
+// ])
+// .addItemInputs([
+//     <extendedcrafting:singularity_custom:1016> * 3,
+//     <extendedcrafting:singularity_custom:1017>,
+//     <extendedcrafting:singularity_custom:1012>,
+//     <avaritia:resource:4> * 24,
+//     <draconicevolution:mob_soul>
+// ])
+// .addItemOutput(<draconicevolution:dragon_heart>)
+// .build();
 
 //无尽催化剂
 mods.modularmachinery.RecipeBuilder.newBuilder("Star_Resplendent_resource_5", "YMG_Star_Resplendent", 3600)

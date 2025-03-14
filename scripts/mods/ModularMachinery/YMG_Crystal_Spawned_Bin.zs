@@ -159,7 +159,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("block_crystal_cluster_2", "YMG_C
 
 //琉璃玄冰
 mods.modularmachinery.RecipeBuilder.newBuilder("colorfulice_1", "YMG_Crystal_Spawned_Bin", 1200)
-.addEnergyPerTickInput(5000000)
+.addEnergyPerTickInput(50000000)
 .addFluidInput(<liquid:mana>* 100)
 .addItemInput(<contenttweaker:anomalousice>)
 .addItemInput(<botania:bifrostperm>)
@@ -235,5 +235,66 @@ mods.modularmachinery.RecipeBuilder.newBuilder("tungstencrystal", "YMG_Crystal_S
     <contenttweaker:tungstendust> * 16
 ])
 .addItemOutput(<contenttweaker:tungstencrystal>).setChance(0.1)
+.build();
+
+//晶球催生
+mods.modularmachinery.RecipeBuilder.newBuilder("Boule_0", "YMG_Crystal_Spawned_Bin", 1200)
+.addEnergyPerTickInput(5000000)
+.addFluidInputs([
+    <liquid:cryotheum> * 200,
+    <liquid:pyrotheum> * 100
+])
+.addItemInput(<contenttweaker:litherite_powder>)
+.addItemOutput(<contenttweaker:litherite_boule>).setChance(0.01)
+.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder("Boule_1", "YMG_Crystal_Spawned_Bin", 1200)
+.addEnergyPerTickInput(5000000)
+.addFluidInputs([
+    <liquid:cryotheum> * 200,
+    <liquid:pyrotheum> * 100
+])
+.addItemInput(<contenttweaker:erodium_powder>)
+.addItemOutput(<contenttweaker:erodium_boule>).setChance(0.01)
+.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder("Boule_2", "YMG_Crystal_Spawned_Bin", 1200)
+.addEnergyPerTickInput(5000000)
+.addFluidInputs([
+    <liquid:cryotheum> * 200,
+    <liquid:pyrotheum> * 100
+])
+.addItemInput(<contenttweaker:kyronite_powder>)
+.addItemOutput(<contenttweaker:kyronite_boule>).setChance(0.01)
+.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder("Boule_3", "YMG_Crystal_Spawned_Bin", 1200)
+.addEnergyPerTickInput(5000000)
+.addFluidInputs([
+    <liquid:cryotheum> * 200,
+    <liquid:pyrotheum> * 100
+])
+.addItemInput(<contenttweaker:pladium_powder>)
+.addItemOutput(<contenttweaker:pladium_boule>).setChance(0.01)
+.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder("Boule_4", "YMG_Crystal_Spawned_Bin", 1200)
+.addEnergyPerTickInput(5000000)
+.addFluidInputs([
+    <liquid:cryotheum> * 200,
+    <liquid:pyrotheum> * 100
+])
+.addItemInput(<contenttweaker:ionite_powder>)
+.addItemOutput(<contenttweaker:ionite_boule>).setChance(0.01)
+.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder("Boule_5", "YMG_Crystal_Spawned_Bin", 1200)
+.addEnergyPerTickInput(5000000)
+.addFluidInputs([
+    <liquid:cryotheum> * 200,
+    <liquid:pyrotheum> * 100
+])
+.addItemInput(<contenttweaker:aethium_powder>)
+.addItemOutput(<contenttweaker:aethium_boule>).setChance(0.01)
 .build();
 

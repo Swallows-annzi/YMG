@@ -33,7 +33,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Magnetic_Flux_Metal_Fused_olihac
 .addItemInputs([
     <taiga:adamant_ingot> * 16,
     <avaritia:resource:1> * 2,
-    <mets:nano_living_metal> * 4,
+    <contenttweaker:nano_rose_red_metal> * 4,
     <extrabotany:material:3>,
     <environmentaltech:erodium_crystal> * 16,
     <enderio:item_material:34> * 16

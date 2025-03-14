@@ -1,0 +1,215 @@
+{
+    "registryname": "YMG_Ion_Implantation_Etching_Machine",
+    "localizedname": "§b§lYMG§r§e§l—§f§l离子注入蚀刻机 §r§e", 
+    "requires-blueprint": false, 
+    "color": "F0FFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        }
+    ]}

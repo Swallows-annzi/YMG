@@ -11,11 +11,6 @@
 import mods.modularmachinery.MachineModifier;
 
 
-//容量
-val MaxBlood = 2000000;
-//单次io(虚弱宝珠只能输入1000
-val setBloodIO = 1000;
-
 //启用并行
 // MachineModifier.setParallelizable("YMG_Digital_Altar", true);
 MachineModifier.setMaxParallelism("YMG_Digital_Altar", 8);

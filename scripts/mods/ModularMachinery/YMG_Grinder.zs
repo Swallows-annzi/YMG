@@ -2677,6 +2677,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_432", "YMG_Grinder", set
 
 
 val List as IItemStack[IItemStack] = {
+<environmentaltech:litherite_crystal>:<contenttweaker:litherite_powder>,
+<environmentaltech:erodium_crystal>:<contenttweaker:erodium_powder>,
+<environmentaltech:kyronite_crystal>:<contenttweaker:kyronite_powder>,
+<environmentaltech:pladium_crystal>:<contenttweaker:pladium_powder>,
+<environmentaltech:ionite_crystal>:<contenttweaker:ionite_powder>,
+<environmentaltech:aethium_crystal>:<contenttweaker:aethium_powder>
 };
 
 for input, output in List {

@@ -12,7 +12,7 @@
 //.displayName = "";
 <extendedcrafting:frame>.displayName = "聚能末影钢框架";
 <bloodmagic:blood_orb>.displayName = "任意气血宝珠";
-<custommc:item782>.displayName = "§d压缩静电";
+// <custommc:item782>.displayName = "§d压缩静电";
 // <custommc:item691>.displayName = "水果精华";
 // <custommc:item896>.displayName = "坚果精华";
 // <custommc:item869>.displayName = "调味精华";

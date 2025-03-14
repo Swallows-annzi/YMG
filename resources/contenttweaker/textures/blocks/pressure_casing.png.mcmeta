@@ -1,0 +1,14 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/pressure_casing_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:pressure_casing" }
+			]
+		}
+    }
+}

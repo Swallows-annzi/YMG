@@ -64,7 +64,9 @@ val SolarSystemData as IData = {
             Naiad           :   {isFound    :   false},
             Thalassa        :   {isFound    :   false},
             Despina         :   {isFound    :   false}
-        }
+        },
+        AsteroidBelt    :   {isFound    :   false},
+        KuiperBelt      :   {isFound    :   false}
     }
 };
 

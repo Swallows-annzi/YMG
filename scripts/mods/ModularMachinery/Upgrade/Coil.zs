@@ -10,10 +10,6 @@
 
 import mods.modularmachinery.MachineUpgradeHelper;
 import mods.modularmachinery.MachineUpgradeBuilder;
-import mods.modularmachinery.SimpleMachineUpgrade;
-import mods.modularmachinery.RecipeStartEvent;
-import mods.modularmachinery.MMEvents;
-import mods.modularmachinery.RecipeModifierBuilder;
 
 
 //加热线圈升级

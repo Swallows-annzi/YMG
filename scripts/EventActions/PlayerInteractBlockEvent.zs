@@ -30,13 +30,24 @@ events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
 //辉光粉限制
 events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
     val item = event.item;
-    if(!event.world.remote && !isNull(item) && item.definition.id == "astralsorcery:itemusabledust"){
+    if(!event.world.remote && <astralsorcery:itemusabledust>.matches(item)){
         if(event.player.isSneaking || event.block.definition.id != "astralsorcery:blockattunementrelay"){
             event.player.sendStatusMessage("§c§l辉光粉只能放于星辉转继器中！", false);
             event.cancel();
         }
     } 
 });
+
+//11号唱片限制
+// events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
+//     val item = event.item;
+//     if(!event.world.remote && <minecraft:record_11>.matches(item)){
+//         if(event.block.definition.id == "actuallyadditions:block_atomic_reconstructor"){
+//             event.player.sendStatusMessage("§c§l这样做是駄目ですよ！", false);
+//             event.cancel();
+//         }
+//     } 
+// });
 
 //获取自己的UUID对应的星系Data
 events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
@@ -89,6 +100,8 @@ events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
         val Naiad = NeptuneSystem["Naiad"].asMap();
         val Thalassa = NeptuneSystem["Thalassa"].asMap();
         val Despina = NeptuneSystem["Despina"].asMap();
+        val AsteroidBelt = SolarSystem["AsteroidBelt"].asMap();
+        val KuiperBelt = SolarSystem["KuiperBelt"].asMap();
         event.player.sendStatusMessage("§9" + event.player.name + "§5 的 §6星系进度§b：", false);
         event.player.sendStatusMessage(
             "§6太阳系：" +
@@ -135,7 +148,9 @@ events.onPlayerRightClickBlock(function(event as PlayerInteractBlockEvent){
             "§e----§d海卫二§e----§d：" + isFound(Nereid["isFound"].asBool()) +
             "\n§e----§d海卫三§e----§d：" + isFound(Naiad["isFound"].asBool()) +
             "§e----§d海卫四§e----§d：" + isFound(Thalassa["isFound"].asBool()) +
-            "§e----§d海卫五§e----§d：" + isFound(Despina["isFound"].asBool())
+            "§e----§d海卫五§e----§d：" + isFound(Despina["isFound"].asBool()) +
+            "\n§e----§d小行星带§e----§d：" + isFound(AsteroidBelt["isFound"].asBool()) +
+            "\n§e----§d柯伊伯带§e----§d：" + isFound(KuiperBelt["isFound"].asBool())
             , false
         );
         // event.player.sendStatusMessage(

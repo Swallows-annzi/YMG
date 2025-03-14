@@ -112,7 +112,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("blockenergyinputhatch_3", "YMG_G
 .addItemInputs([
     <modularmachinery:blockenergyinputhatch:2>,
     <thermalfoundation:material:515> * 6,
-    <ic2:upgrade> * 8,
+    <super_solar_panels:crafting:44> * 8,
     <contenttweaker:mysteriousiceplate> * 2,
     <enderio:item_capacitor_grainy> * 64,
     <thermaldynamics:duct_0:9> * 8,
@@ -128,7 +128,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("blockenergyoutputhatch_3", "YMG_
 .addItemInputs([
     <modularmachinery:blockenergyoutputhatch:2>,
     <thermalfoundation:material:515> * 6,
-    <ic2:upgrade> * 8,
+    <super_solar_panels:crafting:44> * 8,
     <contenttweaker:mysteriousiceplate> * 2,
     <enderio:item_capacitor_grainy> * 64,
     <thermaldynamics:duct_0:9> * 8,
@@ -260,7 +260,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("estorage_cell_item_16m", "YMG_Ge
     <tconevo:metal:38> * 32,
     <mets:super_iridium_compress_plate> * 4,
     <threng:material:4> * 32,
-    <nae2:material:4>,
+    <nae2:material:3>,
     <mets:living_circuit>,
     <appliedenergistics2:material:39>
 ])
@@ -277,7 +277,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("estorage_cell_fluid_16m", "YMG_G
     <tconevo:metal:38> * 32,
     <mets:super_iridium_compress_plate> * 4,
     <threng:material:4> * 32,
-    <nae2:material:8>,
+    <nae2:material:7>,
     <mets:living_circuit>,
     <appliedenergistics2:material:39>
 ])

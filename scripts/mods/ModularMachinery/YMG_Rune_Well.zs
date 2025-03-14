@@ -12,6 +12,7 @@ import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
+
 //线程设置
 MachineModifier.setMaxThreads("YMG_Rune_Well", 0);
 
@@ -230,8 +231,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_5_1", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addManaInput(9000)
-.addItemInput(<botania:rune>).setChance(0.0F)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
+.addItemInput(<botania:rune>)
+.addItemInput(<botania:rune:1>)
 .addItemInputs([
     <ore:treeSapling> * 3,
     <minecraft:wheat>
@@ -245,8 +246,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_5_2", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addFluidInput(<liquid:fluidedmana> * 9)
-.addItemInput(<botania:rune>).setChance(0.0F)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
+.addItemInput(<botania:rune>)
+.addItemInput(<botania:rune:1>)
 .addItemInputs([
     <ore:treeSapling> * 3,
     <minecraft:wheat>
@@ -262,8 +263,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_6_1", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addManaInput(9000)
-.addItemInput(<botania:rune:2>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:2>)
+.addItemInput(<botania:rune:3>)
 .addItemInputs([
     <ore:sand> * 2,
     <ore:slimeball>,
@@ -278,8 +279,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_6_2", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addFluidInput(<liquid:fluidedmana> * 9)
-.addItemInput(<botania:rune:2>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:2>)
+.addItemInput(<botania:rune:3>)
 .addItemInputs([
     <ore:sand> * 2,
     <ore:slimeball>,
@@ -296,8 +297,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_7_1", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addManaInput(9000)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:1>)
+.addItemInput(<botania:rune:3>)
 .addItemInputs([
     <ore:treeLeaves> * 3,
     <minecraft:spider_eye>
@@ -311,8 +312,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_7_2", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addFluidInput(<liquid:fluidedmana> * 9)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:1>)
+.addItemInput(<botania:rune:3>)
 .addItemInputs([
     <ore:treeLeaves> * 3,
     <minecraft:spider_eye>
@@ -328,8 +329,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_8_1", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addManaInput(9000)
-.addItemInput(<botania:rune>).setChance(0.0F)
-.addItemInput(<botania:rune:2>).setChance(0.0F)
+.addItemInput(<botania:rune>)
+.addItemInput(<botania:rune:2>)
 .addItemInputs([
     <minecraft:snow> * 2,
     <ore:wool>,
@@ -344,8 +345,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_8_2", "YMG_Rune_W
 .setThreadName(Runealtar_String)
 .setParallelized(false)
 .addFluidInput(<liquid:fluidedmana> * 9)
-.addItemInput(<botania:rune>).setChance(0.0F)
-.addItemInput(<botania:rune:2>).setChance(0.0F)
+.addItemInput(<botania:rune>)
+.addItemInput(<botania:rune:2>)
 .addItemInputs([
     <minecraft:snow> * 2,
     <ore:wool>,
@@ -393,8 +394,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_10_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:5>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:5>)
+.addItemInput(<botania:rune:3>)
 .addItemOutput(<botania:rune:9>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -407,8 +408,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_10_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:5>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:5>)
+.addItemInput(<botania:rune:3>)
 .addItemOutput(<botania:rune:9>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -423,8 +424,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_11_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:7>).setChance(0.0F)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
+.addItemInput(<botania:rune:7>)
+.addItemInput(<botania:rune:1>)
 .addItemOutput(<botania:rune:10>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -437,8 +438,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_11_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:7>).setChance(0.0F)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
+.addItemInput(<botania:rune:7>)
+.addItemInput(<botania:rune:1>)
 .addItemOutput(<botania:rune:10>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -453,8 +454,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_12_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:4>).setChance(0.0F)
-.addItemInput(<botania:rune>).setChance(0.0F)
+.addItemInput(<botania:rune:4>)
+.addItemInput(<botania:rune>)
 .addItemOutput(<botania:rune:11>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -467,8 +468,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_12_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:4>).setChance(0.0F)
-.addItemInput(<botania:rune>).setChance(0.0F)
+.addItemInput(<botania:rune:4>)
+.addItemInput(<botania:rune>)
 .addItemOutput(<botania:rune:11>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -483,8 +484,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_13_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:6>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:6>)
+.addItemInput(<botania:rune:3>)
 .addItemOutput(<botania:rune:12>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -497,8 +498,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_13_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:6>).setChance(0.0F)
-.addItemInput(<botania:rune:3>).setChance(0.0F)
+.addItemInput(<botania:rune:6>)
+.addItemInput(<botania:rune:3>)
 .addItemOutput(<botania:rune:12>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -513,8 +514,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_14_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:7>).setChance(0.0F)
-.addItemInput(<botania:rune:2>).setChance(0.0F)
+.addItemInput(<botania:rune:7>)
+.addItemInput(<botania:rune:2>)
 .addItemOutput(<botania:rune:13>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -527,8 +528,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_14_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:7>).setChance(0.0F)
-.addItemInput(<botania:rune:2>).setChance(0.0F)
+.addItemInput(<botania:rune:7>)
+.addItemInput(<botania:rune:2>)
 .addItemOutput(<botania:rune:13>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -543,8 +544,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_15_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:7>).setChance(0.0F)
-.addItemInput(<botania:rune>).setChance(0.0F)
+.addItemInput(<botania:rune:7>)
+.addItemInput(<botania:rune>)
 .addItemOutput(<botania:rune:14>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -557,8 +558,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_15_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:7>).setChance(0.0F)
-.addItemInput(<botania:rune>).setChance(0.0F)
+.addItemInput(<botania:rune:7>)
+.addItemInput(<botania:rune>)
 .addItemOutput(<botania:rune:14>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -573,8 +574,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_16_1", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:5>).setChance(0.0F)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
+.addItemInput(<botania:rune:5>)
+.addItemInput(<botania:rune:1>)
 .addItemOutput(<botania:rune:15>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -587,8 +588,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_rune_16_2", "YMG_Rune_
 .addItemInputs([
     <botania:manaresource:2> * 2
 ])
-.addItemInput(<botania:rune:5>).setChance(0.0F)
-.addItemInput(<botania:rune:1>).setChance(0.0F)
+.addItemInput(<botania:rune:5>)
+.addItemInput(<botania:rune:1>)
 .addItemOutput(<botania:rune:15>)
 .addRecipeTooltip(
     "§c不受并行影响"
@@ -635,7 +636,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_gildedmashedpotato", "
         <extrabotany:terrasteelhammer>,
         <extrabotany:ultimatehammer>
     ])
-).setParallelizeUnaffected(true).setChance(0.0F)
+).setParallelizeUnaffected(true)
 .addItemInputs([
     <extrabotany:material:2>
 ])
@@ -654,7 +655,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_material", "YMG_Rune_W
         <extrabotany:terrasteelhammer>,
         <extrabotany:ultimatehammer>
     ])
-).setParallelizeUnaffected(true).setChance(0.0F)
+).setParallelizeUnaffected(true)
 .addItemInputs([
     <extrabotany:spiritfuel>
 ])
@@ -672,7 +673,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_spiritfuel", "YMG_Rune
         <extrabotany:terrasteelhammer>,
         <extrabotany:ultimatehammer>
     ])
-).setParallelizeUnaffected(true).setChance(0.0F)
+).setParallelizeUnaffected(true)
 .addItemInputs([
     <extrabotany:nightmarefuel>
 ])
@@ -775,14 +776,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_material_5_2", "YMG_Ru
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingrock_1", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addManaInput(1000)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
 .addItemInput(<ore:stone>)
 .addItemOutput(<botania:livingrock>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingrock_2", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addFluidInput(<liquid:fluidedmana> * 1)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
 .addItemInput(<ore:stone>)
 .addItemOutput(<botania:livingrock>)
 .build();
@@ -791,14 +792,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingrock_2", "YMG_Ru
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingwood_1", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addManaInput(1000)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
 .addItemInput(<ore:logWood>)
 .addItemOutput(<botania:livingwood>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingwood_2", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addFluidInput(<liquid:fluidedmana> * 1)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
 .addItemInput(<ore:logWood>)
 .addItemOutput(<botania:livingwood>)
 .build();
@@ -807,14 +808,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingwood_2", "YMG_Ru
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_blockcustomore_1", "YMG_Rune_Well", 300)
 .setThreadName(Puredaisy_String)
 .addManaInput(2000)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
 .addItemInput(<ore:oreAquamarine>)
 .addItemOutput(<astralsorcery:blockcustomore>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_blockcustomore_2", "YMG_Rune_Well", 300)
 .setThreadName(Puredaisy_String)
 .addFluidInput(<liquid:fluidedmana> * 2)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
 .addItemInput(<ore:oreAquamarine>)
 .addItemOutput(<astralsorcery:blockcustomore>)
 .build();

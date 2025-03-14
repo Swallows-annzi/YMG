@@ -77,3 +77,17 @@ recipes.addShaped(<super_solar_panels:eit_proton_fuel_rod>,[
 	[<ore:plateCopper>,<ore:plateIron>,<ore:plateCopper>], 
 	[<super_solar_panels:dual_proton_fuel_rod>,<ore:plateIron>,<super_solar_panels:dual_proton_fuel_rod>]
 ]);
+
+//超频升级
+recipes.addShaped(<ic2:upgrade> * 4,[
+	[<contenttweaker:olihacon>,<thermalfoundation:material:1028>,<contenttweaker:olihacon>], 
+	[<gravisuite:crafting:1>,<contenttweaker:ymcomputecore>,<gravisuite:crafting:1>], 
+	[<super_solar_panels:machines:15>,<super_solar_panels:max_heat_storage>,<super_solar_panels:machines:15>]
+]);
+
+//极性磁控管
+recipes.addShaped(<gravisuite:crafting:4>,[
+	[<ic2:crafting:4>,<gravisuite:crafting:1>,<ic2:crafting:4>], 
+	[<ic2:crafting:4>,<gravisuite:crafting:1>,<ic2:crafting:4>], 
+	[<contenttweaker:mysteriousicecoil>,<gravisuite:crafting:2>,<contenttweaker:mysteriousicecoil>]
+]);

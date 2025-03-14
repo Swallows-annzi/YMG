@@ -48,17 +48,28 @@ mods.modularmachinery.RecipeBuilder.newBuilder("wyvern_energy_core", "YMG_Magnet
 .build();
 
 //觉醒龙块
-mods.modularmachinery.RecipeBuilder.newBuilder("draconic_block", "YMG_Magnetic_Permeability_Dragon_Aggregation_Tower", 1200)
-.addEnergyPerTickInput(150000000)
-.addGasInput(<gas:unstabledimensional> * 1000)
-.addFluidInput(<liquid:jump_crystalline> * 1000)
+// mods.modularmachinery.RecipeBuilder.newBuilder("draconic_block", "YMG_Magnetic_Permeability_Dragon_Aggregation_Tower", 1200)
+// .addEnergyPerTickInput(150000000)
+// .addGasInput(<gas:unstabledimensional> * 1000)
+// .addFluidInput(<liquid:jump_crystalline> * 1000)
+// .addItemInputs([
+//     <draconicevolution:draconium_block:1> * 16,
+//     <avaritiaitem:triphasic_alloy> * 64,
+//     <bloodmagic:decorative_brick:2>,
+//     <draconicevolution:dragon_heart>
+// ])
+// .addItemOutput(<draconicevolution:draconic_block> * 4)
+// .build();
+
+//觉醒龙锭
+mods.modularmachinery.RecipeBuilder.newBuilder("draconic_ingot", "YMG_Magnetic_Permeability_Dragon_Aggregation_Tower", 600)
+.addEnergyPerTickInput(100000000)
+.addFluidInput(<liquid:jump_crystalline> * 200)
+.addFluidInput(<liquid:ic2uu_matter> * 1000)
 .addItemInputs([
-    <draconicevolution:draconium_block:1> * 16,
-    <avaritiaitem:triphasic_alloy> * 64,
-    <bloodmagic:decorative_brick:2>,
-    <draconicevolution:dragon_heart>
+    <contenttweaker:draconic_dust>
 ])
-.addItemOutput(<draconicevolution:draconic_block> * 4)
+.addItemOutput(<draconicevolution:draconic_ingot>)
 .build();
 
 //神龙能量核心

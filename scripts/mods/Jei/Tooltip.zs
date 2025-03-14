@@ -9,15 +9,19 @@
 #loader crafttweaker reloadable
 
 
-
-//临时配方
-
-
 //大型风力发电机
 <mekanismmultiblockmachine:multiblockgenerator>.addTooltip("§c两台大型风力发电机之间请间隔50格，否则无法放置！");
 
 //ME控制器
 <appliedenergistics2:controller>.addTooltip("§f控制器的最大长度从 7 格调整为 16 格");
+
+//大型分子装配室
+<threng:big_assembler>.addTooltip("§c请使用“ECO可扩展合成子系统”系列代替大型分子装配室");
+<threng:big_assembler:1>.addTooltip("§c请使用“ECO可扩展合成子系统”系列代替大型分子装配室");
+<threng:big_assembler:2>.addTooltip("§c请使用“ECO可扩展合成子系统”系列代替大型分子装配室");
+<threng:big_assembler:3>.addTooltip("§c请使用“ECO可扩展合成子系统”系列代替大型分子装配室");
+<threng:big_assembler:4>.addTooltip("§c请使用“ECO可扩展合成子系统”系列代替大型分子装配室");
+<threng:big_assembler:5>.addTooltip("§c请使用“ECO可扩展合成子系统”系列代替大型分子装配室");
 
 //基岩粉块
 <enderio:block_infinity>.addTooltip("§f用以代替基岩，但没有基岩那么好。");
@@ -48,7 +52,7 @@
 <contenttweaker:sputnikcoordinatecard>.addTooltip("§c若此卡丢失，那么您将永远失去这颗卫星！");
 
 //星球卡
-<contenttweaker:galaxycoordinatecard>.addTooltip("§c请及时解析此卡，否则会影响其他坐标的获取！");
+// <contenttweaker:galaxycoordinatecard>.addTooltip("§c请及时解析此卡，否则会影响其他坐标的获取！");
 
 //星系进度同步卡
 <contenttweaker:galaxy_sync_card_1>.addTooltip("§9受进度者使用然后给予提供进度者使用");
@@ -83,24 +87,7 @@
 <modularmachinery:ymg_builder_ritual_pedestal_controller>.addTooltip("§9结构成型后自动变回仪式基座");
 
 //奇点
-<extendedcrafting:singularity>.addTooltip("§f煤炭 奇点");
-<extendedcrafting:singularity:1>.addTooltip("§f铁 奇点");
-<extendedcrafting:singularity:2>.addTooltip("§f青金石 奇点");
-<extendedcrafting:singularity:3>.addTooltip("§f红石 奇点");
-<extendedcrafting:singularity:4>.addTooltip("§f荧石 奇点");
-<extendedcrafting:singularity:5>.addTooltip("§f金 奇点");
-<extendedcrafting:singularity:6>.addTooltip("§f钻石 奇点");
-<extendedcrafting:singularity:7>.addTooltip("§f绿宝石 奇点");
-<extendedcrafting:singularity:16>.addTooltip("§f铝 奇点");
-<extendedcrafting:singularity:17>.addTooltip("§f铜 奇点");
-<extendedcrafting:singularity:18>.addTooltip("§f锡 奇点");
-<extendedcrafting:singularity:19>.addTooltip("§f青铜 奇点");
-<extendedcrafting:singularity:22>.addTooltip("§f银 奇点");
-<extendedcrafting:singularity:23>.addTooltip("§f铅 奇点");
-<extendedcrafting:singularity:24>.addTooltip("§f钢 奇点");
-<extendedcrafting:singularity:25>.addTooltip("§f镍 奇点");
-<extendedcrafting:singularity:26>.addTooltip("§f康铜 奇点");
-<extendedcrafting:singularity:27>.addTooltip("§f琥珀金 奇点");
+<extendedcrafting:singularity:1001>.addTooltip("§f基岩粉 §d奇点§r");
 
 
 //太阳能
@@ -466,3 +453,33 @@
 <modularmachinery:ymg_spirit_stripped_altar_factory_controller>.addTooltip("§f该机器需要与“复仇之烛”一对一绑定才可使用！");
 <modularmachinery:ymg_spirit_stripped_altar_factory_controller>.addTooltip("§f使用坐标卡读取复仇之烛控制器的坐标放入灵魂剥离祭坛即可绑定完成。");
 <modularmachinery:ymg_spirit_stripped_altar_factory_controller>.addTooltip("§a>>");
+
+//原子塑序机
+<modularmachinery:ymg_atomic_shaper_controller>.addTooltip("§a>>");
+<modularmachinery:ymg_atomic_shaper_controller>.addTooltip("§f运行相同的配方时，每运行一次配方将会减少§c0.05%§f的运行时间与能量消耗。");
+<modularmachinery:ymg_atomic_shaper_controller>.addTooltip("§f若更换配方，则增益效果清零。减少的上限为§c80%§f。");
+<modularmachinery:ymg_atomic_shaper_controller>.addTooltip("§a>>");
+
+//星空展台
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§a>>");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§f当你获得一个进度的时候可以使用对应ID获取到对应的星球坐标卡。");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§c进度与星球坐标卡与控制器所有者绑定！");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§f信息对照ID：");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§f1-10：太阳、水星、金星、地球、月球、火星、火卫一、火卫二、小行星带、木星");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§f11-20：木卫一、木卫二、木卫三、木卫四、木卫五、木卫六、土星、土卫一、土卫二、土卫三");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§f21-30：土卫四、土卫五、土卫六、土卫七、土卫八、土卫九、土卫十、天王星、天卫一、天卫二");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§f31-40：天卫三、天卫四、天卫五、海王星、海卫一、海卫二、海卫三、海卫四、海卫五、柯伊伯带");
+<modularmachinery:ymg_stars_booth_controller>.addTooltip("§a>>");
+
+//星空透镜
+<modularmachinery:ymg_astronomical_observatories_controller>.addTooltip("§c>>");
+<modularmachinery:ymg_astronomical_observatories_controller>.addTooltip("§f在对星空的探索中，您偶然中发现了几颗与众不同的星星。");
+<modularmachinery:ymg_astronomical_observatories_controller>.addTooltip("§c获取的星球坐标卡与控制器所有者绑定。");
+<modularmachinery:ymg_astronomical_observatories_controller>.addTooltip("§c>>");
+
+//卫星接收天线
+<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>.addTooltip("§c>>");
+<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>.addTooltip("§f放入卫星链接卡与对应的卫星链接。");
+<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>.addTooltip("§f根据卫星的种类不同会有不同的功能。");
+<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>.addTooltip("§c请确保此卡的所有者与控制器所有者一致！");
+<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>.addTooltip("§c>>");

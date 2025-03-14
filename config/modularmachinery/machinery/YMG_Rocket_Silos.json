@@ -985,7 +985,8 @@
             "elements": [
                 "thermalfoundation:storage_alloy@6",
                 "ItemInputStrengthen",
-                "ItemOutputStrengthen"
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen"
             ]
         },
         {
@@ -1490,7 +1491,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "enderio:block_alloy@6"
+                "modularmachinery:blocksmartinterface@0"
             ]
         },
         {
@@ -1654,7 +1655,8 @@
             "elements": [
                 "thermalfoundation:storage_alloy@6",
                 "ItemInputStrengthen",
-                "ItemOutputStrengthen"
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen"
             ]
         },
         {
@@ -2061,7 +2063,8 @@
             "elements": [
                 "thermalfoundation:storage_alloy@6",
                 "ItemInputStrengthen",
-                "ItemOutputStrengthen"
+                "ItemOutputStrengthen",
+                "FluidInputStrengthen"
             ]
         },
         {

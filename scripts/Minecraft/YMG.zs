@@ -137,6 +137,7 @@ recipes.addShaped(<contenttweaker:mold_5>,[
 	[null,null,null]
 ]);
 
+
 //钨锭
 recipes.addShapeless(<contenttweaker:tungsteningot> * 9,[<contenttweaker:tungstenblock>]);
 
@@ -161,4 +162,8 @@ recipes.addShapeless(<contenttweaker:galaxy_sync_card_1>.withTag({state: "false"
 recipes.addShapeless(<contenttweaker:galaxy_sync_card_2>.withTag({state: "false"}),[<contenttweaker:galaxy_sync_card_2>]);
 
 //琉璃玄冰
-// recipes.addShapeless(<contenttweaker:colorfulice> * 64,[<contenttweaker:colorfulice>,<custommc:item782>]);
+// recipes.addShapeless(<contenttweaker:colorfulice> * 64,[<contenttweaker:colorfulice>,<contenttweaker:compressed_electrostatics>]);
+
+// recipes.addShapeless(<contenttweaker:sputnikcoordinatecard>.withTag({ItemUUID: "b8c5df21-57d2-42c7-956c-02e411d6b206", display: {Lore: ["§9卫星功能：§e测试卫星§r", "§9目标星球：§e月球§r", "§9所有者：§bSwallows_§r"]}, playeruuid: "42a50a9c-6ee5-418e-9153-7ea77b4b4a59", Mode: "GAS", name: "Moon", state: "true"}),[<minecraft:stone>]);
+
+//熔炉

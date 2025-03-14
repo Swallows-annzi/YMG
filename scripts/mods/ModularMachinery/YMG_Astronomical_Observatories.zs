@@ -26,7 +26,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Astronomical_Observatories_S
 .addItemInputs([
     <contenttweaker:commondatamodel>
 ])
-.addFluidInput(<liquid:isaac_newton> * 1500)
+.addFluidInput(<liquid:isaac_newton> * 16000)
 .addPreTickHandler(function(event as RecipeTickEvent) {
     val ctrl = event.controller;
     val world = ctrl.world;
@@ -43,37 +43,27 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Astronomical_Observatories_S
     val world = ctrl.world;
     val PlayerUUID = ctrl.ownerUUID;
     val PlayerName = world.getPlayerByUUID(UUID.fromString(PlayerUUID)).name;
-    var numbers = world.random.nextInt(0,199);
-    val PlanetsProgressData as IData = WorldData.getArchiveData("PlanetsProgressData", ctrl.ownerUUID);
-    val PlanetsProgressMap = PlanetsProgressData.asMap();
-    val SolarSystem = PlanetsProgressMap["SolarSystem"].asMap();
-    val Mercury = SolarSystem["Mercury"].asMap();
-    if(!Mercury["isFound"].asBool() && numbers == 0){
+    val numbers = world.random.nextInt(0,199);
+    if(numbers == 0){
         return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e水星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mercury", playeruuid: PlayerUUID});
     }
-    val Venus = SolarSystem["Venus"].asMap();
-    if(!Venus["isFound"].asBool() && numbers == 1){
+    if(numbers == 1){
         return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e金星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Venus", playeruuid: PlayerUUID});
     }
-    val EarthSystem = SolarSystem["EarthSystem"].asMap();
-    val Moon = EarthSystem["Moon"].asMap();
-    if(!Moon["isFound"].asBool() && 2 <= numbers && numbers < 12){
+    if(2 <= numbers && numbers < 12){
         return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e月球", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Moon", playeruuid: PlayerUUID});
     }
-    val MarsSystem = SolarSystem["MarsSystem"].asMap();
-    val Mars = MarsSystem["Mars"].asMap();
-    if(!Mars["isFound"].asBool() && numbers == 13){
+    if(numbers == 13){
         return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e火星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mars", playeruuid: PlayerUUID});
     }
-    val JupiterSystem = SolarSystem["JupiterSystem"].asMap();
-    val Jupiter = JupiterSystem["Jupiter"].asMap();
-    if(!Jupiter["isFound"].asBool() && numbers == 14){
+    if(numbers == 14){
         return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e木星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Jupiter", playeruuid: PlayerUUID});
     }
-    val SaturnSystem = SolarSystem["SaturnSystem"].asMap();
-    val Saturn = SaturnSystem["Saturn"].asMap();
-    if(!Saturn["isFound"].asBool() && numbers == 15){
+    if(numbers == 15){
         return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e土星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Saturn", playeruuid: PlayerUUID});
+    }
+    if(numbers == 16){
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e土星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "AsteroidBelt", playeruuid: PlayerUUID});
     }
     else{
         // return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§c未发现", "§9所有者：§b" + PlayerName]}, state: "false", name: "null", playeruuid: PlayerUUID});

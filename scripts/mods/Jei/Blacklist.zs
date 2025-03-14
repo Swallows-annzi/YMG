@@ -43,7 +43,6 @@ mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_spray_on_coating_laminator"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_bee_gardenx"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_rocket_silos"}));
-mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_astral_coordinate_processing_matrix"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_dream_blue_pool"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_body_casting_ceremony"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_nether_abyss"}));
@@ -93,6 +92,19 @@ mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_mana_extraction_stage"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_astronomical_observatories"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_precision_rocket_assembly_chamber"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_vacuum_whirlwind_loom"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:extendable_calculator_subsystem_l4"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:extendable_calculator_subsystem_l6"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:extendable_calculator_subsystem_l9"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_stars_booth"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_residential_fuel_cell"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_substance_engine"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_atomic_shaper"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_blast_compression"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_ion_implantation_etching_machine"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_satellite_receiving_antenna"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_deepcore_driller"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_astral_coordinate_processing_matrix"}));
 
 mods.jei.JEI.hide(<botania_tweaks:dire_crafty_crate>);
 mods.jei.JEI.hide(<botania_tweaks:basic_extended_crafty_crate>);
@@ -102,6 +114,8 @@ mods.jei.JEI.hide(<botania_tweaks:ultimate_extended_crafty_crate>);
 mods.jei.JEI.hide(<enderio:block_painter>);
 mods.jei.JEI.hide(<threng:machine:2>);
 mods.jei.JEI.hide(<botania:manabottle>);
+
+mods.jei.JEI.hideCategory("modularmachinery.recipes.ymg_satellite_receiving_antenna");
 
 
 

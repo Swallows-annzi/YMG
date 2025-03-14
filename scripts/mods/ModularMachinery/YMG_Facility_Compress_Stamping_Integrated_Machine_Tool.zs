@@ -577,5 +577,5 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rolling_67", "YMG_Facility_Compr
 .addEnergyPerTickInput(80000)
 .addItemInput(<contenttweaker:mold_4>).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<contenttweaker:mysteriousiceingot>)
-.addItemOutput(<contenttweaker:iridiumwire> * 3)
+.addItemOutput(<contenttweaker:mysteriousicewire> * 3)
 .build();

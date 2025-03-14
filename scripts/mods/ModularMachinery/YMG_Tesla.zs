@@ -40,8 +40,9 @@ val Energy_Output_String = "§e§l能量传导器";
 MachineModifier.addCoreThread("YMG_Tesla", FactoryRecipeThread.createCoreThread(Energy_Output_String));
 
 //发电
-mods.modularmachinery.RecipeBuilder.newBuilder("Tesla_Generation", "YMG_Tesla", 200)
+mods.modularmachinery.RecipeBuilder.newBuilder("Tesla_Generation", "YMG_Tesla", 200, 1)
 .setThreadName(Energy_Harvesting_String)
+.addItemInput(<ore:lightning_cont>)
 .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
     val ctrl = event.controller;
     val data = ctrl.customData;
@@ -66,7 +67,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Tesla_Generation", "YMG_Tesla", 
     }
     ctrl.customData = data;
 })
-.addItemOutput(<custommc:item782>).setChance(0.005)
+.build();
+
+//压缩静电
+mods.modularmachinery.RecipeBuilder.newBuilder("compressed_electrostatics", "YMG_Tesla", 36000, 2)
+.setThreadName(Energy_Harvesting_String)
+.addItemInput(<contenttweaker:vacuum_vessels>)
+.addItemOutput(<contenttweaker:compressed_electrostatics>)
 .build();
 
 //能量输出

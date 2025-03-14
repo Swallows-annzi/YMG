@@ -34,6 +34,8 @@ var recipeItems_gzt as IItemStack[] = [
     <minecraft:item_frame>,
     <minecraft:nether_star>,
     //IC2
+    <gravisuite:crafting:4>,
+    <ic2:upgrade>,
     <ic2:te:82>,
     <gravisuite:vajra:*>,
     <gravisuite:crafting:5>,
@@ -64,6 +66,7 @@ var recipeItems_gzt as IItemStack[] = [
     //IC-重力装甲
     <super_solar_panels:machines:25>,
     //IC-更多电力设备
+    <mets:electric_life_support_ring>,
     <mets:te:15>,
     <mets:te:36>,
     <mets:rocket>,
@@ -98,6 +101,7 @@ var recipeItems_gzt as IItemStack[] = [
     <thermalexpansion:augment:401>,
     <thermalexpansion:morb>,
     //MEK
+    <mekanism:speedupgrade>,
     <mekanism:anchorupgrade>,
     // <mekanism:machineblock:13>,
     <mekanism:machineblock:4>,
@@ -135,6 +139,7 @@ var recipeItems_gzt as IItemStack[] = [
     <mekanism:machineblock:7>.withTag({recipeType: 4}),
     <mekanism:machineblock3:7>.withTag({recipeType: 4}),
     //龙之研究
+    <draconicevolution:infused_obsidian>,
     <draconicevolution:fusion_crafting_core>,
     <draconicevolution:crafting_injector>,
     <draconicevolution:crafting_injector:1>,

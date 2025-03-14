@@ -35,3 +35,12 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:817>,
 
 //丰富的生物混合质
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:819>, <thermalfoundation:material:818>, <liquid:ic2biomass> * 1000, 800);
+
+//磨粉机
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:litherite_powder>,<environmentaltech:litherite_crystal>, 1500,<contenttweaker:litherite_powder>, 1);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:erodium_powder>,<environmentaltech:erodium_crystal>, 1500,<contenttweaker:erodium_powder>, 1);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:kyronite_powder>,<environmentaltech:kyronite_crystal>, 1500,<contenttweaker:kyronite_powder>, 1);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:pladium_powder>,<environmentaltech:pladium_crystal>, 1500,<contenttweaker:pladium_powder>, 1);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:ionite_powder>,<environmentaltech:ionite_crystal>, 1500,<contenttweaker:ionite_powder>, 1);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:aethium_powder>,<environmentaltech:aethium_crystal>, 1500,<contenttweaker:aethium_powder>, 1);
+

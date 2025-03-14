@@ -526,7 +526,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_atomic_collider_mk_i_control
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_fluid_flocculator_controller>, [
 	[<enderio:block_reinforced_obsidian>, <itemfilters:filter>, <contenttweaker:olihacon>, <itemfilters:filter>, <enderio:block_reinforced_obsidian>], 
 	[<itemfilters:filter>, <enderio:block_industrial_insulation>, <mekanism:filterupgrade>, <enderio:block_industrial_insulation>, <itemfilters:filter>], 
-	[<mets:nano_living_metal>, <mekanism:filterupgrade>, <actuallyadditions:block_xp_solidifier>, <mekanism:filterupgrade>, <mets:nano_living_metal>], 
+	[<contenttweaker:nano_rose_red_metal>, <mekanism:filterupgrade>, <actuallyadditions:block_xp_solidifier>, <mekanism:filterupgrade>, <contenttweaker:nano_rose_red_metal>], 
 	[<itemfilters:filter>, <enderio:block_industrial_insulation>, <mekanism:filterupgrade>, <enderio:block_industrial_insulation>, <itemfilters:filter>], 
 	[<enderio:block_reinforced_obsidian>, <itemfilters:filter>, <mets:living_circuit>, <itemfilters:filter>, <enderio:block_reinforced_obsidian>]
 ]);
@@ -569,6 +569,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_ym_capacitor_bank_factory_co
 .addItemInput(<enderio:item_capacitor_stellar> * 8).setTag("item_4")
 .addItemInput(<thermaldynamics:duct_0:5> * 64).setTag("item_5")
 .addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_6")
+.addItemInput(<mets:thorium_battery>).setTag("item_7")
+.addItemInput(<mets:thorium_battery>).setTag("item_8")
+.addItemInput(<mets:thorium_battery>).setTag("item_9")
+.addItemInput(<mets:thorium_battery>).setTag("item_10")
+.addItemInput(<mets:thorium_battery>).setTag("item_11")
+.addItemInput(<mets:thorium_battery>).setTag("item_12")
 .addItemOutput(<modularmachinery:ymg_ym_capacitor_bank_factory_controller>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_ym_capacitor_bank_factory_controller_2", "YMG_Assembly_Line_Advanced", 6000)
@@ -583,6 +589,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_ym_capacitor_bank_factory_co
 .addItemInput(<enderio:item_capacitor_stellar> * 8)
 .addItemInput(<thermaldynamics:duct_0:5> * 64)
 .addItemInput(<contenttweaker:ymcomputecore> * 4)
+.addItemInput(<mets:thorium_battery>)
+.addItemInput(<mets:thorium_battery>)
+.addItemInput(<mets:thorium_battery>)
+.addItemInput(<mets:thorium_battery>)
+.addItemInput(<mets:thorium_battery>)
+.addItemInput(<mets:thorium_battery>)
 .addItemOutput(<modularmachinery:ymg_ym_capacitor_bank_factory_controller>)
 .build();
 
@@ -1050,4 +1062,330 @@ recipes.addShaped(<modularmachinery:ymg_mana_extraction_stage_factory_controller
     [<minecraft:dragon_breath>,<botania:brewery>,<minecraft:dragon_breath>],
     [<botania:quartztypemana:2>,<botania:pylon:1>,<botania:quartztypemana:2>],
     [<botania:quartztypemana:1>,<ic2:te:45>,<botania:quartztypemana:1>]
+]);
+
+//元素精炼机
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_elemental_refinery_controller_1", "YMG_Assembly_Line", 2400)
+.addEnergyPerTickInput(50000000)
+.addFluidInputs([
+    <liquid:liquidsuperheatedsodium> * 100
+])
+.addItemInput(<modularmachinery:ymg_thermal_ionization_distillation_column_controller>).setTag("item_1")
+.addItemInput(<contenttweaker:olihacon> * 4).setTag("item_2")
+.addItemInput(<mets:field_generator> * 4).setTag("item_3")
+.addItemInput(<contenttweaker:ymcomputecore> * 2).setTag("item_4")
+.addItemInput(<ore:plateCrystallinePinkSlime> * 16).setTag("item_5")
+.addItemOutput(<modularmachinery:ymg_elemental_refinery_controller>)
+.build();
+
+//元素精炼机
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_elemental_refinery_controller_2", "YMG_Assembly_Line_Advanced", 2400)
+.addEnergyPerTickInput(50000000)
+.addFluidInputs([
+    <liquid:liquidsuperheatedsodium> * 100
+])
+.addItemInput(<modularmachinery:ymg_thermal_ionization_distillation_column_controller>)
+.addItemInput(<contenttweaker:olihacon> * 4)
+.addItemInput(<mets:field_generator> * 4)
+.addItemInput(<contenttweaker:ymcomputecore> * 2)
+.addItemInput(<ore:plateCrystallinePinkSlime> * 16)
+.addItemOutput(<modularmachinery:ymg_elemental_refinery_controller>)
+.build();
+
+//矿石火锻厂
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_ore_processing_plant_factory_controller>, [
+	[<environmentaltech:structure_frame_1>, <environmentaltech:structure_frame_1>, <botania:blazeblock>, <environmentaltech:structure_frame_1>, <environmentaltech:structure_frame_1>], 
+	[<environmentaltech:structure_frame_1>, <contenttweaker:mysteriousicecoil>, <botania:blazeblock>, <contenttweaker:mysteriousicecoil>, <environmentaltech:structure_frame_1>], 
+	[<environmentaltech:structure_frame_1>, <contenttweaker:mysteriousicecoil>, <botania:blazeblock>, <contenttweaker:mysteriousicecoil>, <environmentaltech:structure_frame_1>], 
+	[<environmentaltech:structure_frame_1>, <contenttweaker:tungstenringcoil>, <contenttweaker:mysteriousicecoil>, <contenttweaker:tungstenringcoil>, <environmentaltech:structure_frame_1>], 
+	[<environmentaltech:lightning_rod>, <mets:living_circuit>, <ic2:te:12>, <mets:living_circuit>, <environmentaltech:lightning_rod>]
+]);
+
+//星空展台
+recipes.addShaped(<modularmachinery:ymg_stars_booth_controller>,[
+    [<thermalfoundation:glass_alloy:6>,<contenttweaker:crystal_lens>,<thermalfoundation:glass_alloy:6>],
+    [<thermalfoundation:glass_alloy:6>,<astralsorcery:itemrockcrystalsimple>,<thermalfoundation:glass_alloy:6>],
+    [<ore:blockQuartz>,<botania:runealtar>,<ore:blockQuartz>]
+]);
+
+//深核钻探机
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_deepcore_driller_controller_1", "YMG_Assembly_Line", 24000)
+.addEnergyPerTickInput(200000000)
+.addFluidInputs([
+])
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16).setTag("item_1")
+.addItemInput(<modularmachinery:ymg_bedrock_laser_drills_factory_controller> * 16).setTag("item_2")
+.addItemInput(<contenttweaker:carbonfiber> * 64).setTag("item_3")
+.addItemInput(<gravisuite:crafting:1> * 64).setTag("item_4")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_5")
+.addItemInput(<extendedcrafting:material:10>).setTag("item_6")
+.addItemInput(<contenttweaker:erodium_crystal_core>).setTag("item_7")
+.addItemOutput(<modularmachinery:ymg_deepcore_driller_controller> * 4)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_deepcore_driller_controller_2", "YMG_Assembly_Line_Advanced", 24000)
+.addEnergyPerTickInput(200000000)
+.addFluidInputs([
+])
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16)
+.addItemInput(<modularmachinery:ymg_bedrock_laser_drills_factory_controller> * 16)
+.addItemInput(<contenttweaker:carbonfiber> * 64)
+.addItemInput(<gravisuite:crafting:1> * 64)
+.addItemInput(<contenttweaker:ymcomputecore> * 4)
+.addItemInput(<extendedcrafting:material:10>)
+.addItemInput(<contenttweaker:erodium_crystal_core> * 4)
+.addItemOutput(<modularmachinery:ymg_deepcore_driller_controller>)
+.build();
+
+//气分子纤维纺丝机
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_vacuum_whirlwind_loom_controller_1", "YMG_Assembly_Line", 12000)
+.addEnergyPerTickInput(40000000)
+.addFluidInputs([
+])
+.addItemInput(<mekanismgenerators:generator:9> * 64).setTag("item_1")
+.addItemInput(<thermaldynamics:duct_0:5> * 64).setTag("item_2")
+.addItemInput(<mekanism:transmitter>.withTag({tier: 3}) * 64).setTag("item_3")
+.addItemInput(<mets:field_generator> * 16).setTag("item_4")
+.addItemOutput(<modularmachinery:ymg_vacuum_whirlwind_loom_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_vacuum_whirlwind_loom_controller_2", "YMG_Assembly_Line_Advanced", 12000)
+.addEnergyPerTickInput(40000000)
+.addFluidInputs([
+])
+.addItemInput(<mekanismgenerators:generator:9> * 64)
+.addItemInput(<thermaldynamics:duct_0:5> * 64)
+.addItemInput(<mekanism:transmitter>.withTag({tier: 3}) * 64)
+.addItemInput(<mets:field_generator> * 16)
+.addItemOutput(<modularmachinery:ymg_vacuum_whirlwind_loom_controller>)
+.build();
+
+//微观粒子扭曲仪
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_microscopic_particles_distort_controller>, [
+	[null, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:5>, null], 
+	[<thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:6>, <mets:living_circuit>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:5>], 
+	[<thermalfoundation:glass_alloy:5>, <mets:living_circuit>, <contenttweaker:stellajewelblock>, <mets:living_circuit>, <thermalfoundation:glass_alloy:5>], 
+	[<thermalfoundation:glass_alloy:5>, <thermalfoundation:glass_alloy:6>, <mekanismmultiblockmachine:multiblockmachine:1>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:5>], 
+	[<environmentaltech:lightning_rod>, <thermalfoundation:glass_alloy:5>, <modularmachinery:ymg_endsteel_furnace_controller>, <thermalfoundation:glass_alloy:5>, <environmentaltech:lightning_rod>]
+]);
+
+//离子注入刻蚀机
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_ion_implantation_etching_machine_controller>, [
+	[<contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>], 
+	[<contenttweaker:mysteriousiceplate>, <contenttweaker:olihacon>, <mets:living_circuit>, <contenttweaker:olihacon>, <contenttweaker:mysteriousiceplate>], 
+	[<contenttweaker:mysteriousiceplate>, <mets:living_circuit>, <contenttweaker:mysteriousicecasing>, <mets:living_circuit>, <contenttweaker:mysteriousiceplate>], 
+	[<contenttweaker:mysteriousiceplate>, <contenttweaker:olihacon>, <mets:living_circuit>, <contenttweaker:olihacon>, <contenttweaker:mysteriousiceplate>], 
+	[<contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>, <contenttweaker:mysteriousiceplate>]
+]);
+
+//量子物质引擎
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_substance_engine_controller>, [
+	[<contenttweaker:quantumcasing>, <contenttweaker:quantumcasing>, <contenttweaker:quantumcasing>, <contenttweaker:quantumcasing>, <contenttweaker:quantumcasing>], 
+	[<contenttweaker:quantumglass>, <tconevo:metal_block:8>, <mets:te:39>, <tconevo:metal_block:8>, <contenttweaker:quantumglass>], 
+	[<contenttweaker:quantumglass>, <mets:te:40>, <mets:te:37>, <mets:te:38>, <contenttweaker:quantumglass>], 
+	[<contenttweaker:quantumglass>, <tconevo:metal_block:8>, <mets:te:39>, <tconevo:metal_block:8>, <contenttweaker:quantumglass>], 
+	[<contenttweaker:quantumcasing>, <super_solar_panels:machines:15>, <contenttweaker:quantumcasing>, <super_solar_panels:machines:15>, <contenttweaker:quantumcasing>]
+]);
+
+//原子序数机
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_atomic_shaper_controller_1", "YMG_Assembly_Line", 18000)
+.addEnergyPerTickInput(125000000)
+.addFluidInputs([
+])
+.addItemInput(<super_solar_panels:machines:25> * 16).setTag("item_1")
+.addItemInput(<moreplates:neutronium_gear> * 16).setTag("item_2")
+.addItemInput(<moreplates:neutronium_plate> * 64).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1008> * 64).setTag("item_4")
+.addItemInput(<contenttweaker:ymcomputecore> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:olihacon> * 16).setTag("item_6")
+.addItemInput(<ic2:upgrade> * 4).setTag("item_7")
+.addItemOutput(<modularmachinery:ymg_atomic_shaper_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_atomic_shaper_controller_2", "YMG_Assembly_Line_Advanced", 18000)
+.addEnergyPerTickInput(125000000)
+.addFluidInputs([
+])
+.addItemInput(<super_solar_panels:machines:25> * 16)
+.addItemInput(<moreplates:neutronium_gear> * 16)
+.addItemInput(<moreplates:neutronium_plate> * 64)
+.addItemInput(<contenttweaker:material_part:1008> * 64)
+.addItemInput(<contenttweaker:ymcomputecore> * 16)
+.addItemInput(<contenttweaker:olihacon> * 16)
+.addItemInput(<ic2:upgrade> * 4)
+.addItemOutput(<modularmachinery:ymg_atomic_shaper_controller>)
+.build();
+
+//聚爆压缩机
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_blast_compression_controller_1", "YMG_Assembly_Line", 18000)
+.addEnergyPerTickInput(75000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_core_pressure_analog_devices_controller>).setTag("item_1")
+.addItemInput(<enderio:block_reinforced_obsidian> * 64).setTag("item_2")
+.addItemInput(<mekanismgenerators:reactor:1> * 64).setTag("item_3")
+.addItemInput(<jaopca:block_glasshardenedancientdebris> * 64).setTag("item_4")
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_6")
+.addItemOutput(<modularmachinery:ymg_blast_compression_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_blast_compression_controller_2", "YMG_Assembly_Line_Advanced", 18000)
+.addEnergyPerTickInput(75000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_core_pressure_analog_devices_controller>)
+.addItemInput(<enderio:block_reinforced_obsidian> * 64)
+.addItemInput(<mekanismgenerators:reactor:1> * 64)
+.addItemInput(<jaopca:block_glasshardenedancientdebris> * 64)
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16)
+.addItemInput(<contenttweaker:ymcomputecore> * 4)
+.addItemOutput(<modularmachinery:ymg_blast_compression_controller>)
+.build();
+
+//星空透镜
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_astronomical_observatories_controller>, [
+	[null, null, <appliedenergistics2:quartz_vibrant_glass>, <astralsorcery:blockprism>, <appliedenergistics2:quartz_vibrant_glass>, null, null], 
+	[<modularmachinery:blockcasing:4>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:lens>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <modularmachinery:blockcasing:4>], 
+	[<modularmachinery:blockcasing:4>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:lens>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <modularmachinery:blockcasing:4>], 
+	[<modularmachinery:blockcasing:4>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:lens>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <modularmachinery:blockcasing:4>], 
+	[<modularmachinery:blockcasing:4>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <astralsorcery:blockobservatory>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <modularmachinery:blockcasing:4>], 
+	[<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>], 
+	[<actuallyadditions:block_crystal_empowered:3>, <modularmachinery:blockcasing:4>, <fluxnetworks:fluxblock>, <appliedenergistics2:controller>, <fluxnetworks:fluxblock>, <modularmachinery:blockcasing:4>, <actuallyadditions:block_crystal_empowered:3>]
+]);
+
+//星体位标处理矩阵
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_astral_coordinate_processing_matrix_factory_controller_1", "YMG_Assembly_Line", 24000)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_stars_booth_controller>).setTag("item_1")
+.addItemInput(<appliedenergistics2:controller> * 64).setTag("item_2")
+.addItemInput(<appliedenergistics2:crafting_accelerator> * 64).setTag("item_3")
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16).setTag("item_4")
+.addItemInput(<gravisuite:crafting:2> * 64).setTag("item_5")
+.addItemInput(<gravisuite:crafting:2> * 64).setTag("item_6")
+.addItemInput(<appliedenergistics2:material:41> * 64).setTag("item_7")
+.addItemInput(<threng:material:14> * 16).setTag("item_8")
+.addItemInput(<super_solar_panels:machines:15> * 16).setTag("item_9")
+.addItemOutput(<modularmachinery:ymg_astral_coordinate_processing_matrix_factory_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_astral_coordinate_processing_matrix_factory_controller_2", "YMG_Assembly_Line_Advanced", 24000)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_stars_booth_controller>)
+.addItemInput(<appliedenergistics2:controller> * 64)
+.addItemInput(<appliedenergistics2:crafting_accelerator> * 64)
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16)
+.addItemInput(<gravisuite:crafting:2> * 64)
+.addItemInput(<gravisuite:crafting:2> * 64)
+.addItemInput(<appliedenergistics2:material:41> * 64)
+.addItemInput(<threng:material:14> * 16)
+.addItemInput(<super_solar_panels:machines:15> * 16)
+.addItemOutput(<modularmachinery:ymg_astral_coordinate_processing_matrix_factory_controller>)
+.build();
+
+//火箭发射井
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_rocket_silos_factory_controller_1", "YMG_Assembly_Line", 24000)
+.addEnergyPerTickInput(175000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_jumping_rift_controller>).setTag("item_1")
+.addItemInput(<ic2:resource:11> * 64).setTag("item_2")
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16).setTag("item_3")
+.addItemInput(<extendedcrafting:trimmed:2> * 4).setTag("item_4")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:material_part:1001> * 16).setTag("item_6")
+.addItemInput(<contenttweaker:jump_stand> * 4).setTag("item_7")
+.addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_8")
+.addItemOutput(<modularmachinery:ymg_rocket_silos_factory_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_rocket_silos_factory_controller_2", "YMG_Assembly_Line_Advanced", 24000)
+.addEnergyPerTickInput(175000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_jumping_rift_controller>)
+.addItemInput(<ic2:resource:11> * 64)
+.addItemInput(<contenttweaker:mysteriousicecasing> * 16)
+.addItemInput(<extendedcrafting:trimmed:2> * 4)
+.addItemInput(<contenttweaker:material_part:1012> * 16)
+.addItemInput(<contenttweaker:material_part:1001> * 16)
+.addItemInput(<contenttweaker:jump_stand> * 4)
+.addItemInput(<contenttweaker:ymcomputecore> * 4)
+.addItemOutput(<modularmachinery:ymg_rocket_silos_factory_controller>)
+.build();
+
+//精密火箭装配仓
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_precision_rocket_assembly_chamber_controller_1", "YMG_Assembly_Line", 18000)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_assembly_line_controller>).setTag("item_1")
+.addItemInput(<mekanismmultiblockmachine:multiblockmachine:3>).setTag("item_2")
+.addItemInput(<environmentaltech:structure_frame_2> * 16).setTag("item_3")
+.addItemInput(<contenttweaker:material_part:1001> * 16).setTag("item_4")
+.addItemInput(<contenttweaker:material_part:1003> * 16).setTag("item_5")
+.addItemInput(<contenttweaker:material_part:1012> * 16).setTag("item_6")
+.addItemInput(<contenttweaker:material_part:1013> * 16).setTag("item_7")
+.addItemOutput(<modularmachinery:ymg_precision_rocket_assembly_chamber_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_precision_rocket_assembly_chamber_controller_2", "YMG_Assembly_Line_Advanced", 18000)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+])
+.addItemInput(<modularmachinery:ymg_assembly_line_controller>)
+.addItemInput(<mekanismmultiblockmachine:multiblockmachine:3>)
+.addItemInput(<environmentaltech:structure_frame_2> * 16)
+.addItemInput(<contenttweaker:material_part:1001> * 16)
+.addItemInput(<contenttweaker:material_part:1003> * 16)
+.addItemInput(<contenttweaker:material_part:1012> * 16)
+.addItemInput(<contenttweaker:material_part:1013> * 16)
+.addItemOutput(<modularmachinery:ymg_precision_rocket_assembly_chamber_controller>)
+.build();
+
+//精密火箭装配仓
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_satellite_receiving_antenna_factory_controller_1", "YMG_Assembly_Line", 36000)
+.addEnergyPerTickInput(100000000)
+.addFluidInputs([
+    <liquid:jump_crystalline> * 16000,
+    <liquid:isaac_newton> * 16000
+])
+.addItemInput(<appliedenergistics2:controller> * 64).setTag("item_1")
+.addItemInput(<appliedenergistics2:energy_acceptor> * 64).setTag("item_2")
+.addItemInput(<enderio:item_material:65> * 64).setTag("item_3")
+.addItemInput(<enderio:item_material:65> * 64).setTag("item_4")
+.addItemInput(<enderio:item_material:65> * 64).setTag("item_5")
+.addItemInput(<enderio:item_material:65> * 64).setTag("item_6")
+.addItemInput(<appliedenergistics2:wireless_access_point> * 64).setTag("item_7")
+.addItemInput(<mets:electric_wirless_manager>).setTag("item_8")
+.addItemInput(<contenttweaker:star_signal_amplification_card_1>).setTag("item_9")
+.addItemOutput(<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("ymg_satellite_receiving_antenna_factory_controller_2", "YMG_Assembly_Line_Advanced", 36000)
+.addEnergyPerTickInput(200000000)
+.addFluidInputs([
+    <liquid:jump_crystalline> * 16000,
+    <liquid:isaac_newton> * 16000
+])
+.addItemInput(<appliedenergistics2:controller> * 64)
+.addItemInput(<appliedenergistics2:energy_acceptor> * 64)
+.addItemInput(<enderio:item_material:65> * 64)
+.addItemInput(<enderio:item_material:65> * 64)
+.addItemInput(<enderio:item_material:65> * 64)
+.addItemInput(<enderio:item_material:65> * 64)
+.addItemInput(<appliedenergistics2:wireless_access_point> * 64)
+.addItemInput(<mets:electric_wirless_manager>)
+.addItemInput(<contenttweaker:star_signal_amplification_card_1>)
+.addItemOutput(<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>)
+.build();
+
+//ECO-C4-可扩展计算子系统主机
+recipes.addShaped(<novaeng_core:extendable_calculator_subsystem_l4>,[
+    [<novaeng_core:ecalculator_casing>,<gravisuite:crafting:6>,<novaeng_core:ecalculator_casing>],
+    [<novaeng_core:ecalculator_me_channel>,<gravisuite:crafting:1>,<appliedenergistics2:crafting_monitor>],
+    [<novaeng_core:ecalculator_casing>,<gravisuite:crafting:2>,<novaeng_core:ecalculator_casing>]
+]);
+
+//ECO-C6-可扩展计算子系统主机
+recipes.addShaped(<novaeng_core:extendable_calculator_subsystem_l6>,[
+    [<contenttweaker:olihacon>,<contenttweaker:ymcomputecore>,<contenttweaker:olihacon>],
+    [<novaeng_core:ecalculator_parallel_proc_l4>,<novaeng_core:ecalculator_transmitter_bus>,<novaeng_core:extendable_calculator_subsystem_l4>],
+    [<contenttweaker:olihacon>,<contenttweaker:ymcomputecore>,<contenttweaker:olihacon>]
 ]);

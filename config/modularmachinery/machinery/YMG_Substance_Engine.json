@@ -1,0 +1,3193 @@
+{
+    "registryname": "YMG_Substance_Engine",
+    "localizedname": "§b§lYMG§r§e§l—§f§l量子物质引擎 §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "color": "FFFFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "EnergyInputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "tconevo:metal_block@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "fluxnetworks:fluxblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "contenttweaker:quantumcasing@0",
+                "ItemInputStrengthen",
+                "FluidInputStrengthen"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "ic2:fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "ic2:resource@13"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0",
+                "contenttweaker:quantumcasing@0",
+                "ItemOutputStrengthen",
+                "FluidOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:quantumcasing@0"
+            ]
+        }
+    ]}

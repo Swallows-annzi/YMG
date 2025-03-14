@@ -60,3 +60,10 @@ recipes.addShaped(<mekanismgenerators:reactorglass:1>,[
     [<mekanismgenerators:reactorglass>,<extrabotany:lens:6>,<mekanismgenerators:reactorglass>],
     [<ic2:iridium_reflector>,<mekanismgenerators:reactorglass>,<ic2:iridium_reflector>]
 ]);
+
+//速度升级
+recipes.addShaped(<mekanism:speedupgrade>,[
+    [<mekanism:ingot:3>,<mekanismgenerators:reactorglass>,<mekanism:ingot:3>],
+    [<mekanism:controlcircuit:3>,<gravisuite:crafting:1>,<mekanism:controlcircuit:3>],
+    [<mekanism:ingot:3>,<mekanismgenerators:reactorglass>,<mekanism:ingot:3>]
+]);
