@@ -15,8 +15,8 @@ import mods.modularmachinery.MachineModifier;
 
 //启用并行
 // MachineModifier.setParallelizable("YMG_Melting_Furnace", true);
-MachineModifier.setMaxParallelism("YMG_Melting_Furnace", 32);
-MachineModifier.setInternalParallelism("YMG_Melting_Furnace", 32);
+MachineModifier.setMaxParallelism("YMG_Melting_Furnace",64);
+MachineModifier.setInternalParallelism("YMG_Melting_Furnace", 64);
 
 //匠魂熔化配方
 mods.modularmachinery.RecipeAdapterBuilder.create("YMG_Melting_Furnace", "tconstruct:smeltery_melting")
@@ -40,8 +40,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Melting_Furnace_tungstenflui
 .build();
 
 //熔融煤炭
-mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Melting_Furnace_tungstenfluid", "YMG_Melting_Furnace", 50)
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Melting_Furnace_coalfluid", "YMG_Melting_Furnace", 50)
 .addEnergyPerTickInput(175000)
 .addItemInput(<ore:dustCoal>)
 .addFluidOutput(<liquid:coal> * 100)
+.build();
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Melting_Furnace_coalfluid", "YMG_Melting_Furnace", 150)
+.addEnergyPerTickInput(175000)
+.addItemInput(<ore:blockCoal>)
+.addFluidOutput(<liquid:coal> * 900)
 .build();

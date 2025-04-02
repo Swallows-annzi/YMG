@@ -422,4 +422,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Electromagnetic_Refining_Factory
 ])
 .addItemOutput(<enderio:item_alloy_endergy_ingot:2>)
 .build();
-
+mods.modularmachinery.RecipeBuilder.newBuilder("Electromagnetic_Refining_Factory_39", "YMG_Electromagnetic_Refining_Factory", setTime)
+.addEnergyPerTickInput(setEnergy)
+.addItemInputs([
+    <ore:ingotElectricalSteel>,
+    <threng:material:1>
+])
+.addItemOutput(<threng:material> * 3)
+.build();

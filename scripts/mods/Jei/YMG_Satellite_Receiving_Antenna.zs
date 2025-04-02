@@ -16,21 +16,10 @@ import mods.randomtweaker.jei.IJeiRecipe;
 
 val SRA_1 = JEI.createJei("YMG_Satellite_Receiving_Antenna", "卫星接收天线");
 SRA_1.setModid("Modular Machinery: Community Edition");
-SRA_1.setBackground(IJeiUtils.createBackground(184, 220));
 SRA_1.setIcon(<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>);
 SRA_1.addRecipeCatalyst(<modularmachinery:ymg_satellite_receiving_antenna_factory_controller>);
 SRA_1.addRecipeCatalyst(<contenttweaker:sputnikcoordinatecard>.withTag({display: {Lore: ["§e将此卡放入物品输入仓§r", "§c此卡并不会被消耗§r", "§c请确保此卡的所有者与控制器所有者一致！§r"]}}));
-SRA_1.addElement(IJeiUtils.createFontInfoElement("消耗/产出", 4, 88, 0x000000));
-SRA_1.addElement(IJeiUtils.createFontInfoElement("物品产出", 38, 88, 0x000000));
-SRA_1.addElement(IJeiUtils.createFontInfoElement("流体产出", 2, 172, 0x000000));
-SRA_1.addElement(IJeiUtils.createImageElement(2, 2, 180, 84, 0, 0, "contenttweaker:textures/jeis/Frame_1.png", 180, 84));
-SRA_1.addElement(IJeiUtils.createImageElement(78, 10, 1, 68, 0, 0, "contenttweaker:textures/jeis/Line_1.png", 2, 2));
-SRA_1.addElement(IJeiUtils.createImageElement(83, 60, 94, 1, 0, 0, "contenttweaker:textures/jeis/Line_1.png", 2, 2));
-SRA_1.addElement(IJeiUtils.createImageElement(10, 7, 60, 75, 0, 0, "contenttweaker:textures/jeis/Antenna.png", 60, 75));
-SRA_1.addElement(IJeiUtils.createImageElement(20, 98, 18, 72, 18, 0, "contenttweaker:textures/jeis/Energy_1.png", 36, 72));
-SRA_1.addElement(IJeiUtils.createImageElement(2, 98, 18, 72, 18, 0, "contenttweaker:textures/jeis/Energy_1.png", 36, 72));
-SRA_1.addElement(IJeiUtils.createFontInfoElement("RF/T", 150, 30, 0x000000));
-SRA_1.addElement(IJeiUtils.createFontInfoElement("RF/T", 150, 40, 0x000000));
+SRA_1.setBackground(IJeiUtils.createBackground(184, 220));
 for x in 0 to 6 {
     SRA_1.addSlot(IJeiUtils.createItemSlot(16 * x + 81, 62, true, false));
 }
@@ -45,6 +34,17 @@ for x in 0 to 2 {
         SRA_1.addSlot(IJeiUtils.createLiquidSlot(18 * y + 3, 18 * x + 182, 16, 16, 1, true, false));
     }
 }
+SRA_1.addElement(IJeiUtils.createImageElement(2, 2, 180, 84, 0, 0, "contenttweaker:textures/jeis/frame_1.png", 180, 84));
+SRA_1.addElement(IJeiUtils.createImageElement(78, 10, 1, 68, 0, 0, "contenttweaker:textures/jeis/line_1.png", 2, 2));
+SRA_1.addElement(IJeiUtils.createImageElement(83, 60, 94, 1, 0, 0, "contenttweaker:textures/jeis/line_1.png", 2, 2));
+SRA_1.addElement(IJeiUtils.createImageElement(10, 7, 60, 75, 0, 0, "contenttweaker:textures/jeis/antenna.png", 60, 75));
+SRA_1.addElement(IJeiUtils.createImageElement(20, 98, 18, 72, 18, 0, "contenttweaker:textures/jeis/energy_1.png", 36, 72));
+SRA_1.addElement(IJeiUtils.createImageElement(2, 98, 18, 72, 18, 0, "contenttweaker:textures/jeis/energy_1.png", 36, 72));
+SRA_1.addElement(IJeiUtils.createFontInfoElement("消耗/产出", 4, 88, 0x000000));
+SRA_1.addElement(IJeiUtils.createFontInfoElement("物品产出", 40, 88, 0x000000));
+SRA_1.addElement(IJeiUtils.createFontInfoElement("流体产出", 2, 172, 0x000000));
+SRA_1.addElement(IJeiUtils.createFontInfoElement("RF/T", 150, 30, 0x000000));
+SRA_1.addElement(IJeiUtils.createFontInfoElement("RF/T", 150, 40, 0x000000));
 SRA_1.register();
 
 // val SRA_2 = JEI.createJei("YMG_Satellite_Receiving_Antenna_Assemble", "卫星接收天线:组装");

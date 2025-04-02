@@ -257,7 +257,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Rocket_Silos_Rocket_Launch",
     map["Satellite"] = isNull(map["Satellite"]) ? "null" as string : map["Satellite"].asString();
     map["TargetName"] = isNull(map["TargetName"]) ? "null" as string : map["TargetName"].asString();
     map["UUID"] = isNull(map["UUID"]) ? "null" as string : map["UUID"].asString();
-    return <contenttweaker:sputnikcoordinatecard>.withTag({display: {Lore: ["§9卫星功能：§e" + Satellite_String[map["Satellite"].asString()] + "§r", "§9目标星球：§e" + TargetName_String[map["TargetName"].asString()] + "§r", "§9所有者：§b" + ctrl.world.getPlayerByUUID(UUID.fromString(map["UUID"].asString())).name + "§r"]}, state: "true", name: map["TargetName"].asString(), playeruuid: map["UUID"].asString(), Mode: map["Satellite"].asString(), ItemUUID: UUID.randomUUID().asString()});
+    return <contenttweaker:sputnikcoordinatecard>.withTag({display: {Lore: ["§9卫星功能：§e" + Satellite_String[map["Satellite"].asString()] + "§r", "§9目标星球：§e" + TargetName_String[map["TargetName"].asString()] + "§r"]}, state: "true", name: map["TargetName"].asString(), playeruuid: map["UUID"].asString(), Mode: map["Satellite"].asString(), ItemUUID: UUID.randomUUID().asString()});
 })
 .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
     val ctrl = event.controller;

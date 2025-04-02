@@ -13,7 +13,7 @@ import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.MachineModifier;
 
 //线程设置
-MachineModifier.setMaxThreads("YMG_Agricultural_Glass_Greenhouses", 16);
+MachineModifier.setMaxThreads("YMG_Agricultural_Glass_Greenhouses", 64);
 
 
 //有机灌注机配方继承

@@ -42,7 +42,7 @@ MachineModifier.addCoreThread("YMG_Tesla", FactoryRecipeThread.createCoreThread(
 //发电
 mods.modularmachinery.RecipeBuilder.newBuilder("Tesla_Generation", "YMG_Tesla", 200, 1)
 .setThreadName(Energy_Harvesting_String)
-.addItemInput(<ore:lightning_cont>)
+.addItemInput(<ore:lightning_cont>).setChance(0.0F)
 .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
     val ctrl = event.controller;
     val data = ctrl.customData;

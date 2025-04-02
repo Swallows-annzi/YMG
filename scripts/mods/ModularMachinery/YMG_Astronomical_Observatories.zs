@@ -42,28 +42,27 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Astronomical_Observatories_S
 .addItemModifier(function(ctrl as IMachineController, Item as IItemStack) {
     val world = ctrl.world;
     val PlayerUUID = ctrl.ownerUUID;
-    val PlayerName = world.getPlayerByUUID(UUID.fromString(PlayerUUID)).name;
     val numbers = world.random.nextInt(0,199);
     if(numbers == 0){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e水星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mercury", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e水星"]}, state: "true", name: "Mercury", playeruuid: PlayerUUID});
     }
     if(numbers == 1){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e金星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Venus", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e金星"]}, state: "true", name: "Venus", playeruuid: PlayerUUID});
     }
     if(2 <= numbers && numbers < 12){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e月球", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Moon", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e月球"]}, state: "true", name: "Moon", playeruuid: PlayerUUID});
     }
     if(numbers == 13){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e火星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mars", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e火星"]}, state: "true", name: "Mars", playeruuid: PlayerUUID});
     }
     if(numbers == 14){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e木星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Jupiter", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e木星"]}, state: "true", name: "Jupiter", playeruuid: PlayerUUID});
     }
     if(numbers == 15){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e土星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Saturn", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e土星"]}, state: "true", name: "Saturn", playeruuid: PlayerUUID});
     }
     if(numbers == 16){
-        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e土星", "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "AsteroidBelt", playeruuid: PlayerUUID});
+        return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e土星"]}, state: "true", name: "AsteroidBelt", playeruuid: PlayerUUID});
     }
     else{
         // return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§c未发现", "§9所有者：§b" + PlayerName]}, state: "false", name: "null", playeruuid: PlayerUUID});

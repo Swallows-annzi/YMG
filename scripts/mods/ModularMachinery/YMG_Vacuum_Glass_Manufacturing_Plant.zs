@@ -142,7 +142,8 @@ val List as IItemStack[IOreDictEntry] = {
     <ore:dustDraconium>             :   <jaopca:block_glasshardeneddraconium>,
     <ore:dustIron>                  :   <jaopca:block_glasshardenediron>,
     <ore:dustUranium>               :   <jaopca:block_glasshardeneduranium>,
-    <ore:dustAncientDebris>         :   <jaopca:block_glasshardenedancientdebris>
+    <ore:dustAncientDebris>         :   <jaopca:block_glasshardenedancientdebris>,
+    <ore:dustOsmium>                :   <jaopca:block_glasshardenedosmium>
 };
 
 for input, output in List {

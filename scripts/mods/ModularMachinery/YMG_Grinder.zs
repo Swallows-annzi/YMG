@@ -20,7 +20,7 @@ val setTime = 60;
 
 
 //线程设置
-MachineModifier.setMaxThreads("YMG_Grinder", 16);
+MachineModifier.setMaxThreads("YMG_Grinder", 64);
 
 // mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_0", "YMG_Grinder", 1)
 // .addItemInput(<minecraft:grass>)
@@ -63,31 +63,31 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_6", "YMG_Grinder", setTi
 .addItemOutput(<actuallyadditions:item_crystal_shard:5>).setMinMaxAmount(2,4)
 .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_7", "YMG_Grinder", 2.5 * setTime)
+mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_7", "YMG_Grinder", setTime)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:compressed1xCobblestone>)
 .addItemOutput(<excompressum:compressed_block:2>)
 .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_8", "YMG_Grinder", 2.5 * setTime)
+mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_8", "YMG_Grinder", setTime)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:compressed1xGravel>)
 .addItemOutput(<excompressum:compressed_block:3>)
 .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_9", "YMG_Grinder", 2.5 * setTime)
+mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_9", "YMG_Grinder", setTime)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:compressed1xSand>)
 .addItemOutput(<excompressum:compressed_block>)
 .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_10", "YMG_Grinder", 2.5 * setTime)
+mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_10", "YMG_Grinder", setTime)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:compressed1xNetherrack>)
 .addItemOutput(<excompressum:compressed_block:6>)
 .build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_11", "YMG_Grinder", 2.5 * setTime)
+mods.modularmachinery.RecipeBuilder.newBuilder("Grinder_11", "YMG_Grinder", setTime)
 .addEnergyPerTickInput(setEnergy)
 .addItemInput(<ore:compressed1xEndStone>)
 .addItemOutput(<excompressum:compressed_block:7>)

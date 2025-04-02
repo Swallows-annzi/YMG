@@ -49,7 +49,7 @@ val Brewing as IIngredient[][string] = {
 for output, input in Brewing {
     mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Mana_Extraction_Stage_" + output + "_1", "YMG_Mana_Extraction_Stage", 100)
     .addFluidInput(<liquid:fluidedmana> * 100)
-    .addItemInput(<minecraft:paper>.withTag({RepairCost: 0, display: {Name: output}}))
+    .addItemInput(<minecraft:paper>.withTag({display: {Name: output}}))
     // .setPreViewNBT({
     //     display: {
     //         Lore: [
@@ -65,7 +65,7 @@ for output, input in Brewing {
 
     mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Mana_Extraction_Stage_" + output + "_2", "YMG_Mana_Extraction_Stage", 100)
     .addFluidInput(<liquid:fluidedmana> * 100)
-    .addItemInput(<minecraft:paper>.withTag({RepairCost: 0, display: {Name: output}}))
+    .addItemInput(<minecraft:paper>.withTag({display: {Name: output}}))
     .setChance(0)
     .addItemInput(<botania:vial:1>)
     .addItemInputs(input)
@@ -74,7 +74,7 @@ for output, input in Brewing {
 
     mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Mana_Extraction_Stage_" + output + "_3", "YMG_Mana_Extraction_Stage", 100)
     .addFluidInput(<liquid:fluidedmana> * 100)
-    .addItemInput(<minecraft:paper>.withTag({RepairCost: 0, display: {Name: output}}))
+    .addItemInput(<minecraft:paper>.withTag({display: {Name: output}}))
     .setChance(0)
     .addItemInput(<botania:bloodpendant>)
     .addItemInputs(input)
@@ -83,7 +83,7 @@ for output, input in Brewing {
 
     mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Mana_Extraction_Stage_" + output + "_4", "YMG_Mana_Extraction_Stage", 100)
     .addFluidInput(<liquid:fluidedmana> * 100)
-    .addItemInput(<minecraft:paper>.withTag({RepairCost: 0, display: {Name: output}}))
+    .addItemInput(<minecraft:paper>.withTag({display: {Name: output}}))
     .setChance(0)
     .addItemInput(<botania:incensestick>)
     .addItemInputs(input)

@@ -105,6 +105,7 @@ mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_satellite_receiving_antenna"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_deepcore_driller"}));
 mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_astral_coordinate_processing_matrix"}));
+mods.jei.JEI.hide(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ymg_aa_charging_device"}));
 
 mods.jei.JEI.hide(<botania_tweaks:dire_crafty_crate>);
 mods.jei.JEI.hide(<botania_tweaks:basic_extended_crafty_crate>);

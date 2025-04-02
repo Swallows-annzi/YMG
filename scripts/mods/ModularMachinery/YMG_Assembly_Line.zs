@@ -371,7 +371,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_star_signal_am
 .build();
 
 //折跃力场发生器
-mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_jump_stand", "YMG_Assembly_Line_Advanced", 1200)
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Assembly_Line_jump_stand", "YMG_Assembly_Line", 1200)
 .addEnergyPerTickInput(120000000)
 .addFluidInputs([
     <liquid:isaac_newton> * 2000,

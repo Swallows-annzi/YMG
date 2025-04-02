@@ -8,13 +8,13 @@
 #priority 50
 #loader crafttweaker reloadable
 
-// import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MachineModifier;
 
 
-// //启用并行
-// // MachineModifier.setParallelizable("YMG_Gaia_Guardian_Annihilation_Altar", false);
-// MachineModifier.setMaxParallelism("YMG_Gaia_Guardian_Annihilation_Altar", 4);
-// MachineModifier.setInternalParallelism("YMG_Gaia_Guardian_Annihilation_Altar", 4);
+//启用并行
+// MachineModifier.setParallelizable("YMG_Gaia_Guardian_Annihilation_Altar", false);
+MachineModifier.setMaxParallelism("YMG_Gaia_Guardian_Annihilation_Altar", 16);
+MachineModifier.setInternalParallelism("YMG_Gaia_Guardian_Annihilation_Altar", 16);
 
 //盖亚 I
 mods.modularmachinery.RecipeBuilder.newBuilder("Gaia_Guardian_I_1", "YMG_Gaia_Guardian_Annihilation_Altar", 6000)

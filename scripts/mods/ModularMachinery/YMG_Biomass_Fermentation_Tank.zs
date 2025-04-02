@@ -13,16 +13,16 @@ import mods.modularmachinery.MachineModifier;
 
 //启用并行
 // MachineModifier.setParallelizable("YMG_Biomass_Fermentation_Tank", true);
-MachineModifier.setMaxParallelism("YMG_Biomass_Fermentation_Tank", 4);
-MachineModifier.setInternalParallelism("YMG_Biomass_Fermentation_Tank", 4);
+MachineModifier.setMaxParallelism("YMG_Biomass_Fermentation_Tank", 64);
+MachineModifier.setInternalParallelism("YMG_Biomass_Fermentation_Tank", 64);
 
 //糠处理
 mods.modularmachinery.RecipeBuilder.newBuilder("Biomass_Fermentation_Tank_1", "YMG_Biomass_Fermentation_Tank", 20)
 .addEnergyPerTickInput(50000)
 .addItemInput(<ic2:crafting:21> * 10)
-.addFluidInput(<liquid:water> * 1200)
+.addFluidInput(<liquid:water> * 2400)
 .addItemOutput(<mekanism:biofuel> * 8)
-.addFluidOutput(<liquid:ic2biomass> * 1000)
+.addFluidOutput(<liquid:ic2biomass> * 2000)
 .build();
 
 //生物燃料处理

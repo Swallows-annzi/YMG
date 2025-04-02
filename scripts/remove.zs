@@ -63,6 +63,9 @@ var recipeItems_gzt as IItemStack[] = [
     <ic2:te:88>,
     <ic2:te:89>,
     <ic2:te:52>,
+    <mets:te:39>,
+    <super_solar_panels:twelve_heat_storage>,
+    <super_solar_panels:max_heat_storage>,
     //IC-重力装甲
     <super_solar_panels:machines:25>,
     //IC-更多电力设备
@@ -210,6 +213,7 @@ var recipeItems_gzt as IItemStack[] = [
     // <threng:big_assembler:5>,
     <threng:material:13>,
     //AE
+    <appliedenergistics2:material:29>,
     <appliedenergistics2:quartz_glass>,
     <appliedenergistics2:controller>,
     <appliedenergistics2:material:32>,

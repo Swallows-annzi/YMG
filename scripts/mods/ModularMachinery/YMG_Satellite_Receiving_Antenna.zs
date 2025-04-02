@@ -145,7 +145,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Satellite_Receiving_Antenna_
 .setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
     val data = ctrl.customData;
     val map = data.asMap();
-    map["PlayerName"] = isNull(map["PlayerName"]) ? "§c未绑定卫星链接卡" as string : map["PlayerName"].asString();
     map["Satellite"] = isNull(map["Satellite"]) ? "null" as string : map["Satellite"].asString();
     map["TargetName"] = isNull(map["TargetName"]) ? "null" as string : map["TargetName"].asString();
     val nbt = item.tag.asMap();
@@ -153,7 +152,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Satellite_Receiving_Antenna_
         return false;
     }
     else {
-        map["PlayerName"] = ctrl.world.getPlayerByUUID(UUID.fromString(ctrl.ownerUUID)).name;
         map["Satellite"] = nbt.Mode as string;
         map["TargetName"] = nbt.name as string;
         ctrl.customData = data;
@@ -329,13 +327,11 @@ MMEvents.onControllerGUIRender("YMG_Satellite_Receiving_Antenna", function(event
     map["EnergyInput"] = isNull(map["EnergyInput"]) ? 0 as long : map["EnergyInput"].asLong();
     map["Amplification"] = isNull(map["Amplification"]) ? 0 as int : map["Amplification"].asInt();
     map["EnergyOutput"] = isNull(map["EnergyOutput"]) ? 0 as long : map["EnergyOutput"].asLong();
-    map["PlayerName"] = isNull(map["PlayerName"]) ? "§c未绑定卫星链接卡" as string : map["PlayerName"].asString();
     map["Satellite"] = isNull(map["Satellite"]) ? "null" as string : map["Satellite"].asString();
     map["TargetName"] = isNull(map["TargetName"]) ? "null" as string : map["TargetName"].asString();
     var info as string[] = [];
     info += "§c>>";
     if(ctrl.isWorking) {
-        info += "§9所有者：§b" + map["PlayerName"].asString() + "§r";
         info += "§9能量消耗：§e" + FormatNumber(map["EnergyInput"].asLong()) + " §bRF/T§r";
         info += "§9能量产出：§e" + FormatNumber(map["EnergyOutput"].asLong()) + " §bRF/T§r";
         info += "§9卫星功能：§e" + Satellite_String[map["Satellite"].asString()] + "§r";

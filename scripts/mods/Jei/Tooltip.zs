@@ -386,18 +386,6 @@
 <modularmachinery:ymg_mana_dynamic_storage_tank_factory_controller>.addTooltip("§f同时支持使用液态魔力的输入与输出。");
 <modularmachinery:ymg_mana_dynamic_storage_tank_factory_controller>.addTooltip("§a>>");
 
-//热电子元件装配机
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§a>>");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§f在使用前需要为机械预热，即通电一段时间用以提供工作环境。");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§f状态值达到 100% 时，待机能量仅需预热时的 10%");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§f预热完成后即使运行配方也需要输入能量维持状态。");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§f部分配方需要一定的状态值才可运行，并且不消耗状态值。");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§f还有一部分需要消耗一定的状态值，而状态值需视配方而定");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§f机器带 4 并行，状态值消耗不受并行影响");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§c若结构被破坏，状态值将清 0！");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§c在运行配方时请检查能源输入仓是否满足消耗要求！否则会导致配方停止运行！");
-<modularmachinery:ymg_thermal_electronic_component_assembly_machine_factory_controller>.addTooltip("§a>>");
-
 //太阳能能源输出转换器
 <modularmachinery:ymg_solar_energy_output_adapter_controller>.addTooltip("§a>>");
 <modularmachinery:ymg_solar_energy_output_adapter_controller>.addTooltip("§f还在因为太阳能的输出跟不上发电吗？？");

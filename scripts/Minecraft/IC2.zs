@@ -79,9 +79,9 @@ recipes.addShaped(<super_solar_panels:eit_proton_fuel_rod>,[
 ]);
 
 //超频升级
-recipes.addShaped(<ic2:upgrade> * 4,[
+recipes.addShaped(<ic2:upgrade> * 2,[
 	[<contenttweaker:olihacon>,<thermalfoundation:material:1028>,<contenttweaker:olihacon>], 
-	[<gravisuite:crafting:1>,<contenttweaker:ymcomputecore>,<gravisuite:crafting:1>], 
+	[<gravisuite:crafting:1>,<mets:living_circuit>,<gravisuite:crafting:1>], 
 	[<super_solar_panels:machines:15>,<super_solar_panels:max_heat_storage>,<super_solar_panels:machines:15>]
 ]);
 
@@ -90,4 +90,25 @@ recipes.addShaped(<gravisuite:crafting:4>,[
 	[<ic2:crafting:4>,<gravisuite:crafting:1>,<ic2:crafting:4>], 
 	[<ic2:crafting:4>,<gravisuite:crafting:1>,<ic2:crafting:4>], 
 	[<contenttweaker:mysteriousicecoil>,<gravisuite:crafting:2>,<contenttweaker:mysteriousicecoil>]
+]);
+
+//120K冷却单元
+recipes.addShaped(<super_solar_panels:twelve_heat_storage>.withTag({advDmg: 0}),[
+	[<ore:plateTin>,<ic2:hex_heat_storage>,<ore:plateTin>], 
+	[<ore:plateTin>,<ore:plateIron>,<ore:plateTin>], 
+	[<ore:plateTin>,<ic2:hex_heat_storage>,<ore:plateTin>]
+]);
+
+//240K冷却单元
+recipes.addShaped(<super_solar_panels:max_heat_storage>.withTag({advDmg: 0}),[
+	[<ore:plateTin>,<super_solar_panels:twelve_heat_storage>,<ore:plateTin>], 
+	[<ore:plateTin>,<ore:plateIron>,<ore:plateTin>], 
+	[<ore:plateTin>,<super_solar_panels:twelve_heat_storage>,<ore:plateTin>]
+]);
+
+//大型物质生成机储罐模块
+recipes.addShaped(<mets:te:39>,[
+	[<mets:niobium_titanium_plate>,<mekanism:machineblock2:11>.withTag({tier: 3}),<mets:niobium_titanium_plate>], 
+	[<mets:super_circuit>,<ic2:resource:13>,<mets:super_circuit>], 
+	[<mets:niobium_titanium_plate>,<mekanism:machineblock2:11>.withTag({tier: 3}),<mets:niobium_titanium_plate>]
 ]);

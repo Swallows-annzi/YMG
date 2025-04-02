@@ -13,11 +13,11 @@ import mods.modularmachinery.MachineModifier;
 
 //启用并行
 // MachineModifier.setParallelizable("YMG_Body_Casting_Ceremony", true);
-MachineModifier.setMaxParallelism("YMG_Body_Casting_Ceremony", 8);
-MachineModifier.setInternalParallelism("YMG_Body_Casting_Ceremony", 8);
+MachineModifier.setMaxParallelism("YMG_Body_Casting_Ceremony", 128);
+MachineModifier.setInternalParallelism("YMG_Body_Casting_Ceremony", 128);
 
 //灵魂瓶-末影人
-mods.modularmachinery.RecipeBuilder.newBuilder("Body_Casting_Ceremony_Minecraft_Enderman", "YMG_Body_Casting_Ceremony", 400)
+mods.modularmachinery.RecipeBuilder.newBuilder("Body_Casting_Ceremony_Minecraft_Enderman", "YMG_Body_Casting_Ceremony", 100)
 .addLifeEssenceInput(60, true)
 .addGasInput(<gas:nutrientsolution> * 400)
 .addFluidInputs([
@@ -26,14 +26,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Body_Casting_Ceremony_Minecraft_
     <liquid:nutrient_distillation> * 1500
 ])
 .addItemInputs([
-    <enderio:item_soul_vial>,
-    <deepmoblearning:pristine_matter_enderman> * 2
+    <enderio:item_soul_vial> * 2,
+    <deepmoblearning:pristine_matter_enderman>
 ])
-.addItemOutput(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:enderman"}))
+.addItemOutput(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:enderman"}) * 2)
 .build();
 
 //灵魂瓶-潜影贝
-mods.modularmachinery.RecipeBuilder.newBuilder("Body_Casting_Ceremony_Minecraft_Shulker", "YMG_Body_Casting_Ceremony", 400)
+mods.modularmachinery.RecipeBuilder.newBuilder("Body_Casting_Ceremony_Minecraft_Shulker", "YMG_Body_Casting_Ceremony", 100)
 .addLifeEssenceInput(60, true)
 .addGasInput(<gas:nutrientsolution> * 400)
 .addFluidInputs([
@@ -42,9 +42,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Body_Casting_Ceremony_Minecraft_
     <liquid:nutrient_distillation> * 1500
 ])
 .addItemInputs([
-    <enderio:item_soul_vial>,
-    <deepmoblearning:pristine_matter_shulker> * 2
+    <enderio:item_soul_vial> * 2,
+    <deepmoblearning:pristine_matter_shulker>
 ])
-.addItemOutput(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:shulker"}))
+.addItemOutput(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:shulker"}) * 2)
 .build();
 

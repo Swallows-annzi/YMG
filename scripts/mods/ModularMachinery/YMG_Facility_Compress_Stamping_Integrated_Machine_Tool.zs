@@ -21,12 +21,12 @@ val EnergyInput = 10000;
 val TickInput = 60;
 
 //线程设置
-MachineModifier.setMaxThreads("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", 4);
+MachineModifier.setMaxThreads("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", 16);
 
 //启用并行
 // MachineModifier.setParallelizable("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", false);
-MachineModifier.setMaxParallelism("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", 16);
-MachineModifier.setInternalParallelism("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", 16);
+MachineModifier.setMaxParallelism("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", 64);
+MachineModifier.setInternalParallelism("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", 64);
 
 //ic压缩机
 RecipeAdapterBuilder.create("YMG_Facility_Compress_Stamping_Integrated_Machine_Tool", "ic2:te_compressor")

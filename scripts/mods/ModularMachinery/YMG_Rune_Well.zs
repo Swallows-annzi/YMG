@@ -636,7 +636,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_gildedmashedpotato", "
         <extrabotany:terrasteelhammer>,
         <extrabotany:ultimatehammer>
     ])
-).setParallelizeUnaffected(true)
+).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInputs([
     <extrabotany:material:2>
 ])
@@ -655,7 +655,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_material", "YMG_Rune_W
         <extrabotany:terrasteelhammer>,
         <extrabotany:ultimatehammer>
     ])
-).setParallelizeUnaffected(true)
+).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInputs([
     <extrabotany:spiritfuel>
 ])
@@ -673,7 +673,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_spiritfuel", "YMG_Rune
         <extrabotany:terrasteelhammer>,
         <extrabotany:ultimatehammer>
     ])
-).setParallelizeUnaffected(true)
+).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInputs([
     <extrabotany:nightmarefuel>
 ])
@@ -776,14 +776,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_material_5_2", "YMG_Ru
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingrock_1", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addManaInput(1000)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<ore:stone>)
 .addItemOutput(<botania:livingrock>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingrock_2", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addFluidInput(<liquid:fluidedmana> * 1)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<ore:stone>)
 .addItemOutput(<botania:livingrock>)
 .build();
@@ -792,30 +792,30 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingrock_2", "YMG_Ru
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingwood_1", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addManaInput(1000)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<ore:logWood>)
 .addItemOutput(<botania:livingwood>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_livingwood_2", "YMG_Rune_Well", 200)
 .setThreadName(Puredaisy_String)
 .addFluidInput(<liquid:fluidedmana> * 1)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<ore:logWood>)
 .addItemOutput(<botania:livingwood>)
 .build();
 
-//活木
+//水晶石矿石
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_blockcustomore_1", "YMG_Rune_Well", 300)
 .setThreadName(Puredaisy_String)
 .addManaInput(2000)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<ore:oreAquamarine>)
 .addItemOutput(<astralsorcery:blockcustomore>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("Rune_Well_blockcustomore_2", "YMG_Rune_Well", 300)
 .setThreadName(Puredaisy_String)
 .addFluidInput(<liquid:fluidedmana> * 2)
-.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true)
+.addItemInput(<botania:specialflower>.withTag({type: "puredaisy"})).setParallelizeUnaffected(true).setChance(0.0F)
 .addItemInput(<ore:oreAquamarine>)
 .addItemOutput(<astralsorcery:blockcustomore>)
 .build();

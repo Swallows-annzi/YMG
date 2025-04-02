@@ -23,3 +23,17 @@ RecipeAdapterBuilder.create("YMG_EndSteel_Furnace", "minecraft:furnace")
 .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input",  -115, 0, false).build())
 .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input",  4980, 0, false).build())
 .build();
+
+//红石琥珀金锭
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_EndSteel_Furnace_ElectrumFlux", "YMG_EndSteel_Furnace", 5)
+.addEnergyPerTickInput(5000)
+.addItemInput(<ore:dustElectrumFlux>)
+.addItemOutput(<redstonearsenal:material:32>)
+.build();
+
+//极寒末影锭
+mods.modularmachinery.RecipeBuilder.newBuilder("YMG_EndSteel_Furnace_GelidEnderium", "YMG_EndSteel_Furnace", 5)
+.addEnergyPerTickInput(5000)
+.addItemInput(<ore:dustGelidEnderium>)
+.addItemOutput(<redstonerepository:material:1>)
+.build();

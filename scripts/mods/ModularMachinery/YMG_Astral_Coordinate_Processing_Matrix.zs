@@ -154,15 +154,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Astral_Coordinate_Processing
 
 
 //GUI
-MMEvents.onControllerGUIRender("YMG_Astral_Coordinate_Processing_Matrix", function(event as ControllerGUIRenderEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    var info as string[] = [];
-    info += "§c>>";
-    info += "§9拥有玩家：§e" + ctrl.world.getPlayerByUUID(UUID.fromString(ctrl.ownerUUID)).name;
-    info += "§c>>";
-    // info += data;
-    // info += WorldData.getArchiveData("PlanetsProgressData", ctrl.ownerUUID);
-    event.extraInfo = info;
-});
+// MMEvents.onControllerGUIRender("YMG_Astral_Coordinate_Processing_Matrix", function(event as ControllerGUIRenderEvent) {
+//     val ctrl = event.controller;
+//     val data = ctrl.customData;
+//     val map = data.asMap();
+//     var info as string[] = [];
+//     info += "§c>>";
+//     info += "§9拥有玩家：§e" + ctrl.world.getPlayerByUUID(UUID.fromString(ctrl.ownerUUID)).name;
+//     info += "§c>>";
+//     // info += data;
+//     // info += WorldData.getArchiveData("PlanetsProgressData", ctrl.ownerUUID);
+//     event.extraInfo = info;
+// });

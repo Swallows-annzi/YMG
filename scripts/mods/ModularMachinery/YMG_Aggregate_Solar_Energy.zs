@@ -17,6 +17,7 @@ import mods.modularmachinery.RecipeModifierBuilder;
 //光伏发电
 mods.modularmachinery.RecipeBuilder.newBuilder("Photovoltaic_core", "YMG_Aggregate_Solar_Energy", 1200)
 .addEnergyPerTickOutput(24000)
+.setAltitude(254, 254)
 .addPreTickHandler(function(event as RecipeTickEvent) {
     val ctrl = event.controller;
     val data = ctrl.customData;

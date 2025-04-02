@@ -15,11 +15,6 @@ import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 
-
-//热量上限
-val YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal = 10000;
-//运行核心
-val YMG_Thermal_Electronic_Component_Assembly_Machine_Work_Barnroom_String = "§b§l工作仓室";
 //符文祭坛
 val YMG_Rune_Well_Runealtar_String = "§b§l符文祭坛";
 
@@ -326,7 +321,7 @@ mods.bloodmagic.BloodAltar.addRecipe(<modularmachinery:ymg_digital_altar_control
 
 //双子塔-焱
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_gemini_blazing_controller", "YMG_Thermal_Electronic_Component_Assembly_Machine", 1200)
-.setThreadName(YMG_Thermal_Electronic_Component_Assembly_Machine_Work_Barnroom_String)
+.addEnergyPerTickInput(24000000)
 .addItemInputs([
     <modularmachinery:ymg_electromagnetic_refining_factory_factory_controller>,
     <ore:gemCrystalFlux> * 64,
@@ -336,59 +331,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_gemini_blazing_controller", 
 	<ore:ingotUUMatter> * 16
 ])
 .addItemOutput(<modularmachinery:ymg_gemini_blazing_controller>)
-.addPostCheckHandler(function(event as RecipeCheckEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    if(map["Thermal"].asLong() <  YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal)
-    event.setFailed("§d工作状态未达标！");
-})
-.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    val RecipeList = ctrl.activeRecipeList;
-    if(RecipeList[0].registryName != "thermal_electronic_component_assembly_machine_initialize")
-    event.setFailed(false,"§d缺少能量输入！");
-    if(map["Thermal"].asLong() == YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_7", RecipeModifierBuilder.create("modularmachinery:energy", "input", 24000000, 0, false).build());
-        map["setsumber"] = 1;
-        ctrl.customData = data;
-    }
-    if(map["Thermal"].asLong() < YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_7", RecipeModifierBuilder.create("modularmachinery:energy", "input", 2400000, 0, false).build());
-        map["setsumber"] = 2;
-        ctrl.customData = data;
-    }
-})
-.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    map["setsumber"] = isNull(map["setsumber"]) ? 0 as int : map["setsumber"].asInt();
-    if(map["setsumber"].asInt() == 1){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_7", RecipeModifierBuilder.create("modularmachinery:energy", "input", -24000000, 0, false).build());
-    }
-    if(map["setsumber"].asInt() == 2){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_7", RecipeModifierBuilder.create("modularmachinery:energy", "input", -2400000, 0, false).build());
-    }
-    map["Thermal"] = map["Thermal"].asLong() - (0.95 * YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal);
-    ctrl.customData = data;
-})
-.addRecipeTooltip(
-    "§f能量消耗：2.4M FE/t",
-    "§f总计：2.88G FE",
-    "§f工作状态需要达到 §e100%！",
-    "§c消耗状态值 §e95%。"
-)
 .build();
 
 //双子塔-霜
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_gemini_frost_controller", "YMG_Thermal_Electronic_Component_Assembly_Machine", 1200)
-.setThreadName(YMG_Thermal_Electronic_Component_Assembly_Machine_Work_Barnroom_String)
+.addEnergyPerTickInput(24000000)
 .addItemInputs([
     <modularmachinery:ymg_electromagnetic_refining_factory_factory_controller>,
     <ore:gemGelid> * 64,
@@ -398,54 +345,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_gemini_frost_controller", "Y
 	<ore:ingotUUMatter> * 16
 ])
 .addItemOutput(<modularmachinery:ymg_gemini_frost_controller>)
-.addPostCheckHandler(function(event as RecipeCheckEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    if(map["Thermal"].asLong() <  YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal)
-    event.setFailed("§d工作状态未达标！");
-})
-.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    val RecipeList = ctrl.activeRecipeList;
-    if(RecipeList[0].registryName != "thermal_electronic_component_assembly_machine_initialize")
-    event.setFailed(false,"§d缺少能量输入！");
-    if(map["Thermal"].asLong() == YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_8", RecipeModifierBuilder.create("modularmachinery:energy", "input", 24000000, 0, false).build());
-        map["setsumber"] = 1;
-        ctrl.customData = data;
-    }
-    if(map["Thermal"].asLong() < YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_8", RecipeModifierBuilder.create("modularmachinery:energy", "input", 2400000, 0, false).build());
-        map["setsumber"] = 2;
-        ctrl.customData = data;
-    }
-})
-.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    map["setsumber"] = isNull(map["setsumber"]) ? 0 as int : map["setsumber"].asInt();
-    if(map["setsumber"].asInt() == 1){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_9", RecipeModifierBuilder.create("modularmachinery:energy", "input", -24000000, 0, false).build());
-    }
-    if(map["setsumber"].asInt() == 2){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_9", RecipeModifierBuilder.create("modularmachinery:energy", "input", -2400000, 0, false).build());
-    }
-    map["Thermal"] = map["Thermal"].asLong() - (0.95 * YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal);
-    ctrl.customData = data;
-})
-.addRecipeTooltip(
-    "§f能量消耗：2.4M FE/t",
-    "§f总计：2.88G FE",
-    "§f工作状态需要达到 §e100%！",
-    "§c消耗状态值 §e95%。"
-)
 .build();
 
 //喷涂式镀层覆膜机
@@ -748,7 +647,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_melting_f
 
 //ECO-L4-可扩展存储子系统主机
 mods.modularmachinery.RecipeBuilder.newBuilder("extendable_digital_storage_subsystem_l4", "YMG_Thermal_Electronic_Component_Assembly_Machine", 2400)
-.setThreadName(YMG_Thermal_Electronic_Component_Assembly_Machine_Work_Barnroom_String)
+.addEnergyPerTickInput(60000000)
 .addItemInputs([
     <mets:super_iridium_compress_plate> * 16,
     <appliedenergistics2:controller>,
@@ -758,54 +657,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("extendable_digital_storage_subsy
     <ic2:overclocked_heat_vent> * 16
 ])
 .addItemOutput(<novaeng_core:extendable_digital_storage_subsystem_l4>)
-.addPostCheckHandler(function(event as RecipeCheckEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    if(map["Thermal"].asLong() <  YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal)
-    event.setFailed("§d工作状态未达标！");
-})
-.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    val RecipeList = ctrl.activeRecipeList;
-    if(RecipeList[0].registryName != "thermal_electronic_component_assembly_machine_initialize")
-    event.setFailed(false,"§d缺少能量输入！");
-    if(map["Thermal"].asLong() == YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_12", RecipeModifierBuilder.create("modularmachinery:energy", "input", 60000000, 0, false).build());
-        map["setsumber"] = 1;
-        ctrl.customData = data;
-    }
-    if(map["Thermal"].asLong() < YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_12", RecipeModifierBuilder.create("modularmachinery:energy", "input", 6000000, 0, false).build());
-        map["setsumber"] = 2;
-        ctrl.customData = data;
-    }
-})
-.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    map["setsumber"] = isNull(map["setsumber"]) ? 0 as int : map["setsumber"].asInt();
-    if(map["setsumber"].asInt() == 1){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_12", RecipeModifierBuilder.create("modularmachinery:energy", "input", -60000000, 0, false).build());
-    }
-    if(map["setsumber"].asInt() == 2){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_12", RecipeModifierBuilder.create("modularmachinery:energy", "input", -6000000, 0, false).build());
-    }
-    map["Thermal"] = map["Thermal"].asLong() - (0.6 * YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal);
-    ctrl.customData = data;
-})
-.addRecipeTooltip(
-    "§f能量消耗：6.0M FE/t",
-    "§f总计：20.4G FE",
-    "§f工作状态需要达到 §e100%！",
-    "§c消耗状态值 §e60%。"
-)
 .build();
 
 //ECO-L6-可扩展存储子系统主机
@@ -834,7 +685,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("extendable_digital_storage_subsy
 
 //ECO-L4-可扩展合成子系统主机
 mods.modularmachinery.RecipeBuilder.newBuilder("extendable_fabricator_subsystem_l4", "YMG_Thermal_Electronic_Component_Assembly_Machine", 2400)
-.setThreadName(YMG_Thermal_Electronic_Component_Assembly_Machine_Work_Barnroom_String)
+.addEnergyPerTickInput(60000000)
 .addItemInputs([
     <threng:big_assembler> * 4,
     <appliedenergistics2:controller>,
@@ -845,54 +696,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("extendable_fabricator_subsystem_
     <ic2:overclocked_heat_vent> * 16
 ])
 .addItemOutput(<novaeng_core:extendable_fabricator_subsystem_l4>)
-.addPostCheckHandler(function(event as RecipeCheckEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    if(map["Thermal"].asLong() <  YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal)
-    event.setFailed("§d工作状态未达标！");
-})
-.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    val RecipeList = ctrl.activeRecipeList;
-    if(RecipeList[0].registryName != "thermal_electronic_component_assembly_machine_initialize")
-    event.setFailed(false,"§d缺少能量输入！");
-    if(map["Thermal"].asLong() == YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_13", RecipeModifierBuilder.create("modularmachinery:energy", "input", 60000000, 0, false).build());
-        map["setsumber"] = 1;
-        ctrl.customData = data;
-    }
-    if(map["Thermal"].asLong() < YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_Input_13", RecipeModifierBuilder.create("modularmachinery:energy", "input", 6000000, 0, false).build());
-        map["setsumber"] = 2;
-        ctrl.customData = data;
-    }
-})
-.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val map = data.asMap();
-    map["Thermal"] = isNull(map["Thermal"]) ? 0 as long : map["Thermal"].asLong();
-    map["setsumber"] = isNull(map["setsumber"]) ? 0 as int : map["setsumber"].asInt();
-    if(map["setsumber"].asInt() == 1){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_13", RecipeModifierBuilder.create("modularmachinery:energy", "input", -60000000, 0, false).build());
-    }
-    if(map["setsumber"].asInt() == 2){
-        ctrl.addModifier("Thermal_Electronic_Component_Assembly_Machine_Energy_output_13", RecipeModifierBuilder.create("modularmachinery:energy", "input", -6000000, 0, false).build());
-    }
-    map["Thermal"] = map["Thermal"].asLong() - (0.6 * YMG_Thermal_Electronic_Component_Assembly_Machine_MaxThermal);
-    ctrl.customData = data;
-})
-.addRecipeTooltip(
-    "§f能量消耗：6.0M FE/t",
-    "§f总计：20.4G FE",
-    "§f工作状态需要达到 §e100%！",
-    "§c消耗状态值 §e60%。"
-)
 .build();
 
 //ECO-L6-可扩展合成子系统主机
@@ -1031,15 +834,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_spirit_stripped_altar_factor
 .build();
 
 //大气游离中子汲取装置
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_atmospheric_free_neutron_extraction_device_controller>, [
-	[<moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>], 
-	[<moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <avaritia:block_resource:2>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>], 
-	[<environmentaltech:structure_frame_3>, <moreplates:neutronium_plate>, <moreplates:neutronium_gear>, <avaritia:block_resource:2>, <moreplates:neutronium_gear>, <moreplates:neutronium_plate>, <environmentaltech:structure_frame_3>], 
-	[<environmentaltech:structure_frame_3>, <environmentaltech:structure_frame_3>, <avaritia:block_resource>, <avaritia:neutron_collector>, <avaritia:block_resource>, <environmentaltech:structure_frame_3>, <environmentaltech:structure_frame_3>], 
-	[<environmentaltech:structure_frame_3>, <extendedcrafting:storage:7>, <avaritia:block_resource>, <avaritia:resource:5>, <avaritia:block_resource>, <extendedcrafting:storage:7>, <environmentaltech:structure_frame_3>], 
-	[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <avaritia:block_resource:2>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>], 
-	[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_atmospheric_free_neutron_extraction_device_controller>, [
+// 	[<moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>], 
+// 	[<moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <avaritia:block_resource:2>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>], 
+// 	[<environmentaltech:structure_frame_3>, <moreplates:neutronium_plate>, <moreplates:neutronium_gear>, <avaritia:block_resource:2>, <moreplates:neutronium_gear>, <moreplates:neutronium_plate>, <environmentaltech:structure_frame_3>], 
+// 	[<environmentaltech:structure_frame_3>, <environmentaltech:structure_frame_3>, <avaritia:block_resource>, <avaritia:neutron_collector>, <avaritia:block_resource>, <environmentaltech:structure_frame_3>, <environmentaltech:structure_frame_3>], 
+// 	[<environmentaltech:structure_frame_3>, <extendedcrafting:storage:7>, <avaritia:block_resource>, <avaritia:resource:5>, <avaritia:block_resource>, <extendedcrafting:storage:7>, <environmentaltech:structure_frame_3>], 
+// 	[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <avaritia:block_resource:2>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>], 
+// 	[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>]
+// ]);
 
 //自动装配塔
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_assembly_line_advanced_factory_controller>, [
@@ -1119,8 +922,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_deepcore_driller_controller_
 .addItemInput(<gravisuite:crafting:1> * 64).setTag("item_4")
 .addItemInput(<contenttweaker:ymcomputecore> * 4).setTag("item_5")
 .addItemInput(<extendedcrafting:material:10>).setTag("item_6")
-.addItemInput(<contenttweaker:erodium_crystal_core>).setTag("item_7")
-.addItemOutput(<modularmachinery:ymg_deepcore_driller_controller> * 4)
+.addItemInput(<contenttweaker:erodium_crystal_core> * 4).setTag("item_7")
+.addItemOutput(<modularmachinery:ymg_deepcore_driller_controller>)
 .build();
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_deepcore_driller_controller_2", "YMG_Assembly_Line_Advanced", 24000)
 .addEnergyPerTickInput(200000000)
@@ -1340,7 +1143,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder("ymg_precision_rocket_assembly_ch
 .addItemOutput(<modularmachinery:ymg_precision_rocket_assembly_chamber_controller>)
 .build();
 
-//精密火箭装配仓
+//卫星接收天线
 mods.modularmachinery.RecipeBuilder.newBuilder("ymg_satellite_receiving_antenna_factory_controller_1", "YMG_Assembly_Line", 36000)
 .addEnergyPerTickInput(100000000)
 .addFluidInputs([
@@ -1388,4 +1191,13 @@ recipes.addShaped(<novaeng_core:extendable_calculator_subsystem_l6>,[
     [<contenttweaker:olihacon>,<contenttweaker:ymcomputecore>,<contenttweaker:olihacon>],
     [<novaeng_core:ecalculator_parallel_proc_l4>,<novaeng_core:ecalculator_transmitter_bus>,<novaeng_core:extendable_calculator_subsystem_l4>],
     [<contenttweaker:olihacon>,<contenttweaker:ymcomputecore>,<contenttweaker:olihacon>]
+]);
+
+//AA充能装置
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ymg_aa_charging_device_controller>, [
+	[<mets:super_iridium_compress_plate>, <mets:super_iridium_compress_plate>, <actuallyadditions:block_display_stand>, <mets:super_iridium_compress_plate>, <mets:super_iridium_compress_plate>], 
+	[<mets:super_iridium_compress_plate>, <contenttweaker:mysteriousicegear>, <appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:mysteriousicegear>, <mets:super_iridium_compress_plate>], 
+	[<actuallyadditions:block_display_stand>, <appliedenergistics2:quartz_vibrant_glass>, <actuallyadditions:block_empowerer>, <appliedenergistics2:quartz_vibrant_glass>, <actuallyadditions:block_display_stand>], 
+	[<mets:super_iridium_compress_plate>, <contenttweaker:mysteriousicegear>, <appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:mysteriousicegear>, <mets:super_iridium_compress_plate>], 
+	[<mets:super_iridium_compress_plate>, <mets:super_iridium_compress_plate>, <actuallyadditions:block_display_stand>, <mets:super_iridium_compress_plate>, <mets:super_iridium_compress_plate>]
 ]);

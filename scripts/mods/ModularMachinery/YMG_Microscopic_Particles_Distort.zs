@@ -253,3 +253,18 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Microscopic_Particles_Distort_fu
 .addGasOutput(<gas:fusionfuel> * 100)
 .build();
 
+//红石琥珀金粉
+mods.modularmachinery.RecipeBuilder.newBuilder("Microscopic_Particles_Distort_dustElectrum", "YMG_Microscopic_Particles_Distort", 10)
+.addEnergyPerTickInput(100000)
+.addItemInput(<ore:dustElectrum>)
+.addFluidInput(<liquid:redstone> * 500)
+.addItemOutput(<redstonearsenal:material>)
+.build();
+
+//极寒末影粉
+mods.modularmachinery.RecipeBuilder.newBuilder("Microscopic_Particles_Distort_dustEnderium", "YMG_Microscopic_Particles_Distort", 10)
+.addEnergyPerTickInput(100000)
+.addItemInput(<ore:dustEnderium>)
+.addFluidInput(<liquid:cryotheum> * 1000)
+.addItemOutput(<redstonerepository:material>)
+.build();

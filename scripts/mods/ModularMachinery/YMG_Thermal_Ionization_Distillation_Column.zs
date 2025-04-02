@@ -23,8 +23,8 @@ import mods.modularmachinery.MachineModifier;
 
 //启用并行
 // MachineModifier.setParallelizable("YMG_Thermal_Ionization_Distillation_Column", true);
-MachineModifier.setMaxParallelism("YMG_Thermal_Ionization_Distillation_Column", 16);
-MachineModifier.setInternalParallelism("YMG_Thermal_Ionization_Distillation_Column", 16);
+MachineModifier.setMaxParallelism("YMG_Thermal_Ionization_Distillation_Column", 64);
+MachineModifier.setInternalParallelism("YMG_Thermal_Ionization_Distillation_Column", 64);
 
 //盐水
 mods.modularmachinery.RecipeBuilder.newBuilder("Thermal_Ionization_Distillation_Column_1", "YMG_Thermal_Ionization_Distillation_Column", 100)

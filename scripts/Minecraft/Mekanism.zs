@@ -63,7 +63,7 @@ recipes.addShaped(<mekanismgenerators:reactorglass:1>,[
 
 //速度升级
 recipes.addShaped(<mekanism:speedupgrade>,[
-    [<mekanism:ingot:3>,<mekanismgenerators:reactorglass>,<mekanism:ingot:3>],
+    [<mekanism:ingot:3>,<jaopca:block_glasshardenedosmium>,<mekanism:ingot:3>],
     [<mekanism:controlcircuit:3>,<gravisuite:crafting:1>,<mekanism:controlcircuit:3>],
-    [<mekanism:ingot:3>,<mekanismgenerators:reactorglass>,<mekanism:ingot:3>]
+    [<mekanism:ingot:3>,<jaopca:block_glasshardenedosmium>,<mekanism:ingot:3>]
 ]);

@@ -53,7 +53,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Stars_Booth_galaxycoordinate
 .addItemModifier(function(ctrl as IMachineController, Item as IItemStack) {
     val world = ctrl.world;
     val PlayerUUID = ctrl.ownerUUID;
-    val PlayerName = world.getPlayerByUUID(UUID.fromString(PlayerUUID)).name;
     if(!WorldData.isArchiveData("PlanetsProgressData", PlayerUUID))
         return <contenttweaker:commondatamodel>;
     else {
@@ -64,85 +63,85 @@ mods.modularmachinery.RecipeBuilder.newBuilder("YMG_Stars_Booth_galaxycoordinate
             val PlanetsProgressData as IData = WorldData.getArchiveData("PlanetsProgressData", PlayerUUID);
             val PlanetsProgressMap = PlanetsProgressData.asMap();
             if((!Progress || PlanetsProgressMap.SolarSystem.Sun.isFound == 1) && map["StarID"].asInt() == 1)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Sun", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Sun", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.Mercury.isFound == 1) && map["StarID"].asInt() == 2)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mercury", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Mercury", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.Venus.isFound == 1) && map["StarID"].asInt() == 3)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Venus", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Venus", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.EarthSystem.Earth.isFound == 1) && map["StarID"].asInt() == 4)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Earth", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Earth", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.EarthSystem.Moon.isFound == 1) && map["StarID"].asInt() == 5)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Moon", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Moon", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.MarsSystem.Mars.isFound == 1) && map["StarID"].asInt() == 6)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mars", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Mars", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.MarsSystem.Phobos.isFound == 1) && map["StarID"].asInt() == 7)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Phobo", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Phobo", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.MarsSystem.Deimos.isFound == 1) && map["StarID"].asInt() == 8)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Deimos", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Deimos", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.AsteroidBelt.isFound == 1) && map["StarID"].asInt() == 9)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "AsteroidBelt", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "AsteroidBelt", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Jupiter.isFound == 1) && map["StarID"].asInt() == 10)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Jupiter", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Jupiter", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Io.isFound == 1) && map["StarID"].asInt() == 11)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Io", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Io", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Europa.isFound == 1) && map["StarID"].asInt() == 12)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Europa", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Europa", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Ganymede.isFound == 1) && map["StarID"].asInt() == 13)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Ganymede", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Ganymede", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Callisto.isFound == 1) && map["StarID"].asInt() == 14)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Callisto", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Callisto", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Amalthea.isFound == 1) && map["StarID"].asInt() == 15)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Amalthea", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Amalthea", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.JupiterSystem.Himalia.isFound == 1) && map["StarID"].asInt() == 16)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Himalia", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Himalia", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Saturn.isFound == 1) && map["StarID"].asInt() == 17)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Saturn", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Saturn", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Mimas.isFound == 1) && map["StarID"].asInt() == 18)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Mimas", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Mimas", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Enceladus.isFound == 1) && map["StarID"].asInt() == 19)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Enceladus", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Enceladus", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Tethys.isFound == 1) && map["StarID"].asInt() == 20)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Tethys", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Tethys", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Dione.isFound == 1) && map["StarID"].asInt() == 21)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Dione", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Dione", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Rhea.isFound == 1) && map["StarID"].asInt() == 22)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Rhea", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Rhea", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Titan.isFound == 1) && map["StarID"].asInt() == 23)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Titan", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Titan", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Hyperion.isFound == 1) && map["StarID"].asInt() == 24)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Hyperion", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Hyperion", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Iapetus.isFound == 1) && map["StarID"].asInt() == 25)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Iapetus", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Iapetus", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Phoebe.isFound == 1) && map["StarID"].asInt() == 26)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Phoebe", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Phoebe", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.SaturnSystem.Janus.isFound == 1) && map["StarID"].asInt() == 27)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Janus", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Janus", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.UranusSystem.Uranus.isFound == 1) && map["StarID"].asInt() == 28)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Uranus", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Uranus", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.UranusSystem.Ariel.isFound == 1) && map["StarID"].asInt() == 29)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Ariel", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Ariel", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.UranusSystem.Umbriel.isFound == 1) && map["StarID"].asInt() == 30)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Umbriel", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Umbriel", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.UranusSystem.Tatania.isFound == 1) && map["StarID"].asInt() == 31)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Tatania", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Tatania", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.UranusSystem.Oberon.isFound == 1) && map["StarID"].asInt() == 32)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Oberon", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Oberon", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.UranusSystem.Miranda.isFound == 1) && map["StarID"].asInt() == 33)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Miranda", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Miranda", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.NeptuneSystem.Neptune.isFound == 1) && map["StarID"].asInt() == 34)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Neptune", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Neptune", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.NeptuneSystem.Triton.isFound == 1) && map["StarID"].asInt() == 35)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Triton", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Triton", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.NeptuneSystem.Nereid.isFound == 1) && map["StarID"].asInt() == 36)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Nereid", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Nereid", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.NeptuneSystem.Naiad.isFound == 1) && map["StarID"].asInt() == 37)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Naiad", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Naiad", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.NeptuneSystem.Thalassa.isFound == 1) && map["StarID"].asInt() == 38)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Thalassa", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Thalassa", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.NeptuneSystem.Despina.isFound == 1) && map["StarID"].asInt() == 39)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "Despina", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "Despina", playeruuid: PlayerUUID});
             if((!Progress || PlanetsProgressMap.SolarSystem.KuiperBelt.isFound == 1) && map["StarID"].asInt() == 40)
-                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt()), "§9所有者：§b" + PlayerName + "§r"]}, state: "true", name: "KuiperBelt", playeruuid: PlayerUUID});
+                return <contenttweaker:galaxycoordinatecard>.withTag({display: {Lore: ["§9星球：§e" + StarNumber(map["StarID"].asInt())]}, state: "true", name: "KuiperBelt", playeruuid: PlayerUUID});
             else
                 return <contenttweaker:commondatamodel>;
         }

@@ -109,6 +109,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -714,6 +715,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -927,6 +929,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -980,6 +983,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1122,6 +1126,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1352,6 +1357,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1647,6 +1653,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1724,6 +1731,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1737,6 +1745,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1750,6 +1759,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -1835,6 +1845,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -2121,6 +2132,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -2959,6 +2971,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3156,6 +3169,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3177,6 +3191,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3222,6 +3237,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3276,6 +3292,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3305,6 +3322,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3358,6 +3376,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3467,6 +3486,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3496,6 +3516,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3517,6 +3538,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3586,6 +3608,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3703,6 +3726,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3796,6 +3820,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -3881,6 +3906,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -4014,6 +4040,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"
@@ -4283,6 +4310,7 @@
             "elements": [
                 "modularmachinery:blockcasing@4",
                 "ItemInputStrengthen",
+                "ItemOutputStrengthen",
                 "FluidInputStrengthen",
                 "FluidOutputStrengthen",
                 "EnergyInputStrengthen"

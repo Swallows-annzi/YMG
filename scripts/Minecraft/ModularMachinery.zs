@@ -54,6 +54,13 @@ recipes.addShaped(<modularmachinery:blocklifeessenceprovideroutput>,[
     [<bloodmagic:ritual_stone>,<bloodmagic:blood_rune:7>,<bloodmagic:ritual_stone>]
 ]);
 
+//环境传感器
+recipes.addShaped(<gugu-utils:environmenthatch>,[
+    [null,<minecraft:daylight_detector>,null],
+    [<appliedenergistics2:light_detector>,<modularmachinery:blockcasing>,<appliedenergistics2:light_detector>],
+    [<minecraft:comparator>,<modularmachinery:itemmodularium>,<minecraft:comparator>]
+]);
+
 //智能数据接口
 recipes.addShapeless(<modularmachinery:blocksmartinterface>,[<modularmachinery:blockcasing>,<appliedenergistics2:memory_card>]);
 

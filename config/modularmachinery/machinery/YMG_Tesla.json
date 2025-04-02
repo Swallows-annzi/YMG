@@ -269,6 +269,7 @@
             "z": 2,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -407,6 +408,7 @@
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -433,6 +435,7 @@
             "z": 4,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -443,6 +446,7 @@
             "z": 5,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -461,6 +465,7 @@
             "z": 6,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -828,6 +833,7 @@
             "z": 7,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -910,6 +916,7 @@
             "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -1633,6 +1640,7 @@
             "z": 7,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -1703,6 +1711,7 @@
             "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -1833,6 +1842,7 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -2288,6 +2298,7 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -2306,6 +2317,7 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -2483,6 +2495,7 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -2551,6 +2564,7 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3179,6 +3193,7 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3278,6 +3293,7 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3583,6 +3599,7 @@
             "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3629,6 +3646,7 @@
             "z": 8,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3711,6 +3729,7 @@
             "z": 2,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3745,6 +3764,7 @@
             "z": 5,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3763,6 +3783,7 @@
             "z": 6,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3781,6 +3802,7 @@
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
@@ -3799,6 +3821,7 @@
             "z": 4,
             "elements": [
                 "modularmachinery:blockcasing@4",
+                "ItemInputStrengthen",
                 "ItemOutputStrengthen",
                 "EnergyOutputStrengthen"
             ]
