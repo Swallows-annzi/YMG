@@ -1,0 +1,26 @@
+[
+  {
+    "id": "overworldian",
+    "displayName": "主世界",
+    "displayColor": "green",
+    "xpValue": 10
+  },
+  {
+    "id": "hellish",
+    "displayName": "地狱",
+    "displayColor": "red",
+    "xpValue": 14
+  },
+  {
+    "id": "extraterrestrial",
+    "displayName": "地外",
+    "displayColor": "light_purple",
+    "xpValue": 20
+  },
+  {
+    "id": "legend",
+    "displayName": "传说",
+    "displayColor": "gold",
+    "xpValue": 50
+  }
+]

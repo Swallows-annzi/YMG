@@ -1,0 +1,83 @@
+{
+    "ItemInput": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockmepatternprovider@0"
+    ],
+    "ItemOutput": [
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmeitemoutputbus"
+    ],
+    "FluidInput": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockmefluidinputbus",
+        "modularmachinery:blockmegasinputbus@0",
+        "modularmachinery:blockmepatternprovider@0"
+    ],
+    "FluidOutput": [
+        "modularmachinery:blockfluidoutputhatch",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockmegasoutputbus@0"
+    ],
+    "EnergyInput": [
+        "modularmachinery:blockenergyinputhatch"
+    ],
+    "EnergyOutput": [
+        "modularmachinery:blockenergyOutputhatch"
+    ],
+    "Upgrade": [
+        "modularmachinery:blockupgradebus"
+    ],
+    "StarLightInput": [
+        "gugu-utils:starlightinputhatch"
+    ],
+    "ItemInputStrengthen": [
+        "modularmachinery:blockinputbus@3",
+        "modularmachinery:blockinputbus@4",
+        "modularmachinery:blockinputbus@5",
+        "modularmachinery:blockinputbus@6",
+        "modularmachinery:blockmeiteminputbus@0",
+        "modularmachinery:blockmepatternprovider@0"
+    ],
+    "ItemOutputStrengthen": [
+        "modularmachinery:blockoutputbus@3",
+        "modularmachinery:blockoutputbus@4",
+        "modularmachinery:blockoutputbus@5",
+        "modularmachinery:blockoutputbus@6",
+        "modularmachinery:blockmeitemoutputbus"
+    ],
+    "FluidInputStrengthen": [
+        "modularmachinery:blockfluidinputhatch@3",
+        "modularmachinery:blockfluidinputhatch@4",
+        "modularmachinery:blockfluidinputhatch@5",
+        "modularmachinery:blockfluidinputhatch@6",
+        "modularmachinery:blockfluidinputhatch@7",
+        "modularmachinery:blockmefluidinputbus@0",
+        "modularmachinery:blockmegasinputbus@0",
+        "modularmachinery:blockmepatternprovider@0"
+    ],
+    "FluidOutputStrengthen": [
+        "modularmachinery:blockfluidoutputhatch@3",
+        "modularmachinery:blockfluidoutputhatch@4",
+        "modularmachinery:blockfluidoutputhatch@5",
+        "modularmachinery:blockfluidoutputhatch@6",
+        "modularmachinery:blockfluidoutputhatch@7",
+        "modularmachinery:blockmefluidoutputbus@0",
+        "modularmachinery:blockmegasoutputbus@0"
+    ],
+    "EnergyInputStrengthen": [
+        "modularmachinery:blockenergyinputhatch@3",
+        "modularmachinery:blockenergyinputhatch@4",
+        "modularmachinery:blockenergyinputhatch@5",
+        "modularmachinery:blockenergyinputhatch@6",
+        "modularmachinery:blockenergyinputhatch@7"
+    ],
+    "EnergyOutputStrengthen": [
+        "modularmachinery:blockenergyOutputhatch@3",
+        "modularmachinery:blockenergyOutputhatch@4",
+        "modularmachinery:blockenergyOutputhatch@5",
+        "modularmachinery:blockenergyOutputhatch@6",
+        "modularmachinery:blockenergyOutputhatch@7"
+    ]
+}
+

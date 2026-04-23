@@ -1,0 +1,14 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/metal_glass_b1_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:metal_block_b1" }
+			]
+		}
+    }
+}

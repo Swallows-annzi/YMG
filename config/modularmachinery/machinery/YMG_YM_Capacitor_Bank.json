@@ -1,0 +1,2253 @@
+{
+    "registryname": "YMG_YM_Capacitor_Bank",
+    "localizedname": "§b§lYMG§r§e§l—§f§l云梦能源水晶 §c(未实装) §r§e",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "has-factory": true,
+    "factory-only": true,
+    "color": "FFFFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "minecraft:glass",
+                "draconicevolution:invis_e_core_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "draconicevolution:energy_pylon@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "draconicevolution:energy_pylon@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "minecraft:glass",
+                "draconicevolution:invis_e_core_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "draconicevolution:energy_pylon@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "draconicevolution:energy_pylon@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+
+            "elements": [
+                "minecraft:glass",
+                "draconicevolution:invis_e_core_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 10,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock2@1",
+                "modularmachinery:blocksmartinterface",
+                "EnergyInputStrengthen",
+                "EnergyOutputStrengthen"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:lamp@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+
+            "elements": [
+                "minecraft:glass",
+                "draconicevolution:invis_e_core_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock2@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "environmentaltech:lightning_rod@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        }
+    ]}

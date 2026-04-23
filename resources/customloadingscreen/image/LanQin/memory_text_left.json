@@ -1,0 +1,12 @@
+{
+    "parent": "builtin/text",
+    "image": "customloadingscreen:font/ascii.png",
+    "position_type": "TOP_LEFT",
+    "offset_pos": "TOP_LEFT",
+    "text": "' 内存占用: ' + memory_used() + 'MB / ' + memory_max() + 'MB'",
+    "position": {
+        "x": 7,
+        "y": 15
+    },
+    "colour": "0x80aaff"
+}

@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/solar_panel_b6",
+      "particle": "contenttweaker:blocks/solar_panel_b6"
+    },
+    "model": "contenttweaker:solar_block_b6",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
